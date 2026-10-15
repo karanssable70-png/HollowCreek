@@ -2,11 +2,12 @@
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_axek7"]
 resource_name = "Dark brown hair"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.24, 0.15, 0.1, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_6lel7"]
 _surfaces = [{
@@ -42,11 +43,12 @@ shadow_mesh = SubResource("ArrayMesh_6lel7")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vnaui"]
 resource_name = "Leather boots.001"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.24, 0.16, 0.11, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.7
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_mdopu"]
 _surfaces = [{
@@ -146,11 +148,12 @@ shadow_mesh = SubResource("ArrayMesh_qipjr")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k5whw"]
 resource_name = "Eyes.002"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.1, 0.1, 0.12, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.2
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_64wpx"]
 _surfaces = [{
@@ -218,11 +221,12 @@ shadow_mesh = SubResource("ArrayMesh_2l3ow")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2xhp"]
 resource_name = "Skin"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.85, 0.68, 0.55, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_fv44g"]
 _surfaces = [{
@@ -290,11 +294,12 @@ shadow_mesh = SubResource("ArrayMesh_lig1j")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_82uv1"]
 resource_name = "Hair highlights.002"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.32, 0.22, 0.14, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_lvudj"]
 _surfaces = [{
@@ -618,11 +623,12 @@ shadow_mesh = SubResource("ArrayMesh_s7me0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_juwa0"]
 resource_name = "Dark trousers"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.2, 0.18, 0.22, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rhmlm"]
 _surfaces = [{
@@ -658,11 +664,12 @@ shadow_mesh = SubResource("ArrayMesh_rhmlm")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o5ryt"]
 resource_name = "Rust-red sash"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.7, 0.22, 0.16, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3k4ys"]
 _surfaces = [{
@@ -730,11 +737,12 @@ shadow_mesh = SubResource("ArrayMesh_pgw4p")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sgpll"]
 resource_name = "Rust-red headscarf"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.7, 0.22, 0.16, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ywwfy"]
 _surfaces = [{
@@ -866,11 +874,12 @@ shadow_mesh = SubResource("ArrayMesh_7t085")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vm8u5"]
 resource_name = "Cream linen shirt"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.86, 0.82, 0.74, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jdv7e"]
 _surfaces = [{
@@ -1002,11 +1011,12 @@ shadow_mesh = SubResource("ArrayMesh_7d37e")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xi7tv"]
 resource_name = "Dark brown vest.001"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.32, 0.2, 0.14, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.75
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_uhmtl"]
 _surfaces = [{
@@ -1138,11 +1148,12 @@ shadow_mesh = SubResource("ArrayMesh_lxcv4")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikbyh"]
 resource_name = "Trouser patches.001"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.44, 0.32, 0.22, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_i6ssw"]
 _surfaces = [{
@@ -1434,11 +1445,12 @@ shadow_mesh = SubResource("ArrayMesh_44yxm")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w7h18"]
 resource_name = "Dark gloves"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.18, 0.16, 0.14, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.75
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_k1yy6"]
 _surfaces = [{

@@ -2,11 +2,12 @@
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ei8b4"]
 resource_name = "Natural linen apron"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.84, 0.8, 0.7, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_vwx0c"]
 _surfaces = [{
@@ -74,11 +75,12 @@ shadow_mesh = SubResource("ArrayMesh_igqy8")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ck2x"]
 resource_name = "Leather brown"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.38, 0.24, 0.15, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.7
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_dgswm"]
 _surfaces = [{
@@ -114,11 +116,12 @@ shadow_mesh = SubResource("ArrayMesh_dgswm")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xpc3n"]
 resource_name = "Deep chestnut hair"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.32, 0.18, 0.12, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gvdwj"]
 _surfaces = [{
@@ -154,11 +157,12 @@ shadow_mesh = SubResource("ArrayMesh_gvdwj")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0qu87"]
 resource_name = "Herbal bottles"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.58, 0.22, 0.68, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.15
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_75gle"]
 _surfaces = [{
@@ -226,11 +230,12 @@ shadow_mesh = SubResource("ArrayMesh_ija5i")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b0f0u"]
 resource_name = "Pale bottle"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.35, 0.65, 0.6, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.2
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_d5bpy"]
 _surfaces = [{
@@ -266,11 +271,12 @@ shadow_mesh = SubResource("ArrayMesh_d5bpy")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o472j"]
 resource_name = "Warm skin"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.88, 0.72, 0.6, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ue570"]
 _surfaces = [{
@@ -306,11 +312,12 @@ shadow_mesh = SubResource("ArrayMesh_ue570")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7qkmc"]
 resource_name = "Flower centers"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.92, 0.75, 0.22, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.8
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_xbcpj"]
 _surfaces = [{
@@ -506,11 +513,12 @@ shadow_mesh = SubResource("ArrayMesh_lwhs6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u68gh"]
 resource_name = "Hair highlights"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.42, 0.26, 0.16, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_k37ji"]
 _surfaces = [{
@@ -578,11 +586,12 @@ shadow_mesh = SubResource("ArrayMesh_hm0s2")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cey4b"]
 resource_name = "Herb leaves"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.22, 0.52, 0.26, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.8
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jadg2"]
 _surfaces = [{
@@ -810,11 +819,12 @@ shadow_mesh = SubResource("ArrayMesh_5hfaa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6gb58"]
 resource_name = "Eyes"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.1, 0.1, 0.12, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.2
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_j18vw"]
 _surfaces = [{
@@ -914,11 +924,12 @@ shadow_mesh = SubResource("ArrayMesh_fqlxl")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v0wi6"]
 resource_name = "Forest green tunic"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.18, 0.36, 0.22, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_86k6d"]
 _surfaces = [{
@@ -1306,11 +1317,12 @@ shadow_mesh = SubResource("ArrayMesh_dkkx1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7rh4o"]
 resource_name = "Small ivory flowers"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.94, 0.94, 0.88, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kjj0p"]
 _surfaces = [{
@@ -1570,11 +1582,12 @@ shadow_mesh = SubResource("ArrayMesh_6d0kk")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tnswy"]
 resource_name = "Dark boots"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.18, 0.14, 0.1, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.7
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_2njuh"]
 _surfaces = [{
@@ -1738,11 +1751,12 @@ shadow_mesh = SubResource("ArrayMesh_t47op")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sq4s3"]
 resource_name = "Linen sleeves"
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+vertex_color_use_as_albedo = false
+albedo_color = Color(0.88, 0.85, 0.78, 1)
 emission_enabled = true
 emission = Color(1, 1, 1, 1)
 emission_energy_multiplier = 0.0
+roughness = 0.85
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_f8yhs"]
 _surfaces = [{
