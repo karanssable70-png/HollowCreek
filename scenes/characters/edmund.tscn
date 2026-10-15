@@ -1,0 +1,1214 @@
+[gd_scene format=4]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_go618"]
+resource_name = "Edmund | wheat blond hair"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.8209799, 0.6576277, 0.38109186, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0oa7r"]
+_surfaces = [{
+"aabb": AABB(-0.003, -0.00045000002, -0.001, 0.006, 0.00090000004, 0.002),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("pptEu/vt6zlvEoM6pptEu/vt67lvEoM6pptEu/vt67lvEoO6pptEu/vt6zlvEoO6pptEO/vt6zlvEoM6pptEO/vt67lvEoO6pptEO/vt67lvEoM6pptEO/vt6zlvEoO6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6w4ys"]
+resource_name = "Cube_2718"
+_surfaces = [{
+"aabb": AABB(-0.003, -0.00045000002, -0.001, 0.006, 0.00090000004, 0.002),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("pptEu/vt6zlvEoM6pptEu/vt67lvEoM6pptEu/vt67lvEoO6pptEu/vt6zlvEoO6pptEO/vt6zlvEoM6pptEu/vt6zlvEoM6pptEu/vt6zlvEoO6pptEO/vt6zlvEoO6pptEO/vt67lvEoM6pptEO/vt6zlvEoM6pptEO/vt6zlvEoO6pptEO/vt67lvEoO6pptEu/vt67lvEoM6pptEO/vt67lvEoM6pptEO/vt67lvEoO6pptEu/vt67lvEoO6pptEO/vt67lvEoO6pptEO/vt6zlvEoO6pptEu/vt6zlvEoO6pptEu/vt67lvEoO6pptEu/vt67lvEoM6pptEu/vt6zlvEoM6pptEO/vt6zlvEoM6pptEO/vt67lvEoM6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_0oa7r")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_egnlg"]
+_surfaces = [{
+"aabb": AABB(-0.00375, -0.0033000002, -0.00090000004, 0.0075, 0.0066000004, 0.0018000001),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("j8J1u9FEWDv77Ws6j8J1u9FEWLv77Ws6j8J1u9FEWLv77Wu6j8J1u9FEWDv77Wu6j8J1O9FEWDv77Ws6j8J1O9FEWLv77Wu6j8J1O9FEWLv77Ws6j8J1O9FEWDv77Wu6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mugxy"]
+resource_name = "Cube_2717"
+_surfaces = [{
+"aabb": AABB(-0.00375, -0.0033000002, -0.00090000004, 0.0075, 0.0066000004, 0.0018000001),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("j8J1u9FEWDv77Ws6j8J1u9FEWLv77Ws6j8J1u9FEWLv77Wu6j8J1u9FEWDv77Wu6j8J1O9FEWDv77Ws6j8J1u9FEWDv77Ws6j8J1u9FEWDv77Wu6j8J1O9FEWDv77Wu6j8J1O9FEWLv77Ws6j8J1O9FEWDv77Ws6j8J1O9FEWDv77Wu6j8J1O9FEWLv77Wu6j8J1u9FEWLv77Ws6j8J1O9FEWLv77Ws6j8J1O9FEWLv77Wu6j8J1u9FEWLv77Wu6j8J1O9FEWLv77Wu6j8J1O9FEWDv77Wu6j8J1u9FEWDv77Wu6j8J1u9FEWLv77Wu6j8J1u9FEWLv77Ws6j8J1u9FEWDv77Ws6j8J1O9FEWDv77Ws6j8J1O9FEWLv77Ws6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_egnlg")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_78ifw"]
+resource_name = "Edmund | brown leather"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.47312066, 0.34064347, 0.2347951, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_o7dav"]
+_surfaces = [{
+"aabb": AABB(-0.0042, -0.00035, -0.00065, 0.0084, 0.0007, 0.0013),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | brown leather",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("J6CJuzSAtznDZCo6J6CJuzSAt7nDZCo6J6CJuzSAt7nDZCq6J6CJuzSAtznDZCq6J6CJOzSAtznDZCo6J6CJOzSAt7nDZCq6J6CJOzSAt7nDZCo6J6CJOzSAtznDZCq6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xbhly"]
+resource_name = "Cube_2730"
+_surfaces = [{
+"aabb": AABB(-0.0042, -0.00035, -0.00065, 0.0084, 0.0007, 0.0013),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_78ifw"),
+"name": "Edmund | brown leather",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("J6CJuzSAtznDZCo6J6CJuzSAt7nDZCo6J6CJuzSAt7nDZCq6J6CJuzSAtznDZCq6J6CJOzSAtznDZCo6J6CJuzSAtznDZCo6J6CJuzSAtznDZCq6J6CJOzSAtznDZCq6J6CJOzSAt7nDZCo6J6CJOzSAtznDZCo6J6CJOzSAtznDZCq6J6CJOzSAt7nDZCq6J6CJuzSAt7nDZCo6J6CJOzSAt7nDZCo6J6CJOzSAt7nDZCq6J6CJuzSAt7nDZCq6J6CJOzSAt7nDZCq6J6CJOzSAtznDZCq6J6CJuzSAtznDZCq6J6CJuzSAt7nDZCq6J6CJuzSAt7nDZCo6J6CJuzSAtznDZCo6J6CJOzSAtznDZCo6J6CJOzSAt7nDZCo6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_o7dav")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d5yvu"]
+resource_name = "Edmund | cream linen shirt"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.91627353, 0.86504203, 0.76737565, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jiy8k"]
+_surfaces = [{
+"aabb": AABB(-0.004, -0.0021, -0.0056, 0.008, 0.0042, 0.0112),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxKDuyegCTs0gLc7bxKDuyegCbs0gLc7bxKDuyegCbs0gLe7bxKDuyegCTs0gLe7bxKDOyegCTs0gLc7bxKDOyegCbs0gLe7bxKDOyegCbs0gLc7bxKDOyegCTs0gLe7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xrmdp"]
+resource_name = "Cube_2707"
+_surfaces = [{
+"aabb": AABB(-0.004, -0.0021, -0.0056, 0.008, 0.0042, 0.0112),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_d5yvu"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxKDuyegCTs0gLc7bxKDuyegCbs0gLc7bxKDuyegCbs0gLe7bxKDuyegCTs0gLe7bxKDOyegCTs0gLc7bxKDuyegCTs0gLc7bxKDuyegCTs0gLe7bxKDOyegCTs0gLe7bxKDOyegCbs0gLc7bxKDOyegCTs0gLc7bxKDOyegCTs0gLe7bxKDOyegCbs0gLe7bxKDuyegCbs0gLc7bxKDOyegCbs0gLc7bxKDOyegCbs0gLe7bxKDuyegCbs0gLe7bxKDOyegCbs0gLe7bxKDOyegCTs0gLe7bxKDuyegCTs0gLe7bxKDuyegCbs0gLe7bxKDuyegCbs0gLc7bxKDuyegCTs0gLc7bxKDOyegCTs0gLc7bxKDOyegCbs0gLc7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jiy8k")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_q7oyb"]
+_surfaces = [{
+"aabb": AABB(-0.0014, -0.000175, -0.00475, 0.0028, 0.00035, 0.0095),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIC3ujSANznjpZs7NIC3ujSAN7njpZs7NIC3ujSAN7njpZu7NIC3ujSANznjpZu7NIC3OjSANznjpZs7NIC3OjSAN7njpZu7NIC3OjSAN7njpZs7NIC3OjSANznjpZu7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6tk0l"]
+resource_name = "Cube_2709"
+_surfaces = [{
+"aabb": AABB(-0.0014, -0.000175, -0.00475, 0.0028, 0.00035, 0.0095),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_d5yvu"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIC3ujSANznjpZs7NIC3ujSAN7njpZs7NIC3ujSAN7njpZu7NIC3ujSANznjpZu7NIC3OjSANznjpZs7NIC3ujSANznjpZs7NIC3ujSANznjpZu7NIC3OjSANznjpZu7NIC3OjSAN7njpZs7NIC3OjSANznjpZs7NIC3OjSANznjpZu7NIC3OjSAN7njpZu7NIC3ujSAN7njpZs7NIC3OjSAN7njpZs7NIC3OjSAN7njpZu7NIC3ujSAN7njpZu7NIC3OjSAN7njpZu7NIC3OjSANznjpZu7NIC3ujSANznjpZu7NIC3ujSAN7njpZu7NIC3ujSAN7njpZs7NIC3ujSANznjpZs7NIC3OjSANznjpZs7NIC3OjSAN7njpZs7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_q7oyb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nwa30"]
+resource_name = "Edmund | near-black eyes"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.17184411, 0.1428257, 0.11774104, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_deb4j"]
+_surfaces = [{
+"aabb": AABB(-0.00035, -0.0001, -0.000425, 0.0007, 0.0002, 0.00085),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | near-black eyes",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIC3uRe30TiJ0t45NIC3uRe30biJ0t45NIC3uRe30biJ0t65NIC3uRe30TiJ0t65NIC3ORe30TiJ0t45NIC3ORe30biJ0t65NIC3ORe30biJ0t45NIC3ORe30TiJ0t65")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d0cwa"]
+resource_name = "Cube_2713"
+_surfaces = [{
+"aabb": AABB(-0.00035, -0.0001, -0.000425, 0.0007, 0.0002, 0.00085),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_nwa30"),
+"name": "Edmund | near-black eyes",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIC3uRe30TiJ0t45NIC3uRe30biJ0t45NIC3uRe30biJ0t65NIC3uRe30TiJ0t65NIC3ORe30TiJ0t45NIC3uRe30TiJ0t45NIC3uRe30TiJ0t65NIC3ORe30TiJ0t65NIC3ORe30biJ0t45NIC3ORe30TiJ0t45NIC3ORe30TiJ0t65NIC3ORe30biJ0t65NIC3uRe30biJ0t45NIC3ORe30biJ0t45NIC3ORe30biJ0t65NIC3uRe30biJ0t65NIC3ORe30biJ0t65NIC3ORe30TiJ0t65NIC3uRe30TiJ0t65NIC3uRe30biJ0t65NIC3uRe30biJ0t45NIC3uRe30TiJ0t45NIC3ORe30TiJ0t45NIC3ORe30biJ0t45AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_deb4j")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5x2ga"]
+_surfaces = [{
+"aabb": AABB(-0.00035, -0.0001, -0.000425, 0.0007, 0.0002, 0.00085),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | near-black eyes",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIC3uRe30TiJ0t45NIC3uRe30biJ0t45NIC3uRe30biJ0t65NIC3uRe30TiJ0t65NIC3ORe30TiJ0t45NIC3ORe30biJ0t65NIC3ORe30biJ0t45NIC3ORe30TiJ0t65")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_bdl7v"]
+resource_name = "Cube_2715"
+_surfaces = [{
+"aabb": AABB(-0.00035, -0.0001, -0.000425, 0.0007, 0.0002, 0.00085),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_nwa30"),
+"name": "Edmund | near-black eyes",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIC3uRe30TiJ0t45NIC3uRe30biJ0t45NIC3uRe30biJ0t65NIC3uRe30TiJ0t65NIC3ORe30TiJ0t45NIC3uRe30TiJ0t45NIC3uRe30TiJ0t65NIC3ORe30TiJ0t65NIC3ORe30biJ0t45NIC3ORe30TiJ0t45NIC3ORe30TiJ0t65NIC3ORe30biJ0t65NIC3uRe30biJ0t45NIC3ORe30biJ0t45NIC3ORe30biJ0t65NIC3uRe30biJ0t65NIC3ORe30biJ0t65NIC3ORe30TiJ0t65NIC3uRe30TiJ0t65NIC3uRe30biJ0t65NIC3uRe30biJ0t45NIC3uRe30TiJ0t45NIC3ORe30TiJ0t45NIC3ORe30biJ0t45AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_5x2ga")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pmns3"]
+resource_name = "Edmund | warm eye whites"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.97769153, 0.89114326, 0.7483791, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mtian"]
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.000175, -0.000525, 0.0014, 0.00035, 0.00105),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | warm eye whites",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIA3ujSANzknoAk6NIA3ujSAN7knoAk6NIA3ujSAN7knoAm6NIA3ujSANzknoAm6NIA3OjSANzknoAk6NIA3OjSAN7knoAm6NIA3OjSAN7knoAk6NIA3OjSANzknoAm6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jgqpg"]
+resource_name = "Cube_2712"
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.000175, -0.000525, 0.0014, 0.00035, 0.00105),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_pmns3"),
+"name": "Edmund | warm eye whites",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIA3ujSANzknoAk6NIA3ujSAN7knoAk6NIA3ujSAN7knoAm6NIA3ujSANzknoAm6NIA3OjSANzknoAk6NIA3ujSANzknoAk6NIA3ujSANzknoAm6NIA3OjSANzknoAm6NIA3OjSAN7knoAk6NIA3OjSANzknoAk6NIA3OjSANzknoAm6NIA3OjSAN7knoAm6NIA3ujSAN7knoAk6NIA3OjSAN7knoAk6NIA3OjSAN7knoAm6NIA3ujSAN7knoAm6NIA3OjSAN7knoAm6NIA3OjSANzknoAm6NIA3ujSANzknoAm6NIA3ujSAN7knoAm6NIA3ujSAN7knoAk6NIA3ujSANzknoAk6NIA3OjSANzknoAk6NIA3OjSAN7knoAk6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mtian")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_oofg7"]
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.000175, -0.000525, 0.0014, 0.00035, 0.00105),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | warm eye whites",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIA3ujSANzknoAk6NIA3ujSAN7knoAk6NIA3ujSAN7knoAm6NIA3ujSANzknoAm6NIA3OjSANzknoAk6NIA3OjSAN7knoAm6NIA3OjSAN7knoAk6NIA3OjSANzknoAm6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_b85vi"]
+resource_name = "Cube_2714"
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.000175, -0.000525, 0.0014, 0.00035, 0.00105),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_pmns3"),
+"name": "Edmund | warm eye whites",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIA3ujSANzknoAk6NIA3ujSAN7knoAk6NIA3ujSAN7knoAm6NIA3ujSANzknoAm6NIA3OjSANzknoAk6NIA3ujSANzknoAk6NIA3ujSANzknoAm6NIA3OjSANzknoAm6NIA3OjSAN7knoAk6NIA3OjSANzknoAk6NIA3OjSANzknoAm6NIA3OjSAN7knoAm6NIA3ujSAN7knoAk6NIA3OjSAN7knoAk6NIA3OjSAN7knoAm6NIA3ujSAN7knoAm6NIA3OjSAN7knoAm6NIA3OjSANzknoAm6NIA3ujSANzknoAm6NIA3ujSAN7knoAm6NIA3ujSAN7knoAk6NIA3ujSANzknoAk6NIA3OjSANzknoAk6NIA3OjSAN7knoAk6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_oofg7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ihh2n"]
+resource_name = "Edmund | forest green coat"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.43662706, 0.5370987, 0.39588127, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_krqwu"]
+_surfaces = [{
+"aabb": AABB(-0.0043, -0.00225, -0.0056, 0.0086, 0.0045, 0.0112),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | forest green coat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("BOeMu7x0Ezs0gLc7BOeMu7x0E7s0gLc7BOeMu7x0E7s0gLe7BOeMu7x0Ezs0gLe7BOeMO7x0Ezs0gLc7BOeMO7x0E7s0gLe7BOeMO7x0E7s0gLc7BOeMO7x0Ezs0gLe7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_43b8h"]
+resource_name = "Cube_2708"
+_surfaces = [{
+"aabb": AABB(-0.0043, -0.00225, -0.0056, 0.0086, 0.0045, 0.0112),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ihh2n"),
+"name": "Edmund | forest green coat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("BOeMu7x0Ezs0gLc7BOeMu7x0E7s0gLc7BOeMu7x0E7s0gLe7BOeMu7x0Ezs0gLe7BOeMO7x0Ezs0gLc7BOeMu7x0Ezs0gLc7BOeMu7x0Ezs0gLe7BOeMO7x0Ezs0gLe7BOeMO7x0E7s0gLc7BOeMO7x0Ezs0gLc7BOeMO7x0Ezs0gLe7BOeMO7x0E7s0gLe7BOeMu7x0E7s0gLc7BOeMO7x0E7s0gLc7BOeMO7x0E7s0gLe7BOeMu7x0E7s0gLe7BOeMO7x0E7s0gLe7BOeMO7x0Ezs0gLe7BOeMu7x0Ezs0gLe7BOeMu7x0E7s0gLe7BOeMu7x0E7s0gLc7BOeMu7x0Ezs0gLc7BOeMO7x0Ezs0gLc7BOeMO7x0E7s0gLc7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_krqwu")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gqn6r"]
+resource_name = "Edmund | old gold buckle"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.7977378, 0.64995646, 0.33183005, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8s34m"]
+_surfaces = [{
+"aabb": AABB(-0.00059999997, -0.000125, -0.00055, 0.0011999999, 0.00025, 0.0011),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | old gold buckle",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("UUkdum8SAzngLRA6UUkdum8SA7ngLRA6UUkdum8SA7ngLRC6UUkdum8SAzngLRC6UUkdOm8SAzngLRA6UUkdOm8SA7ngLRC6UUkdOm8SA7ngLRA6UUkdOm8SAzngLRC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_tk7qx"]
+resource_name = "Cube_2731"
+_surfaces = [{
+"aabb": AABB(-0.00059999997, -0.000125, -0.00055, 0.0011999999, 0.00025, 0.0011),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_gqn6r"),
+"name": "Edmund | old gold buckle",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("UUkdum8SAzngLRA6UUkdum8SA7ngLRA6UUkdum8SA7ngLRC6UUkdum8SAzngLRC6UUkdOm8SAzngLRA6UUkdum8SAzngLRA6UUkdum8SAzngLRC6UUkdOm8SAzngLRC6UUkdOm8SA7ngLRA6UUkdOm8SAzngLRA6UUkdOm8SAzngLRC6UUkdOm8SA7ngLRC6UUkdum8SA7ngLRA6UUkdOm8SA7ngLRA6UUkdOm8SA7ngLRC6UUkdum8SA7ngLRC6UUkdOm8SA7ngLRC6UUkdOm8SAzngLRC6UUkdum8SAzngLRC6UUkdum8SA7ngLRC6UUkdum8SA7ngLRA6UUkdum8SAzngLRA6UUkdOm8SAzngLRA6UUkdOm8SA7ngLRA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_8s34m")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_f5avd"]
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.003, -0.0031, 0.0013, 0.006, 0.0062),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("w2QquqabRDtfKUs7w2QquqabRLtfKUs7w2QquqabRLtfKUu7w2QquqabRDtfKUu7w2QqOqabRDtfKUs7w2QqOqabRLtfKUu7w2QqOqabRLtfKUs7w2QqOqabRDtfKUu7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_u1rco"]
+resource_name = "Cube_2719"
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.003, -0.0031, 0.0013, 0.006, 0.0062),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("w2QquqabRDtfKUs7w2QquqabRLtfKUs7w2QquqabRLtfKUu7w2QquqabRDtfKUu7w2QqOqabRDtfKUs7w2QquqabRDtfKUs7w2QquqabRDtfKUu7w2QqOqabRDtfKUu7w2QqOqabRLtfKUs7w2QqOqabRDtfKUs7w2QqOqabRDtfKUu7w2QqOqabRLtfKUu7w2QquqabRLtfKUs7w2QqOqabRLtfKUs7w2QqOqabRLtfKUu7w2QquqabRLtfKUu7w2QqOqabRLtfKUu7w2QqOqabRDtfKUu7w2QquqabRDtfKUu7w2QquqabRLtfKUu7w2QquqabRLtfKUs7w2QquqabRDtfKUs7w2QqOqabRDtfKUs7w2QqOqabRLtfKUs7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_f5avd")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_tda2n"]
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.003, -0.0031, 0.0013, 0.006, 0.0062),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("w2QquqabRDtfKUs7w2QquqabRLtfKUs7w2QquqabRLtfKUu7w2QquqabRDtfKUu7w2QqOqabRDtfKUs7w2QqOqabRLtfKUu7w2QqOqabRLtfKUs7w2QqOqabRDtfKUu7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_33fqp"]
+resource_name = "Cube_2720"
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.003, -0.0031, 0.0013, 0.006, 0.0062),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("w2QquqabRDtfKUs7w2QquqabRLtfKUs7w2QquqabRLtfKUu7w2QquqabRDtfKUu7w2QqOqabRDtfKUs7w2QquqabRDtfKUs7w2QquqabRDtfKUu7w2QqOqabRDtfKUu7w2QqOqabRLtfKUs7w2QqOqabRDtfKUs7w2QqOqabRDtfKUu7w2QqOqabRLtfKUu7w2QquqabRLtfKUs7w2QqOqabRLtfKUs7w2QqOqabRLtfKUu7w2QquqabRLtfKUu7w2QqOqabRLtfKUu7w2QqOqabRDtfKUu7w2QquqabRDtfKUu7w2QquqabRLtfKUu7w2QquqabRLtfKUs7w2QquqabRDtfKUs7w2QqOqabRDtfKUs7w2QqOqabRLtfKUs7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_tda2n")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ph5yc"]
+_surfaces = [{
+"aabb": AABB(-0.001, -0.0013, -0.0008, 0.002, 0.0026, 0.0016),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxKDusNkqjoXt1E6bxKDusNkqroXt1E6bxKDusNkqroXt1G6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1E6bxKDOsNkqroXt1G6bxKDOsNkqroXt1E6bxKDOsNkqjoXt1G6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rgtwe"]
+resource_name = "Cube_2721"
+_surfaces = [{
+"aabb": AABB(-0.001, -0.0013, -0.0008, 0.002, 0.0026, 0.0016),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxKDusNkqjoXt1E6bxKDusNkqroXt1E6bxKDusNkqroXt1G6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1E6bxKDusNkqjoXt1E6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1G6bxKDOsNkqroXt1E6bxKDOsNkqjoXt1E6bxKDOsNkqjoXt1G6bxKDOsNkqroXt1G6bxKDusNkqroXt1E6bxKDOsNkqroXt1E6bxKDOsNkqroXt1G6bxKDusNkqroXt1G6bxKDOsNkqroXt1G6bxKDOsNkqjoXt1G6bxKDusNkqjoXt1G6bxKDusNkqroXt1G6bxKDusNkqroXt1E6bxKDusNkqjoXt1E6bxKDOsNkqjoXt1E6bxKDOsNkqroXt1E6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ph5yc")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_efb86"]
+_surfaces = [{
+"aabb": AABB(-0.001, -0.0013, -0.0008, 0.002, 0.0026, 0.0016),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxKDusNkqjoXt1E6bxKDusNkqroXt1E6bxKDusNkqroXt1G6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1E6bxKDOsNkqroXt1G6bxKDOsNkqroXt1E6bxKDOsNkqjoXt1G6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fkjuu"]
+resource_name = "Cube_2722"
+_surfaces = [{
+"aabb": AABB(-0.001, -0.0013, -0.0008, 0.002, 0.0026, 0.0016),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxKDusNkqjoXt1E6bxKDusNkqroXt1E6bxKDusNkqroXt1G6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1E6bxKDusNkqjoXt1E6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1G6bxKDOsNkqroXt1E6bxKDOsNkqjoXt1E6bxKDOsNkqjoXt1G6bxKDOsNkqroXt1G6bxKDusNkqroXt1E6bxKDOsNkqroXt1E6bxKDOsNkqroXt1G6bxKDusNkqroXt1G6bxKDOsNkqroXt1G6bxKDOsNkqjoXt1G6bxKDusNkqjoXt1G6bxKDusNkqroXt1G6bxKDusNkqroXt1E6bxKDusNkqjoXt1E6bxKDOsNkqjoXt1E6bxKDOsNkqroXt1E6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_efb86")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_67pvt"]
+_surfaces = [{
+"aabb": AABB(-0.001, -0.0013, -0.0008, 0.002, 0.0026, 0.0016),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxKDusNkqjoXt1E6bxKDusNkqroXt1E6bxKDusNkqroXt1G6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1E6bxKDOsNkqroXt1G6bxKDOsNkqroXt1E6bxKDOsNkqjoXt1G6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d23g4"]
+resource_name = "Cube_2723"
+_surfaces = [{
+"aabb": AABB(-0.001, -0.0013, -0.0008, 0.002, 0.0026, 0.0016),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_go618"),
+"name": "Edmund | wheat blond hair",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxKDusNkqjoXt1E6bxKDusNkqroXt1E6bxKDusNkqroXt1G6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1E6bxKDusNkqjoXt1E6bxKDusNkqjoXt1G6bxKDOsNkqjoXt1G6bxKDOsNkqroXt1E6bxKDOsNkqjoXt1E6bxKDOsNkqjoXt1G6bxKDOsNkqroXt1G6bxKDusNkqroXt1E6bxKDOsNkqroXt1E6bxKDOsNkqroXt1G6bxKDusNkqroXt1G6bxKDOsNkqroXt1G6bxKDOsNkqjoXt1G6bxKDusNkqjoXt1G6bxKDusNkqroXt1G6bxKDusNkqroXt1E6bxKDusNkqjoXt1E6bxKDOsNkqjoXt1E6bxKDOsNkqroXt1E6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_67pvt")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gslub"]
+resource_name = "Edmund | pale warm skin"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.9593466, 0.83228356, 0.7083697, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_it617"]
+_surfaces = [{
+"aabb": AABB(-0.00125, -0.0013, -0.0011, 0.0025, 0.0026, 0.0022),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("CtejusNkqjrgLZA6CtejusNkqrrgLZA6CtejusNkqrrgLZC6CtejusNkqjrgLZC6CtejOsNkqjrgLZA6CtejOsNkqrrgLZC6CtejOsNkqrrgLZA6CtejOsNkqjrgLZC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2pe7y"]
+resource_name = "Cube_2710"
+_surfaces = [{
+"aabb": AABB(-0.00125, -0.0013, -0.0011, 0.0025, 0.0026, 0.0022),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_gslub"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("CtejusNkqjrgLZA6CtejusNkqrrgLZA6CtejusNkqrrgLZC6CtejusNkqjrgLZC6CtejOsNkqjrgLZA6CtejusNkqjrgLZA6CtejusNkqjrgLZC6CtejOsNkqjrgLZC6CtejOsNkqrrgLZA6CtejOsNkqjrgLZA6CtejOsNkqjrgLZC6CtejOsNkqrrgLZC6CtejusNkqrrgLZA6CtejOsNkqrrgLZA6CtejOsNkqrrgLZC6CtejusNkqrrgLZC6CtejOsNkqrrgLZC6CtejOsNkqjrgLZC6CtejusNkqjrgLZC6CtejusNkqrrgLZC6CtejusNkqrrgLZA6CtejusNkqjrgLZA6CtejOsNkqjrgLZA6CtejOsNkqrrgLZA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_it617")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d8txp"]
+_surfaces = [{
+"aabb": AABB(-0.0034999999, -0.0031, -0.0036000002, 0.0069999998, 0.0062, 0.0072000003),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("QWBlu18pSzv77Ws7QWBlu18pS7v77Ws7QWBlu18pS7v77Wu7QWBlu18pSzv77Wu7QWBlO18pSzv77Ws7QWBlO18pS7v77Wu7QWBlO18pS7v77Ws7QWBlO18pSzv77Wu7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_v111r"]
+resource_name = "Cube_2711"
+_surfaces = [{
+"aabb": AABB(-0.0034999999, -0.0031, -0.0036000002, 0.0069999998, 0.0062, 0.0072000003),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_gslub"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("QWBlu18pSzv77Ws7QWBlu18pS7v77Ws7QWBlu18pS7v77Wu7QWBlu18pSzv77Wu7QWBlO18pSzv77Ws7QWBlu18pSzv77Ws7QWBlu18pSzv77Wu7QWBlO18pSzv77Wu7QWBlO18pS7v77Ws7QWBlO18pSzv77Ws7QWBlO18pSzv77Wu7QWBlO18pS7v77Wu7QWBlu18pS7v77Ws7QWBlO18pS7v77Ws7QWBlO18pS7v77Wu7QWBlu18pS7v77Wu7QWBlO18pS7v77Wu7QWBlO18pSzv77Wu7QWBlu18pSzv77Wu7QWBlu18pS7v77Wu7QWBlu18pS7v77Ws7QWBlu18pSzv77Ws7QWBlO18pSzv77Ws7QWBlO18pS7v77Ws7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_d8txp")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x1lph"]
+_surfaces = [{
+"aabb": AABB(-0.0005, -0.0005, -0.00065, 0.001, 0.001, 0.0013),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxIDum8SAzrDZCo6bxIDum8SA7rDZCo6bxIDum8SA7rDZCq6bxIDum8SAzrDZCq6bxIDOm8SAzrDZCo6bxIDOm8SA7rDZCq6bxIDOm8SA7rDZCo6bxIDOm8SAzrDZCq6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_wscg1"]
+resource_name = "Cube_2716"
+_surfaces = [{
+"aabb": AABB(-0.0005, -0.0005, -0.00065, 0.001, 0.001, 0.0013),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_gslub"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxIDum8SAzrDZCo6bxIDum8SA7rDZCo6bxIDum8SA7rDZCq6bxIDum8SAzrDZCq6bxIDOm8SAzrDZCo6bxIDum8SAzrDZCo6bxIDum8SAzrDZCq6bxIDOm8SAzrDZCq6bxIDOm8SA7rDZCo6bxIDOm8SAzrDZCo6bxIDOm8SAzrDZCq6bxIDOm8SA7rDZCq6bxIDum8SA7rDZCo6bxIDOm8SA7rDZCo6bxIDOm8SA7rDZCq6bxIDum8SA7rDZCq6bxIDOm8SA7rDZCq6bxIDOm8SAzrDZCq6bxIDum8SAzrDZCq6bxIDum8SA7rDZCq6bxIDum8SA7rDZCo6bxIDum8SAzrDZCo6bxIDOm8SAzrDZCo6bxIDOm8SA7rDZCo6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_x1lph")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8nety"]
+resource_name = "Edmund | dark leather boots"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.30353206, 0.2347951, 0.17184411, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3yxul"]
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00225, -0.0014, 0.0034, 0.0045, 0.0028),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | dark leather boots",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeurx0Ezs0gLc6idLeurx0E7s0gLc6idLeurx0E7s0gLe6idLeurx0Ezs0gLe6idLeOrx0Ezs0gLc6idLeOrx0E7s0gLe6idLeOrx0E7s0gLc6idLeOrx0Ezs0gLe6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hasm7"]
+resource_name = "Cube_2702"
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00225, -0.0014, 0.0034, 0.0045, 0.0028),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_8nety"),
+"name": "Edmund | dark leather boots",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeurx0Ezs0gLc6idLeurx0E7s0gLc6idLeurx0E7s0gLe6idLeurx0Ezs0gLe6idLeOrx0Ezs0gLc6idLeurx0Ezs0gLc6idLeurx0Ezs0gLe6idLeOrx0Ezs0gLe6idLeOrx0E7s0gLc6idLeOrx0Ezs0gLc6idLeOrx0Ezs0gLe6idLeOrx0E7s0gLe6idLeurx0E7s0gLc6idLeOrx0E7s0gLc6idLeOrx0E7s0gLe6idLeurx0E7s0gLe6idLeOrx0E7s0gLe6idLeOrx0Ezs0gLe6idLeurx0Ezs0gLe6idLeurx0E7s0gLe6idLeurx0E7s0gLc6idLeurx0Ezs0gLc6idLeOrx0Ezs0gLc6idLeOrx0E7s0gLc6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_3yxul")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_otby2"]
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.0017499999, -0.00059999997, 0.0031, 0.0034999999, 0.0011999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | brown leather",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("XynLukFg5TpRSR06XynLukFg5bpRSR06XynLukFg5bpRSR26XynLukFg5TpRSR26XynLOkFg5TpRSR06XynLOkFg5bpRSR26XynLOkFg5bpRSR06XynLOkFg5TpRSR26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_t38y3"]
+resource_name = "Cube_2703"
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.0017499999, -0.00059999997, 0.0031, 0.0034999999, 0.0011999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_78ifw"),
+"name": "Edmund | brown leather",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("XynLukFg5TpRSR06XynLukFg5bpRSR06XynLukFg5bpRSR26XynLukFg5TpRSR26XynLOkFg5TpRSR06XynLukFg5TpRSR06XynLukFg5TpRSR26XynLOkFg5TpRSR26XynLOkFg5bpRSR06XynLOkFg5TpRSR06XynLOkFg5TpRSR26XynLOkFg5bpRSR26XynLukFg5bpRSR06XynLOkFg5bpRSR06XynLOkFg5bpRSR26XynLukFg5bpRSR26XynLOkFg5bpRSR26XynLOkFg5TpRSR26XynLukFg5TpRSR26XynLukFg5bpRSR26XynLukFg5bpRSR06XynLukFg5TpRSR06XynLOkFg5TpRSR06XynLOkFg5bpRSR06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_otby2")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_li0yj"]
+resource_name = "Edmund | dark brown trousers"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.42358288, 0.32272613, 0.2347951, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_iodsc"]
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0017, -0.0050999997, 0.003, 0.0034, 0.010199999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | dark brown trousers",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("ppvEuonS3jrmHac7ppvEuonS3rrmHac7ppvEuonS3rrmHae7ppvEuonS3jrmHae7ppvEOonS3jrmHac7ppvEOonS3rrmHae7ppvEOonS3rrmHac7ppvEOonS3jrmHae7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fmgly"]
+resource_name = "Cube_2701"
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0017, -0.0050999997, 0.003, 0.0034, 0.010199999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_li0yj"),
+"name": "Edmund | dark brown trousers",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("ppvEuonS3jrmHac7ppvEuonS3rrmHac7ppvEuonS3rrmHae7ppvEuonS3jrmHae7ppvEOonS3jrmHac7ppvEuonS3jrmHac7ppvEuonS3jrmHae7ppvEOonS3jrmHae7ppvEOonS3rrmHac7ppvEOonS3jrmHac7ppvEOonS3jrmHae7ppvEOonS3rrmHae7ppvEuonS3rrmHac7ppvEOonS3rrmHac7ppvEOonS3rrmHae7ppvEuonS3rrmHae7ppvEOonS3rrmHae7ppvEOonS3jrmHae7ppvEuonS3jrmHae7ppvEuonS3rrmHae7ppvEuonS3rrmHac7ppvEuonS3jrmHac7ppvEOonS3jrmHac7ppvEOonS3rrmHac7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_iodsc")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_p03m4"]
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00225, -0.0014, 0.0034, 0.0045, 0.0028),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | dark leather boots",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeurx0Ezs0gLc6idLeurx0E7s0gLc6idLeurx0E7s0gLe6idLeurx0Ezs0gLe6idLeOrx0Ezs0gLc6idLeOrx0E7s0gLe6idLeOrx0E7s0gLc6idLeOrx0Ezs0gLe6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ad5fm"]
+resource_name = "Cube_2705"
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00225, -0.0014, 0.0034, 0.0045, 0.0028),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_8nety"),
+"name": "Edmund | dark leather boots",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeurx0Ezs0gLc6idLeurx0E7s0gLc6idLeurx0E7s0gLe6idLeurx0Ezs0gLe6idLeOrx0Ezs0gLc6idLeurx0Ezs0gLc6idLeurx0Ezs0gLe6idLeOrx0Ezs0gLe6idLeOrx0E7s0gLc6idLeOrx0Ezs0gLc6idLeOrx0Ezs0gLe6idLeOrx0E7s0gLe6idLeurx0E7s0gLc6idLeOrx0E7s0gLc6idLeOrx0E7s0gLe6idLeurx0E7s0gLe6idLeOrx0E7s0gLe6idLeOrx0Ezs0gLe6idLeurx0Ezs0gLe6idLeurx0E7s0gLe6idLeurx0E7s0gLc6idLeurx0Ezs0gLc6idLeOrx0Ezs0gLc6idLeOrx0E7s0gLc6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_p03m4")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_t773h"]
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.0017499999, -0.00059999997, 0.0031, 0.0034999999, 0.0011999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | brown leather",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("XynLukFg5TpRSR06XynLukFg5bpRSR06XynLukFg5bpRSR26XynLukFg5TpRSR26XynLOkFg5TpRSR06XynLOkFg5bpRSR26XynLOkFg5bpRSR06XynLOkFg5TpRSR26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fdcp3"]
+resource_name = "Cube_2706"
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.0017499999, -0.00059999997, 0.0031, 0.0034999999, 0.0011999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_78ifw"),
+"name": "Edmund | brown leather",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("XynLukFg5TpRSR06XynLukFg5bpRSR06XynLukFg5bpRSR26XynLukFg5TpRSR26XynLOkFg5TpRSR06XynLukFg5TpRSR06XynLukFg5TpRSR26XynLOkFg5TpRSR26XynLOkFg5bpRSR06XynLOkFg5TpRSR06XynLOkFg5TpRSR26XynLOkFg5bpRSR26XynLukFg5bpRSR06XynLOkFg5bpRSR06XynLOkFg5bpRSR26XynLukFg5bpRSR26XynLOkFg5bpRSR26XynLOkFg5TpRSR26XynLukFg5TpRSR26XynLukFg5bpRSR26XynLukFg5bpRSR06XynLukFg5TpRSR06XynLOkFg5TpRSR06XynLOkFg5bpRSR06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_t773h")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_51kde"]
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0017, -0.0050999997, 0.003, 0.0034, 0.010199999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | dark brown trousers",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("ppvEuonS3jrmHac7ppvEuonS3rrmHac7ppvEuonS3rrmHae7ppvEuonS3jrmHae7ppvEOonS3jrmHac7ppvEOonS3rrmHae7ppvEOonS3rrmHac7ppvEOonS3jrmHae7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2pulm"]
+resource_name = "Cube_2704"
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0017, -0.0050999997, 0.003, 0.0034, 0.010199999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_li0yj"),
+"name": "Edmund | dark brown trousers",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("ppvEuonS3jrmHac7ppvEuonS3rrmHac7ppvEuonS3rrmHae7ppvEuonS3jrmHae7ppvEOonS3jrmHac7ppvEuonS3jrmHac7ppvEuonS3jrmHae7ppvEOonS3jrmHae7ppvEOonS3rrmHac7ppvEOonS3jrmHac7ppvEOonS3jrmHae7ppvEOonS3rrmHae7ppvEuonS3rrmHac7ppvEOonS3rrmHac7ppvEOonS3rrmHae7ppvEuonS3rrmHae7ppvEOonS3rrmHae7ppvEOonS3jrmHae7ppvEuonS3jrmHae7ppvEuonS3rrmHae7ppvEuonS3rrmHac7ppvEuonS3jrmHac7ppvEOonS3jrmHac7ppvEOonS3rrmHac7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_51kde")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_liqka"]
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.00195, -0.00075, 0.003, 0.0039, 0.0015),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("ppvEuiSX/zqmm0Q6ppvEuiSX/7qmm0Q6ppvEuiSX/7qmm0S6ppvEuiSX/zqmm0S6ppvEOiSX/zqmm0Q6ppvEOiSX/7qmm0S6ppvEOiSX/7qmm0Q6ppvEOiSX/zqmm0S6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8wnd8"]
+resource_name = "Cube_2725"
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.00195, -0.00075, 0.003, 0.0039, 0.0015),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_d5yvu"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("ppvEuiSX/zqmm0Q6ppvEuiSX/7qmm0Q6ppvEuiSX/7qmm0S6ppvEuiSX/zqmm0S6ppvEOiSX/zqmm0Q6ppvEuiSX/zqmm0Q6ppvEuiSX/zqmm0S6ppvEOiSX/zqmm0S6ppvEOiSX/7qmm0Q6ppvEOiSX/zqmm0Q6ppvEOiSX/zqmm0S6ppvEOiSX/7qmm0S6ppvEuiSX/7qmm0Q6ppvEOiSX/7qmm0Q6ppvEOiSX/7qmm0S6ppvEuiSX/7qmm0S6ppvEOiSX/7qmm0S6ppvEOiSX/zqmm0S6ppvEuiSX/zqmm0S6ppvEuiSX/7qmm0S6ppvEuiSX/7qmm0Q6ppvEuiSX/zqmm0Q6ppvEOiSX/zqmm0Q6ppvEOiSX/7qmm0Q6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_liqka")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8raym"]
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0019, -0.00385, 0.0029, 0.0038, 0.0077),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | forest green coat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("7Q2+umwJ+TpIUHw77Q2+umwJ+bpIUHw77Q2+umwJ+bpIUHy77Q2+umwJ+TpIUHy77Q2+OmwJ+TpIUHw77Q2+OmwJ+bpIUHy77Q2+OmwJ+bpIUHw77Q2+OmwJ+TpIUHy7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_p0hxs"]
+resource_name = "Cube_2724"
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0019, -0.00385, 0.0029, 0.0038, 0.0077),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ihh2n"),
+"name": "Edmund | forest green coat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("7Q2+umwJ+TpIUHw77Q2+umwJ+bpIUHw77Q2+umwJ+bpIUHy77Q2+umwJ+TpIUHy77Q2+OmwJ+TpIUHw77Q2+umwJ+TpIUHw77Q2+umwJ+TpIUHy77Q2+OmwJ+TpIUHy77Q2+OmwJ+bpIUHw77Q2+OmwJ+TpIUHw77Q2+OmwJ+TpIUHy77Q2+OmwJ+bpIUHy77Q2+umwJ+bpIUHw77Q2+OmwJ+bpIUHw77Q2+OmwJ+bpIUHy77Q2+umwJ+bpIUHy77Q2+OmwJ+bpIUHy77Q2+OmwJ+TpIUHy77Q2+umwJ+TpIUHy77Q2+umwJ+bpIUHy77Q2+umwJ+bpIUHw77Q2+umwJ+TpIUHw77Q2+OmwJ+TpIUHw77Q2+OmwJ+bpIUHw7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_8raym")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_m8h6g"]
+_surfaces = [{
+"aabb": AABB(-0.00125, -0.0015, -0.0011999999, 0.0025, 0.003, 0.0023999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("CtejuqabxDpRSZ06CtejuqabxLpRSZ06CtejuqabxLpRSZ26CtejuqabxDpRSZ26CtejOqabxDpRSZ06CtejOqabxLpRSZ26CtejOqabxLpRSZ06CtejOqabxDpRSZ26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_o2klh"]
+resource_name = "Cube_2726"
+_surfaces = [{
+"aabb": AABB(-0.00125, -0.0015, -0.0011999999, 0.0025, 0.003, 0.0023999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_gslub"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("CtejuqabxDpRSZ06CtejuqabxLpRSZ06CtejuqabxLpRSZ26CtejuqabxDpRSZ26CtejOqabxDpRSZ06CtejuqabxDpRSZ06CtejuqabxDpRSZ26CtejOqabxDpRSZ26CtejOqabxLpRSZ06CtejOqabxDpRSZ06CtejOqabxDpRSZ26CtejOqabxLpRSZ26CtejuqabxLpRSZ06CtejOqabxLpRSZ06CtejOqabxLpRSZ26CtejuqabxLpRSZ26CtejOqabxLpRSZ26CtejOqabxDpRSZ26CtejuqabxDpRSZ26CtejuqabxLpRSZ26CtejuqabxLpRSZ06CtejuqabxDpRSZ06CtejOqabxDpRSZ06CtejOqabxLpRSZ06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_m8h6g")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7qnej"]
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.00195, -0.00075, 0.003, 0.0039, 0.0015),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("ppvEuiSX/zqmm0Q6ppvEuiSX/7qmm0Q6ppvEuiSX/7qmm0S6ppvEuiSX/zqmm0S6ppvEOiSX/zqmm0Q6ppvEOiSX/7qmm0S6ppvEOiSX/7qmm0Q6ppvEOiSX/zqmm0S6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3f31r"]
+resource_name = "Cube_2728"
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.00195, -0.00075, 0.003, 0.0039, 0.0015),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_d5yvu"),
+"name": "Edmund | cream linen shirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("ppvEuiSX/zqmm0Q6ppvEuiSX/7qmm0Q6ppvEuiSX/7qmm0S6ppvEuiSX/zqmm0S6ppvEOiSX/zqmm0Q6ppvEuiSX/zqmm0Q6ppvEuiSX/zqmm0S6ppvEOiSX/zqmm0S6ppvEOiSX/7qmm0Q6ppvEOiSX/zqmm0Q6ppvEOiSX/zqmm0S6ppvEOiSX/7qmm0S6ppvEuiSX/7qmm0Q6ppvEOiSX/7qmm0Q6ppvEOiSX/7qmm0S6ppvEuiSX/7qmm0S6ppvEOiSX/7qmm0S6ppvEOiSX/zqmm0S6ppvEuiSX/zqmm0S6ppvEuiSX/7qmm0S6ppvEuiSX/7qmm0Q6ppvEuiSX/zqmm0Q6ppvEOiSX/zqmm0Q6ppvEOiSX/7qmm0Q6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_7qnej")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_c6ywv"]
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0019, -0.00385, 0.0029, 0.0038, 0.0077),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | forest green coat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("7Q2+umwJ+TpIUHw77Q2+umwJ+bpIUHw77Q2+umwJ+bpIUHy77Q2+umwJ+TpIUHy77Q2+OmwJ+TpIUHw77Q2+OmwJ+bpIUHy77Q2+OmwJ+bpIUHw77Q2+OmwJ+TpIUHy7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_o60gv"]
+resource_name = "Cube_2727"
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0019, -0.00385, 0.0029, 0.0038, 0.0077),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ihh2n"),
+"name": "Edmund | forest green coat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("7Q2+umwJ+TpIUHw77Q2+umwJ+bpIUHw77Q2+umwJ+bpIUHy77Q2+umwJ+TpIUHy77Q2+OmwJ+TpIUHw77Q2+umwJ+TpIUHw77Q2+umwJ+TpIUHy77Q2+OmwJ+TpIUHy77Q2+OmwJ+bpIUHw77Q2+OmwJ+TpIUHw77Q2+OmwJ+TpIUHy77Q2+OmwJ+bpIUHy77Q2+umwJ+bpIUHw77Q2+OmwJ+bpIUHw77Q2+OmwJ+bpIUHy77Q2+umwJ+bpIUHy77Q2+OmwJ+bpIUHy77Q2+OmwJ+TpIUHy77Q2+umwJ+TpIUHy77Q2+umwJ+bpIUHy77Q2+umwJ+bpIUHw77Q2+umwJ+TpIUHw77Q2+OmwJ+TpIUHw77Q2+OmwJ+bpIUHw7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_c6ywv")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fb5xd"]
+_surfaces = [{
+"aabb": AABB(-0.00125, -0.0015, -0.0011999999, 0.0025, 0.003, 0.0023999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("CtejuqabxDpRSZ06CtejuqabxLpRSZ06CtejuqabxLpRSZ26CtejuqabxDpRSZ26CtejOqabxDpRSZ06CtejOqabxLpRSZ26CtejOqabxLpRSZ06CtejOqabxDpRSZ26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xjre8"]
+resource_name = "Cube_2729"
+_surfaces = [{
+"aabb": AABB(-0.00125, -0.0015, -0.0011999999, 0.0025, 0.003, 0.0023999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_gslub"),
+"name": "Edmund | pale warm skin",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("CtejuqabxDpRSZ06CtejuqabxLpRSZ06CtejuqabxLpRSZ26CtejuqabxDpRSZ26CtejOqabxDpRSZ06CtejuqabxDpRSZ06CtejuqabxDpRSZ26CtejOqabxDpRSZ26CtejOqabxLpRSZ06CtejOqabxDpRSZ06CtejOqabxDpRSZ26CtejOqabxLpRSZ26CtejuqabxLpRSZ06CtejOqabxLpRSZ06CtejOqabxLpRSZ26CtejuqabxLpRSZ26CtejOqabxLpRSZ26CtejOqabxDpRSZ26CtejuqabxDpRSZ26CtejuqabxLpRSZ26CtejuqabxLpRSZ06CtejuqabxDpRSZ06CtejOqabxDpRSZ06CtejOqabxLpRSZ06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_fb5xd")
+
+[node name="EdmundWren" type="Node3D" unique_id=363612448]
+transform = Transform3D(0.5285714, 0, 0, 0, 0.5285714, 0, 0, 0, 0.5285714, 0, -0.0317143, 0)
+
+[node name="TorsoAndHead" type="Node3D" parent="." unique_id=1000928545]
+
+[node name="Edmund | blond fringe" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1518881157]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.29, 0.315)
+mesh = SubResource("ArrayMesh_6w4ys")
+
+[node name="Edmund | blond hair cap" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1168898449]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.4, 0)
+mesh = SubResource("ArrayMesh_mugxy")
+
+[node name="Edmund | brown belt" type="MeshInstance3D" parent="TorsoAndHead" unique_id=214125226]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.66, 0.235)
+mesh = SubResource("ArrayMesh_xbhly")
+
+[node name="Edmund | cream linen torso" type="MeshInstance3D" parent="TorsoAndHead" unique_id=19747577]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2, 0)
+mesh = SubResource("ArrayMesh_xrmdp")
+
+[node name="Edmund | cream shirt front panel" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1510837365]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.03, 0.239)
+mesh = SubResource("ArrayMesh_6tk0l")
+
+[node name="Edmund | eye pixel" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1501534721]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.16, 3.08, 0.355)
+mesh = SubResource("ArrayMesh_d0cwa")
+
+[node name="Edmund | eye pixel_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1486557051]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.16, 3.08, 0.355)
+mesh = SubResource("ArrayMesh_bdl7v")
+
+[node name="Edmund | eye white" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1965936600]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.16, 3.08, 0.333)
+mesh = SubResource("ArrayMesh_jgqpg")
+
+[node name="Edmund | eye white_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1032554358]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.16, 3.08, 0.333)
+mesh = SubResource("ArrayMesh_b85vi")
+
+[node name="Edmund | forest green coat body" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1817915494]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.01, -0.018)
+mesh = SubResource("ArrayMesh_43b8h")
+
+[node name="Edmund | gold belt buckle" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1546344514]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.66, 0.278)
+mesh = SubResource("ArrayMesh_tk7qx")
+
+[node name="Edmund | long side lock" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1630539420]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.3, 3.04, 0.015)
+mesh = SubResource("ArrayMesh_u1rco")
+
+[node name="Edmund | long side lock_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1628313027]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.3, 3.04, 0.015)
+mesh = SubResource("ArrayMesh_33fqp")
+
+[node name="Edmund | messy hair tuft" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1288865620]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.24, 3.48, 0.14)
+mesh = SubResource("ArrayMesh_rgtwe")
+
+[node name="Edmund | messy hair tuft_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=905686541]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.48, 0.14)
+mesh = SubResource("ArrayMesh_fkjuu")
+
+[node name="Edmund | messy hair tuft_002" type="MeshInstance3D" parent="TorsoAndHead" unique_id=6523657]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.22, 3.48, 0.14)
+mesh = SubResource("ArrayMesh_d23g4")
+
+[node name="Edmund | neck" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1197545545]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.63, 0)
+mesh = SubResource("ArrayMesh_2pe7y")
+
+[node name="Edmund | square head" type="MeshInstance3D" parent="TorsoAndHead" unique_id=932274662]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.02, 0.015)
+mesh = SubResource("ArrayMesh_v111r")
+
+[node name="Edmund | square nose" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1573920210]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.98, 0.365)
+mesh = SubResource("ArrayMesh_wscg1")
+
+[node name="LegPivotL" type="Node3D" parent="." unique_id=590853889]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.19, 1.25, 0)
+
+[node name="Edmund | Left boot" type="MeshInstance3D" parent="LegPivotL" unique_id=2138082998]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -1.05, 0.065)
+mesh = SubResource("ArrayMesh_hasm7")
+
+[node name="Edmund | Left boot cuff" type="MeshInstance3D" parent="LegPivotL" unique_id=966681489]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.90999997, 0.012)
+mesh = SubResource("ArrayMesh_t38y3")
+
+[node name="LegPivotR" type="Node3D" parent="." unique_id=1090906838]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19, 1.25, 0)
+
+[node name="Edmund | Left trouser leg" type="MeshInstance3D" parent="LegPivotR" unique_id=425352716]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.38, -0.33999997, 0)
+mesh = SubResource("ArrayMesh_fmgly")
+
+[node name="Edmund | Right boot" type="MeshInstance3D" parent="LegPivotR" unique_id=1457319430]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -1.05, 0.065)
+mesh = SubResource("ArrayMesh_ad5fm")
+
+[node name="Edmund | Right boot cuff" type="MeshInstance3D" parent="LegPivotR" unique_id=1250853234]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.90999997, 0.012)
+mesh = SubResource("ArrayMesh_fdcp3")
+
+[node name="Edmund | Right trouser leg" type="MeshInstance3D" parent="LegPivotR" unique_id=1954283581]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.33999997, 0)
+mesh = SubResource("ArrayMesh_2pulm")
+
+[node name="ArmPivotL" type="Node3D" parent="." unique_id=2043872047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57, 2.25, 0)
+
+[node name="Edmund | Left cream cuff" type="MeshInstance3D" parent="ArmPivotL" unique_id=590812208]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.45000005, 0.005)
+mesh = SubResource("ArrayMesh_8wnd8")
+
+[node name="Edmund | Left green sleeve" type="MeshInstance3D" parent="ArmPivotL" unique_id=733948316]
+transform = Transform3D(99.86295, 5.2335963, 1.8626451e-07, -1.8626451e-07, 0, 100, 5.2335963, -99.86296, 0, 0, -0.089999914, 0)
+mesh = SubResource("ArrayMesh_p0hxs")
+
+[node name="Edmund | Left hand" type="MeshInstance3D" parent="ArmPivotL" unique_id=159833219]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.65, 0.02)
+mesh = SubResource("ArrayMesh_o2klh")
+
+[node name="ArmPivotR" type="Node3D" parent="." unique_id=567978281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.57, 2.25, 0)
+
+[node name="Edmund | Right cream cuff" type="MeshInstance3D" parent="ArmPivotR" unique_id=1751953359]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.45000005, 0.005)
+mesh = SubResource("ArrayMesh_3f31r")
+
+[node name="Edmund | Right green sleeve" type="MeshInstance3D" parent="ArmPivotR" unique_id=1371203323]
+transform = Transform3D(99.86295, -5.2335963, -1.8626451e-07, 1.8626451e-07, 0, 100, -5.2335963, -99.86296, 0, 0, -0.089999914, 0)
+mesh = SubResource("ArrayMesh_o60gv")
+
+[node name="Edmund | Right hand" type="MeshInstance3D" parent="ArmPivotR" unique_id=522756287]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.65, 0.02)
+mesh = SubResource("ArrayMesh_xjre8")

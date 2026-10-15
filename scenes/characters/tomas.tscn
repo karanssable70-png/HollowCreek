@@ -1,0 +1,2094 @@
+[gd_scene format=4]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aswtu"]
+resource_name = "Guard | steel highlights.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.72202736, 0.7152409, 0.6872172, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1v5vb"]
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.0002, -0.00059999997, 0.0014, 0.0004, 0.0011999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIA3uhe3UTlRSR06NIA3uhe3UblRSR06NIA3uhe3UblRSR26NIA3uhe3UTlRSR26NIA3Ohe3UTlRSR06NIA3Ohe3UblRSR26NIA3Ohe3UblRSR06NIA3Ohe3UTlRSR26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rct3o"]
+resource_name = "Cube_2008"
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.0002, -0.00059999997, 0.0014, 0.0004, 0.0011999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIA3uhe3UTlRSR06NIA3uhe3UblRSR06NIA3uhe3UblRSR26NIA3uhe3UTlRSR26NIA3Ohe3UTlRSR06NIA3uhe3UTlRSR06NIA3uhe3UTlRSR26NIA3Ohe3UTlRSR26NIA3Ohe3UblRSR06NIA3Ohe3UTlRSR06NIA3Ohe3UTlRSR26NIA3Ohe3UblRSR26NIA3uhe3UblRSR06NIA3Ohe3UblRSR06NIA3Ohe3UblRSR26NIA3uhe3UblRSR26NIA3Ohe3UblRSR26NIA3Ohe3UTlRSR26NIA3uhe3UTlRSR26NIA3uhe3UblRSR26NIA3uhe3UblRSR06NIA3uhe3UTlRSR06NIA3Ohe3UTlRSR06NIA3Ohe3UblRSR06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_1v5vb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpt1i"]
+resource_name = "Guard | skin.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.9593466, 0.8962439, 0.8433892, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1awwr"]
+_surfaces = [{
+"aabb": AABB(-0.0005, -0.0005, -0.00055, 0.001, 0.001, 0.0011),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | skin.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxIDum8SAzrgLRA6bxIDum8SA7rgLRA6bxIDum8SA7rgLRC6bxIDum8SAzrgLRC6bxIDOm8SAzrgLRA6bxIDOm8SA7rgLRC6bxIDOm8SA7rgLRA6bxIDOm8SAzrgLRC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d6e5d"]
+resource_name = "Cube_2035"
+_surfaces = [{
+"aabb": AABB(-0.0005, -0.0005, -0.00055, 0.001, 0.001, 0.0011),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_kpt1i"),
+"name": "Guard | skin.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxIDum8SAzrgLRA6bxIDum8SA7rgLRA6bxIDum8SA7rgLRC6bxIDum8SAzrgLRC6bxIDOm8SAzrgLRA6bxIDum8SAzrgLRA6bxIDum8SAzrgLRC6bxIDOm8SAzrgLRC6bxIDOm8SA7rgLRA6bxIDOm8SAzrgLRA6bxIDOm8SAzrgLRC6bxIDOm8SA7rgLRC6bxIDum8SA7rgLRA6bxIDOm8SA7rgLRA6bxIDOm8SA7rgLRC6bxIDum8SA7rgLRC6bxIDOm8SA7rgLRC6bxIDOm8SAzrgLRC6bxIDum8SAzrgLRC6bxIDum8SA7rgLRC6bxIDum8SA7rgLRA6bxIDum8SAzrgLRA6bxIDOm8SAzrgLRA6bxIDOm8SA7rgLRA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_1awwr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kcgm4"]
+resource_name = "Guard | linen strap.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.8378605, 0.7735731, 0.6799757, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hgvkm"]
+_surfaces = [{
+"aabb": AABB(-0.00055, -0.00055, -0.0009800735, 0.0011, 0.0011, 0.001960147),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | linen strap.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("4C0QuuAtEDrPdYA64C0QuuAtELrPdYA64C0QuuAtELrPdYC64C0QuuAtEDrPdYC64C0QOuAtEDrPdYA64C0QOuAtELrPdYC64C0QOuAtELrPdYA64C0QOuAtEDrPdYC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hq11k"]
+resource_name = "Cube_2043"
+_surfaces = [{
+"aabb": AABB(-0.00055, -0.00055, -0.0009800735, 0.0011, 0.0011, 0.001960147),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_kcgm4"),
+"name": "Guard | linen strap.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("4C0QuuAtEDrPdYA64C0QuuAtELrPdYA64C0QuuAtELrPdYC64C0QuuAtEDrPdYC64C0QOuAtEDrPdYA64C0QuuAtEDrPdYA64C0QuuAtEDrPdYC64C0QOuAtEDrPdYC64C0QOuAtELrPdYA64C0QOuAtEDrPdYA64C0QOuAtEDrPdYC64C0QOuAtELrPdYC64C0QuuAtELrPdYA64C0QOuAtELrPdYA64C0QOuAtELrPdYC64C0QuuAtELrPdYC64C0QOuAtELrPdYC64C0QOuAtEDrPdYC64C0QuuAtEDrPdYC64C0QuuAtELrPdYC64C0QuuAtELrPdYA64C0QuuAtEDrPdYA64C0QOuAtEDrPdYA64C0QOuAtELrPdYA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_hgvkm")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jiogp"]
+_surfaces = [{
+"aabb": AABB(-0.00055, -0.00055, -0.0044309804, 0.0011, 0.0011, 0.008861961),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | linen strap.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("4C0QuuAtEDrCMZE74C0QuuAtELrCMZE74C0QuuAtELrCMZG74C0QuuAtEDrCMZG74C0QOuAtEDrCMZE74C0QOuAtELrCMZG74C0QOuAtELrCMZE74C0QOuAtEDrCMZG7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cwcx7"]
+resource_name = "Cube_2042"
+_surfaces = [{
+"aabb": AABB(-0.00055, -0.00055, -0.0044309804, 0.0011, 0.0011, 0.008861961),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_kcgm4"),
+"name": "Guard | linen strap.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("4C0QuuAtEDrCMZE74C0QuuAtELrCMZE74C0QuuAtELrCMZG74C0QuuAtEDrCMZG74C0QOuAtEDrCMZE74C0QuuAtEDrCMZE74C0QuuAtEDrCMZG74C0QOuAtEDrCMZG74C0QOuAtELrCMZE74C0QOuAtEDrCMZE74C0QOuAtEDrCMZG74C0QOuAtELrCMZG74C0QuuAtELrCMZE74C0QOuAtELrCMZE74C0QOuAtELrCMZG74C0QuuAtELrCMZG74C0QOuAtELrCMZG74C0QOuAtEDrCMZG74C0QuuAtEDrCMZG74C0QuuAtELrCMZG74C0QuuAtELrCMZE74C0QuuAtEDrCMZE74C0QOuAtEDrCMZE74C0QOuAtELrCMZE7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jiogp")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qd7vy"]
+resource_name = "Guard | dark underclothes.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.42358288, 0.38109186, 0.3491902, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_orju5"]
+_surfaces = [{
+"aabb": AABB(-0.0031, -0.0025, -0.0013, 0.0062, 0.005, 0.0026),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("XylLuwrXIzvDZKo6XylLuwrXI7vDZKo6XylLuwrXI7vDZKq6XylLuwrXIzvDZKq6XylLOwrXIzvDZKo6XylLOwrXI7vDZKq6XylLOwrXI7vDZKo6XylLOwrXIzvDZKq6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gcdpa"]
+resource_name = "Cube_2024"
+_surfaces = [{
+"aabb": AABB(-0.0031, -0.0025, -0.0013, 0.0062, 0.005, 0.0026),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_qd7vy"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("XylLuwrXIzvDZKo6XylLuwrXI7vDZKo6XylLuwrXI7vDZKq6XylLuwrXIzvDZKq6XylLOwrXIzvDZKo6XylLuwrXIzvDZKo6XylLuwrXIzvDZKq6XylLOwrXIzvDZKq6XylLOwrXI7vDZKo6XylLOwrXIzvDZKo6XylLOwrXIzvDZKq6XylLOwrXI7vDZKq6XylLuwrXI7vDZKo6XylLOwrXI7vDZKo6XylLOwrXI7vDZKq6XylLuwrXI7vDZKq6XylLOwrXI7vDZKq6XylLOwrXIzvDZKq6XylLuwrXIzvDZKq6XylLuwrXI7vDZKq6XylLuwrXI7vDZKo6XylLuwrXIzvDZKo6XylLOwrXIzvDZKo6XylLOwrXI7vDZKo6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_orju5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f630c"]
+resource_name = "Guard | pale insignia.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.8962439, 0.86504203, 0.7977378, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0dtgr"]
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.00014999999, -0.000375, 0.0013, 0.00029999999, 0.00075),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("w2QqulFJHTmmm8Q5w2QqulFJHbmmm8Q5w2QqulFJHbmmm8S5w2QqulFJHTmmm8S5w2QqOlFJHTmmm8Q5w2QqOlFJHbmmm8S5w2QqOlFJHbmmm8Q5w2QqOlFJHTmmm8S5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jxnr0"]
+resource_name = "Cube_2029"
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.00014999999, -0.000375, 0.0013, 0.00029999999, 0.00075),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_f630c"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("w2QqulFJHTmmm8Q5w2QqulFJHbmmm8Q5w2QqulFJHbmmm8S5w2QqulFJHTmmm8S5w2QqOlFJHTmmm8Q5w2QqulFJHTmmm8Q5w2QqulFJHTmmm8S5w2QqOlFJHTmmm8S5w2QqOlFJHbmmm8Q5w2QqOlFJHTmmm8Q5w2QqOlFJHTmmm8S5w2QqOlFJHbmmm8S5w2QqulFJHbmmm8Q5w2QqOlFJHbmmm8Q5w2QqOlFJHbmmm8S5w2QqulFJHbmmm8S5w2QqOlFJHbmmm8S5w2QqOlFJHTmmm8S5w2QqulFJHTmmm8S5w2QqulFJHbmmm8S5w2QqulFJHbmmm8Q5w2QqulFJHTmmm8Q5w2QqOlFJHTmmm8Q5w2QqOlFJHbmmm8Q5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_0dtgr")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pmia0"]
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.00014999999, -0.000375, 0.0013, 0.00029999999, 0.00075),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("w2QqulFJHTmmm8Q5w2QqulFJHbmmm8Q5w2QqulFJHbmmm8S5w2QqulFJHTmmm8S5w2QqOlFJHTmmm8Q5w2QqOlFJHbmmm8S5w2QqOlFJHbmmm8Q5w2QqOlFJHTmmm8S5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pfbwa"]
+resource_name = "Cube_2032"
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.00014999999, -0.000375, 0.0013, 0.00029999999, 0.00075),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_f630c"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("w2QqulFJHTmmm8Q5w2QqulFJHbmmm8Q5w2QqulFJHbmmm8S5w2QqulFJHTmmm8S5w2QqOlFJHTmmm8Q5w2QqulFJHTmmm8Q5w2QqulFJHTmmm8S5w2QqOlFJHTmmm8S5w2QqOlFJHbmmm8Q5w2QqOlFJHTmmm8Q5w2QqOlFJHTmmm8S5w2QqOlFJHbmmm8S5w2QqulFJHbmmm8Q5w2QqOlFJHbmmm8Q5w2QqOlFJHbmmm8S5w2QqulFJHbmmm8S5w2QqOlFJHbmmm8S5w2QqOlFJHTmmm8S5w2QqulFJHTmmm8S5w2QqulFJHbmmm8S5w2QqulFJHbmmm8Q5w2QqulFJHTmmm8Q5w2QqOlFJHTmmm8Q5w2QqOlFJHbmmm8Q5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_pmia0")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h7dnr"]
+resource_name = "Guard | dark hair.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.50638646, 0.43662706, 0.38109186, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fp4fb"]
+_surfaces = [{
+"aabb": AABB(-0.00075, -0.00022500001, -0.000275, 0.0015, 0.00045000002, 0.00055),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("pptEuvvtazngLZA5pptEuvvta7ngLZA5pptEuvvta7ngLZC5pptEuvvtazngLZC5pptEOvvtazngLZA5pptEOvvta7ngLZC5pptEOvvta7ngLZA5pptEOvvtazngLZC5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qf0o5"]
+resource_name = "Cube_2031"
+_surfaces = [{
+"aabb": AABB(-0.00075, -0.00022500001, -0.000275, 0.0015, 0.00045000002, 0.00055),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_h7dnr"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("pptEuvvtazngLZA5pptEuvvta7ngLZA5pptEuvvta7ngLZC5pptEuvvtazngLZC5pptEOvvtazngLZA5pptEuvvtazngLZA5pptEuvvtazngLZC5pptEOvvtazngLZC5pptEOvvta7ngLZA5pptEOvvtazngLZA5pptEOvvtazngLZC5pptEOvvta7ngLZC5pptEuvvta7ngLZA5pptEOvvta7ngLZA5pptEOvvta7ngLZC5pptEuvvta7ngLZC5pptEOvvta7ngLZC5pptEOvvtazngLZC5pptEuvvtazngLZC5pptEuvvta7ngLZC5pptEuvvta7ngLZA5pptEuvvtazngLZA5pptEOvvtazngLZA5pptEOvvta7ngLZA5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_fp4fb")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x44r1"]
+_surfaces = [{
+"aabb": AABB(-0.00075, -0.00022500001, -0.000275, 0.0015, 0.00045000002, 0.00055),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("pptEuvvtazngLZA5pptEuvvta7ngLZA5pptEuvvta7ngLZC5pptEuvvtazngLZC5pptEOvvtazngLZA5pptEOvvta7ngLZC5pptEOvvta7ngLZA5pptEOvvtazngLZC5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_htjmx"]
+resource_name = "Cube_2034"
+_surfaces = [{
+"aabb": AABB(-0.00075, -0.00022500001, -0.000275, 0.0015, 0.00045000002, 0.00055),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_h7dnr"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("pptEuvvtazngLZA5pptEuvvta7ngLZA5pptEuvvta7ngLZC5pptEuvvtazngLZC5pptEOvvtazngLZA5pptEuvvtazngLZA5pptEuvvtazngLZC5pptEOvvtazngLZC5pptEOvvta7ngLZA5pptEOvvtazngLZA5pptEOvvtazngLZC5pptEOvvta7ngLZC5pptEuvvta7ngLZA5pptEOvvta7ngLZA5pptEOvvta7ngLZC5pptEuvvta7ngLZC5pptEOvvta7ngLZC5pptEOvvtazngLZC5pptEuvvtazngLZC5pptEuvvta7ngLZC5pptEuvvta7ngLZA5pptEuvvtazngLZA5pptEOvvtazngLZA5pptEOvvta7ngLZA5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_x44r1")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_t52nt"]
+_surfaces = [{
+"aabb": AABB(-0.0034, -0.001, -0.0031, 0.0068, 0.002, 0.0062),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idJeu28SgzpfKUs7idJeu28Sg7pfKUs7idJeu28Sg7pfKUu7idJeu28SgzpfKUu7idJeO28SgzpfKUs7idJeO28Sg7pfKUu7idJeO28Sg7pfKUs7idJeO28SgzpfKUu7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ti4tf"]
+resource_name = "Cube_2026"
+_surfaces = [{
+"aabb": AABB(-0.0034, -0.001, -0.0031, 0.0068, 0.002, 0.0062),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_h7dnr"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idJeu28SgzpfKUs7idJeu28Sg7pfKUs7idJeu28Sg7pfKUu7idJeu28SgzpfKUu7idJeO28SgzpfKUs7idJeu28SgzpfKUs7idJeu28SgzpfKUu7idJeO28SgzpfKUu7idJeO28Sg7pfKUs7idJeO28SgzpfKUs7idJeO28SgzpfKUu7idJeO28Sg7pfKUu7idJeu28Sg7pfKUs7idJeO28Sg7pfKUs7idJeO28Sg7pfKUu7idJeu28Sg7pfKUu7idJeO28Sg7pfKUu7idJeO28SgzpfKUu7idJeu28SgzpfKUu7idJeu28Sg7pfKUu7idJeu28Sg7pfKUs7idJeu28SgzpfKUs7idJeO28SgzpfKUs7idJeO28Sg7pfKUs7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_t52nt")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_oynp3"]
+_surfaces = [{
+"aabb": AABB(-0.0043, -0.00059999997, -0.00075, 0.0086, 0.0011999999, 0.0015),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("BOeMu1FJHTqmm0Q6BOeMu1FJHbqmm0Q6BOeMu1FJHbqmm0S6BOeMu1FJHTqmm0S6BOeMO1FJHTqmm0Q6BOeMO1FJHbqmm0S6BOeMO1FJHbqmm0Q6BOeMO1FJHTqmm0S6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_snqnj"]
+resource_name = "Cube_2038"
+_surfaces = [{
+"aabb": AABB(-0.0043, -0.00059999997, -0.00075, 0.0086, 0.0011999999, 0.0015),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("BOeMu1FJHTqmm0Q6BOeMu1FJHbqmm0Q6BOeMu1FJHbqmm0S6BOeMu1FJHTqmm0S6BOeMO1FJHTqmm0Q6BOeMu1FJHTqmm0Q6BOeMu1FJHTqmm0S6BOeMO1FJHTqmm0S6BOeMO1FJHbqmm0Q6BOeMO1FJHTqmm0Q6BOeMO1FJHTqmm0S6BOeMO1FJHbqmm0S6BOeMu1FJHbqmm0Q6BOeMO1FJHbqmm0Q6BOeMO1FJHbqmm0S6BOeMu1FJHbqmm0S6BOeMO1FJHbqmm0S6BOeMO1FJHTqmm0S6BOeMu1FJHTqmm0S6BOeMu1FJHbqmm0S6BOeMu1FJHbqmm0Q6BOeMu1FJHTqmm0Q6BOeMO1FJHTqmm0Q6BOeMO1FJHbqmm0Q6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_oynp3")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_547m2"]
+_surfaces = [{
+"aabb": AABB(-0.00055, -0.00022500001, -0.00125, 0.0011, 0.00045000002, 0.0025),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("4C0QuvvtazkK16M64C0Quvvta7kK16M64C0Quvvta7kK16O64C0QuvvtazkK16O64C0QOvvtazkK16M64C0QOvvta7kK16O64C0QOvvta7kK16M64C0QOvvtazkK16O6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7s6kp"]
+resource_name = "Cube_2041"
+_surfaces = [{
+"aabb": AABB(-0.00055, -0.00022500001, -0.00125, 0.0011, 0.00045000002, 0.0025),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("4C0QuvvtazkK16M64C0Quvvta7kK16M64C0Quvvta7kK16O64C0QuvvtazkK16O64C0QOvvtazkK16M64C0QuvvtazkK16M64C0QuvvtazkK16O64C0QOvvtazkK16O64C0QOvvta7kK16M64C0QOvvtazkK16M64C0QOvvtazkK16O64C0QOvvta7kK16O64C0Quvvta7kK16M64C0QOvvta7kK16M64C0QOvvta7kK16O64C0Quvvta7kK16O64C0QOvvta7kK16O64C0QOvvtazkK16O64C0QuvvtazkK16O64C0Quvvta7kK16O64C0Quvvta7kK16M64C0QuvvtazkK16M64C0QOvvtazkK16M64C0QOvvta7kK16M6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_547m2")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sgd0s"]
+resource_name = "Guard | aged steel.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.6342527, 0.6262097, 0.60124344, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nb5bk"]
+_surfaces = [{
+"aabb": AABB(-0.0041, -0.0036000002, -0.0016, 0.0082, 0.0072000003, 0.0032),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | aged steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("S1mGu/vtazsXt9E6S1mGu/vta7sXt9E6S1mGu/vta7sXt9G6S1mGu/vtazsXt9G6S1mGO/vtazsXt9E6S1mGO/vta7sXt9G6S1mGO/vta7sXt9E6S1mGO/vtazsXt9G6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7p265"]
+resource_name = "Cube_2036"
+_surfaces = [{
+"aabb": AABB(-0.0041, -0.0036000002, -0.0016, 0.0082, 0.0072000003, 0.0032),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_sgd0s"),
+"name": "Guard | aged steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("S1mGu/vtazsXt9E6S1mGu/vta7sXt9E6S1mGu/vta7sXt9G6S1mGu/vtazsXt9G6S1mGO/vtazsXt9E6S1mGu/vtazsXt9E6S1mGu/vtazsXt9G6S1mGO/vtazsXt9G6S1mGO/vta7sXt9E6S1mGO/vtazsXt9E6S1mGO/vtazsXt9G6S1mGO/vta7sXt9G6S1mGu/vta7sXt9E6S1mGO/vta7sXt9E6S1mGO/vta7sXt9G6S1mGu/vta7sXt9G6S1mGO/vta7sXt9G6S1mGO/vtazsXt9G6S1mGu/vtazsXt9G6S1mGu/vta7sXt9G6S1mGu/vta7sXt9E6S1mGu/vtazsXt9E6S1mGO/vtazsXt9E6S1mGO/vta7sXt9E6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_nb5bk")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ir8te"]
+resource_name = "Guard | dark steel.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.48452926, 0.47312066, 0.4492039, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3owfm"]
+_surfaces = [{
+"aabb": AABB(-0.0008, -0.0023999999, -0.002, 0.0016, 0.0047999998, 0.004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("F7dRulFJHTtvEgM7F7dRulFJHbtvEgM7F7dRulFJHbtvEgO7F7dRulFJHTtvEgO7F7dROlFJHTtvEgM7F7dROlFJHbtvEgO7F7dROlFJHbtvEgM7F7dROlFJHTtvEgO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xymqg"]
+resource_name = "Cube_2039"
+_surfaces = [{
+"aabb": AABB(-0.0008, -0.0023999999, -0.002, 0.0016, 0.0047999998, 0.004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("F7dRulFJHTtvEgM7F7dRulFJHbtvEgM7F7dRulFJHbtvEgO7F7dRulFJHTtvEgO7F7dROlFJHTtvEgM7F7dRulFJHTtvEgM7F7dRulFJHTtvEgO7F7dROlFJHTtvEgO7F7dROlFJHbtvEgM7F7dROlFJHTtvEgM7F7dROlFJHTtvEgO7F7dROlFJHbtvEgO7F7dRulFJHbtvEgM7F7dROlFJHbtvEgM7F7dROlFJHbtvEgO7F7dRulFJHbtvEgO7F7dROlFJHbtvEgO7F7dROlFJHTtvEgO7F7dRulFJHTtvEgO7F7dRulFJHbtvEgO7F7dRulFJHbtvEgM7F7dRulFJHTtvEgM7F7dROlFJHTtvEgM7F7dROlFJHbtvEgM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_3owfm")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4n0o2"]
+_surfaces = [{
+"aabb": AABB(-0.0008, -0.0023999999, -0.002, 0.0016, 0.0047999998, 0.004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("F7dRulFJHTtvEgM7F7dRulFJHbtvEgM7F7dRulFJHbtvEgO7F7dRulFJHTtvEgO7F7dROlFJHTtvEgM7F7dROlFJHbtvEgO7F7dROlFJHbtvEgM7F7dROlFJHTtvEgO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_aiujq"]
+resource_name = "Cube_2040"
+_surfaces = [{
+"aabb": AABB(-0.0008, -0.0023999999, -0.002, 0.0016, 0.0047999998, 0.004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("F7dRulFJHTtvEgM7F7dRulFJHbtvEgM7F7dRulFJHbtvEgO7F7dRulFJHTtvEgO7F7dROlFJHTtvEgM7F7dRulFJHTtvEgM7F7dRulFJHTtvEgO7F7dROlFJHTtvEgO7F7dROlFJHbtvEgM7F7dROlFJHTtvEgM7F7dROlFJHTtvEgO7F7dROlFJHbtvEgO7F7dRulFJHbtvEgM7F7dROlFJHbtvEgM7F7dROlFJHbtvEgO7F7dRulFJHbtvEgO7F7dROlFJHbtvEgO7F7dROlFJHTtvEgO7F7dRulFJHTtvEgO7F7dRulFJHbtvEgO7F7dRulFJHbtvEgM7F7dRulFJHTtvEgM7F7dROlFJHTtvEgM7F7dROlFJHbtvEgM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_4n0o2")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qqoan"]
+_surfaces = [{
+"aabb": AABB(-0.0028, -0.0029, -0.0008, 0.0056, 0.0058, 0.0016),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIA3u+0NPjsXt1E6NIA3u+0NPrsXt1E6NIA3u+0NPrsXt1G6NIA3u+0NPjsXt1G6NIA3O+0NPjsXt1E6NIA3O+0NPrsXt1G6NIA3O+0NPrsXt1E6NIA3O+0NPjsXt1G6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hnxwj"]
+resource_name = "Cube_2037"
+_surfaces = [{
+"aabb": AABB(-0.0028, -0.0029, -0.0008, 0.0056, 0.0058, 0.0016),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIA3u+0NPjsXt1E6NIA3u+0NPrsXt1E6NIA3u+0NPrsXt1G6NIA3u+0NPjsXt1G6NIA3O+0NPjsXt1E6NIA3u+0NPjsXt1E6NIA3u+0NPjsXt1G6NIA3O+0NPjsXt1G6NIA3O+0NPrsXt1E6NIA3O+0NPjsXt1E6NIA3O+0NPjsXt1G6NIA3O+0NPrsXt1G6NIA3u+0NPrsXt1E6NIA3O+0NPrsXt1E6NIA3O+0NPrsXt1G6NIA3u+0NPrsXt1G6NIA3O+0NPrsXt1G6NIA3O+0NPjsXt1G6NIA3u+0NPjsXt1G6NIA3u+0NPrsXt1G6NIA3u+0NPrsXt1E6NIA3u+0NPjsXt1E6NIA3O+0NPjsXt1E6NIA3O+0NPrsXt1E6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_qqoan")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jl531"]
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.0027, -0.0025, 0.0014, 0.0054, 0.005),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIA3unzyMDsK1yM7NIA3unzyMLsK1yM7NIA3unzyMLsK1yO7NIA3unzyMDsK1yO7NIA3OnzyMDsK1yM7NIA3OnzyMLsK1yO7NIA3OnzyMLsK1yM7NIA3OnzyMDsK1yO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8ls46"]
+resource_name = "Cube_2027"
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.0027, -0.0025, 0.0014, 0.0054, 0.005),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_h7dnr"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIA3unzyMDsK1yM7NIA3unzyMLsK1yM7NIA3unzyMLsK1yO7NIA3unzyMDsK1yO7NIA3OnzyMDsK1yM7NIA3unzyMDsK1yM7NIA3unzyMDsK1yO7NIA3OnzyMDsK1yO7NIA3OnzyMLsK1yM7NIA3OnzyMDsK1yM7NIA3OnzyMDsK1yO7NIA3OnzyMLsK1yO7NIA3unzyMLsK1yM7NIA3OnzyMLsK1yM7NIA3OnzyMLsK1yO7NIA3unzyMLsK1yO7NIA3OnzyMLsK1yO7NIA3OnzyMDsK1yO7NIA3unzyMDsK1yO7NIA3unzyMLsK1yO7NIA3unzyMLsK1yM7NIA3unzyMDsK1yM7NIA3OnzyMDsK1yM7NIA3OnzyMLsK1yM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jl531")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hy0sb"]
+resource_name = "Guard | dark red tunic.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.60124344, 0.30353206, 0.26006746, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ncotx"]
+_surfaces = [{
+"aabb": AABB(-0.004, -0.0023, -0.0039, 0.008, 0.0046, 0.0078),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxKDu5m7Fjskl387bxKDu5m7Frskl387bxKDu5m7Frskl3+7bxKDu5m7Fjskl3+7bxKDO5m7Fjskl387bxKDO5m7Frskl3+7bxKDO5m7Frskl387bxKDO5m7Fjskl3+7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_umvfn"]
+resource_name = "Cube_2004"
+_surfaces = [{
+"aabb": AABB(-0.004, -0.0023, -0.0039, 0.008, 0.0046, 0.0078),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_hy0sb"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxKDu5m7Fjskl387bxKDu5m7Frskl387bxKDu5m7Frskl3+7bxKDu5m7Fjskl3+7bxKDO5m7Fjskl387bxKDu5m7Fjskl387bxKDu5m7Fjskl3+7bxKDO5m7Fjskl3+7bxKDO5m7Frskl387bxKDO5m7Fjskl387bxKDO5m7Fjskl3+7bxKDO5m7Frskl3+7bxKDu5m7Frskl387bxKDO5m7Frskl387bxKDO5m7Frskl3+7bxKDu5m7Frskl3+7bxKDO5m7Frskl3+7bxKDO5m7Fjskl3+7bxKDu5m7Fjskl3+7bxKDu5m7Frskl3+7bxKDu5m7Frskl387bxKDu5m7Fjskl387bxKDO5m7Fjskl387bxKDO5m7Frskl387AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ncotx")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0xvl4"]
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0015, -0.0014, 0.003, 0.003, 0.0028),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | skin.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("ppvEuqabxDo0gLc6ppvEuqabxLo0gLc6ppvEuqabxLo0gLe6ppvEuqabxDo0gLe6ppvEOqabxDo0gLc6ppvEOqabxLo0gLe6ppvEOqabxLo0gLc6ppvEOqabxDo0gLe6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_sph06"]
+resource_name = "Cube_2023"
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0015, -0.0014, 0.003, 0.003, 0.0028),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_kpt1i"),
+"name": "Guard | skin.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("ppvEuqabxDo0gLc6ppvEuqabxLo0gLc6ppvEuqabxLo0gLe6ppvEuqabxDo0gLe6ppvEOqabxDo0gLc6ppvEuqabxDo0gLc6ppvEuqabxDo0gLe6ppvEOqabxDo0gLe6ppvEOqabxLo0gLc6ppvEOqabxDo0gLc6ppvEOqabxDo0gLe6ppvEOqabxLo0gLe6ppvEuqabxLo0gLc6ppvEOqabxLo0gLc6ppvEOqabxLo0gLe6ppvEuqabxLo0gLe6ppvEOqabxLo0gLe6ppvEOqabxDo0gLe6ppvEuqabxDo0gLe6ppvEuqabxLo0gLe6ppvEuqabxLo0gLc6ppvEuqabxDo0gLc6ppvEOqabxDo0gLc6ppvEOqabxLo0gLc6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_0xvl4")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_p0xqu"]
+_surfaces = [{
+"aabb": AABB(-0.000275, -0.0001, -0.00035, 0.00055, 0.0002, 0.0007),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("4C2QuRe30Tg0gLc54C2QuRe30bg0gLc54C2QuRe30bg0gLe54C2QuRe30Tg0gLe54C2QORe30Tg0gLc54C2QORe30bg0gLe54C2QORe30bg0gLc54C2QORe30Tg0gLe5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6u2hu"]
+resource_name = "Cube_2030"
+_surfaces = [{
+"aabb": AABB(-0.000275, -0.0001, -0.00035, 0.00055, 0.0002, 0.0007),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_qd7vy"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("4C2QuRe30Tg0gLc54C2QuRe30bg0gLc54C2QuRe30bg0gLe54C2QuRe30Tg0gLe54C2QORe30Tg0gLc54C2QuRe30Tg0gLc54C2QuRe30Tg0gLe54C2QORe30Tg0gLe54C2QORe30bg0gLc54C2QORe30Tg0gLc54C2QORe30Tg0gLe54C2QORe30bg0gLe54C2QuRe30bg0gLc54C2QORe30bg0gLc54C2QORe30bg0gLe54C2QuRe30bg0gLe54C2QORe30bg0gLe54C2QORe30Tg0gLe54C2QuRe30Tg0gLe54C2QuRe30bg0gLe54C2QuRe30bg0gLc54C2QuRe30Tg0gLc54C2QORe30Tg0gLc54C2QORe30bg0gLc5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_p0xqu")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ny3eg"]
+_surfaces = [{
+"aabb": AABB(-0.000275, -0.0001, -0.00035, 0.00055, 0.0002, 0.0007),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("4C2QuRe30Tg0gLc54C2QuRe30bg0gLc54C2QuRe30bg0gLe54C2QuRe30Tg0gLe54C2QORe30Tg0gLc54C2QORe30bg0gLe54C2QORe30bg0gLc54C2QORe30Tg0gLe5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1h7kh"]
+resource_name = "Cube_2033"
+_surfaces = [{
+"aabb": AABB(-0.000275, -0.0001, -0.00035, 0.00055, 0.0002, 0.0007),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_qd7vy"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("4C2QuRe30Tg0gLc54C2QuRe30bg0gLc54C2QuRe30bg0gLe54C2QuRe30Tg0gLe54C2QORe30Tg0gLc54C2QuRe30Tg0gLc54C2QuRe30Tg0gLe54C2QORe30Tg0gLe54C2QORe30bg0gLc54C2QORe30Tg0gLc54C2QORe30Tg0gLe54C2QORe30bg0gLe54C2QuRe30bg0gLc54C2QORe30bg0gLc54C2QORe30bg0gLe54C2QuRe30bg0gLe54C2QORe30bg0gLe54C2QORe30Tg0gLe54C2QuRe30Tg0gLe54C2QuRe30bg0gLe54C2QuRe30bg0gLc54C2QuRe30Tg0gLc54C2QORe30Tg0gLc54C2QORe30bg0gLc5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ny3eg")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dpfdm"]
+_surfaces = [{
+"aabb": AABB(-0.0038, -0.0023999999, -0.0042, 0.0076, 0.0047999998, 0.0084),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bAl5u1FJHTsnoIk7bAl5u1FJHbsnoIk7bAl5u1FJHbsnoIm7bAl5u1FJHTsnoIm7bAl5O1FJHTsnoIk7bAl5O1FJHbsnoIm7bAl5O1FJHbsnoIk7bAl5O1FJHTsnoIm7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_555ij"]
+resource_name = "Cube_2003"
+_surfaces = [{
+"aabb": AABB(-0.0038, -0.0023999999, -0.0042, 0.0076, 0.0047999998, 0.0084),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_hy0sb"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bAl5u1FJHTsnoIk7bAl5u1FJHbsnoIk7bAl5u1FJHbsnoIm7bAl5u1FJHTsnoIm7bAl5O1FJHTsnoIk7bAl5u1FJHTsnoIk7bAl5u1FJHTsnoIm7bAl5O1FJHTsnoIm7bAl5O1FJHbsnoIk7bAl5O1FJHTsnoIk7bAl5O1FJHTsnoIm7bAl5O1FJHbsnoIm7bAl5u1FJHbsnoIk7bAl5O1FJHbsnoIk7bAl5O1FJHbsnoIm7bAl5u1FJHbsnoIm7bAl5O1FJHbsnoIm7bAl5O1FJHTsnoIm7bAl5u1FJHTsnoIm7bAl5u1FJHbsnoIm7bAl5u1FJHbsnoIk7bAl5u1FJHTsnoIk7bAl5O1FJHTsnoIk7bAl5O1FJHbsnoIk7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_dpfdm")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_raru0"]
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.0027, -0.0025, 0.0014, 0.0054, 0.005),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("NIA3unzyMDsK1yM7NIA3unzyMLsK1yM7NIA3unzyMLsK1yO7NIA3unzyMDsK1yO7NIA3OnzyMDsK1yM7NIA3OnzyMLsK1yO7NIA3OnzyMLsK1yM7NIA3OnzyMDsK1yO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8cvf8"]
+resource_name = "Cube_2028"
+_surfaces = [{
+"aabb": AABB(-0.0007, -0.0027, -0.0025, 0.0014, 0.0054, 0.005),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_h7dnr"),
+"name": "Guard | dark hair.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("NIA3unzyMDsK1yM7NIA3unzyMLsK1yM7NIA3unzyMLsK1yO7NIA3unzyMDsK1yO7NIA3OnzyMDsK1yM7NIA3unzyMDsK1yM7NIA3unzyMDsK1yO7NIA3OnzyMDsK1yO7NIA3OnzyMLsK1yM7NIA3OnzyMDsK1yM7NIA3OnzyMDsK1yO7NIA3OnzyMLsK1yO7NIA3unzyMLsK1yM7NIA3OnzyMLsK1yM7NIA3OnzyMLsK1yO7NIA3unzyMLsK1yO7NIA3OnzyMLsK1yO7NIA3OnzyMDsK1yO7NIA3unzyMDsK1yO7NIA3unzyMLsK1yO7NIA3unzyMLsK1yM7NIA3unzyMDsK1yM7NIA3OnzyMDsK1yM7NIA3OnzyMLsK1yM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_raru0")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mthgd"]
+_surfaces = [{
+"aabb": AABB(-0.0034, -0.0031, -0.0033000002, 0.0068, 0.0062, 0.0066000004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | skin.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idJeu18pSzvRRFg7idJeu18pS7vRRFg7idJeu18pS7vRRFi7idJeu18pSzvRRFi7idJeO18pSzvRRFg7idJeO18pS7vRRFi7idJeO18pS7vRRFg7idJeO18pSzvRRFi7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8gtaf"]
+resource_name = "Cube_2025"
+_surfaces = [{
+"aabb": AABB(-0.0034, -0.0031, -0.0033000002, 0.0068, 0.0062, 0.0066000004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_kpt1i"),
+"name": "Guard | skin.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idJeu18pSzvRRFg7idJeu18pS7vRRFg7idJeu18pS7vRRFi7idJeu18pSzvRRFi7idJeO18pSzvRRFg7idJeu18pSzvRRFg7idJeu18pSzvRRFi7idJeO18pSzvRRFi7idJeO18pS7vRRFg7idJeO18pSzvRRFg7idJeO18pSzvRRFi7idJeO18pS7vRRFi7idJeu18pS7vRRFg7idJeO18pS7vRRFg7idJeO18pS7vRRFi7idJeu18pS7vRRFi7idJeO18pS7vRRFi7idJeO18pSzvRRFi7idJeu18pSzvRRFi7idJeu18pS7vRRFi7idJeu18pS7vRRFg7idJeu18pSzvRRFg7idJeO18pSzvRRFg7idJeO18pS7vRRFg7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mthgd")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3jhvg"]
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.00022500001, -0.00065, 0.0013, 0.00045000002, 0.0013),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("w2QquvvtaznDZCo6w2Qquvvta7nDZCo6w2Qquvvta7nDZCq6w2QquvvtaznDZCq6w2QqOvvtaznDZCo6w2QqOvvta7nDZCq6w2QqOvvta7nDZCo6w2QqOvvtaznDZCq6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_eq1xp"]
+resource_name = "Cube_2044"
+_surfaces = [{
+"aabb": AABB(-0.00065, -0.00022500001, -0.00065, 0.0013, 0.00045000002, 0.0013),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("w2QquvvtaznDZCo6w2Qquvvta7nDZCo6w2Qquvvta7nDZCq6w2QquvvtaznDZCq6w2QqOvvtaznDZCo6w2QquvvtaznDZCo6w2QquvvtaznDZCq6w2QqOvvtaznDZCq6w2QqOvvta7nDZCo6w2QqOvvtaznDZCo6w2QqOvvtaznDZCq6w2QqOvvta7nDZCq6w2Qquvvta7nDZCo6w2QqOvvta7nDZCo6w2QqOvvta7nDZCq6w2Qquvvta7nDZCq6w2QqOvvta7nDZCq6w2QqOvvtaznDZCq6w2QquvvtaznDZCq6w2Qquvvta7nDZCq6w2Qquvvta7nDZCo6w2QquvvtaznDZCo6w2QqOvvtaznDZCo6w2QqOvvta7nDZCo6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_3jhvg")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_l6fwr"]
+_surfaces = [{
+"aabb": AABB(-0.00135, -0.000175, -0.000375, 0.0027, 0.00035, 0.00075),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("fPKwujSANzmmm8Q5fPKwujSAN7mmm8Q5fPKwujSAN7mmm8S5fPKwujSANzmmm8S5fPKwOjSANzmmm8Q5fPKwOjSAN7mmm8S5fPKwOjSAN7mmm8Q5fPKwOjSANzmmm8S5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5761o"]
+resource_name = "Cube_2010"
+_surfaces = [{
+"aabb": AABB(-0.00135, -0.000175, -0.000375, 0.0027, 0.00035, 0.00075),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_f630c"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("fPKwujSANzmmm8Q5fPKwujSAN7mmm8Q5fPKwujSAN7mmm8S5fPKwujSANzmmm8S5fPKwOjSANzmmm8Q5fPKwujSANzmmm8Q5fPKwujSANzmmm8S5fPKwOjSANzmmm8S5fPKwOjSAN7mmm8Q5fPKwOjSANzmmm8Q5fPKwOjSANzmmm8S5fPKwOjSAN7mmm8S5fPKwujSAN7mmm8Q5fPKwOjSAN7mmm8Q5fPKwOjSAN7mmm8S5fPKwujSAN7mmm8S5fPKwOjSAN7mmm8S5fPKwOjSANzmmm8S5fPKwujSANzmmm8S5fPKwujSAN7mmm8S5fPKwujSAN7mmm8Q5fPKwujSANzmmm8Q5fPKwOjSANzmmm8Q5fPKwOjSAN7mmm8Q5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_l6fwr")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_tyf3b"]
+_surfaces = [{
+"aabb": AABB(-0.000425, -0.000175, -0.0018000001, 0.00085, 0.00035, 0.0036000002),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeuTSANzn77es6idLeuTSAN7n77es6idLeuTSAN7n77eu6idLeuTSANzn77eu6idLeOTSANzn77es6idLeOTSAN7n77eu6idLeOTSAN7n77es6idLeOTSANzn77eu6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rdodo"]
+resource_name = "Cube_2009"
+_surfaces = [{
+"aabb": AABB(-0.000425, -0.000175, -0.0018000001, 0.00085, 0.00035, 0.0036000002),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_f630c"),
+"name": "Guard | pale insignia.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeuTSANzn77es6idLeuTSAN7n77es6idLeuTSAN7n77eu6idLeuTSANzn77eu6idLeOTSANzn77es6idLeuTSANzn77es6idLeuTSANzn77eu6idLeOTSANzn77eu6idLeOTSAN7n77es6idLeOTSANzn77es6idLeOTSANzn77eu6idLeOTSAN7n77eu6idLeuTSAN7n77es6idLeOTSAN7n77es6idLeOTSAN7n77eu6idLeuTSAN7n77eu6idLeOTSAN7n77eu6idLeOTSANzn77eu6idLeuTSANzn77eu6idLeuTSAN7n77eu6idLeuTSAN7n77es6idLeuTSANzn77es6idLeOTSANzn77es6idLeOTSAN7n77es6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_tyf3b")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mj0qa"]
+resource_name = "Guard | tunic panel.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.6651851, 0.3491902, 0.30353206, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0ywkn"]
+_surfaces = [{
+"aabb": AABB(-0.00245, -0.000175, -0.0036000002, 0.0049, 0.00035, 0.0072000003),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | tunic panel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("LpAguzSANzn77Ws7LpAguzSAN7n77Ws7LpAguzSAN7n77Wu7LpAguzSANzn77Wu7LpAgOzSANzn77Ws7LpAgOzSAN7n77Wu7LpAgOzSAN7n77Ws7LpAgOzSANzn77Wu7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vk6u2"]
+resource_name = "Cube_2005"
+_surfaces = [{
+"aabb": AABB(-0.00245, -0.000175, -0.0036000002, 0.0049, 0.00035, 0.0072000003),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_mj0qa"),
+"name": "Guard | tunic panel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("LpAguzSANzn77Ws7LpAguzSAN7n77Ws7LpAguzSAN7n77Wu7LpAguzSANzn77Wu7LpAgOzSANzn77Ws7LpAguzSANzn77Ws7LpAguzSANzn77Wu7LpAgOzSANzn77Wu7LpAgOzSAN7n77Ws7LpAgOzSANzn77Ws7LpAgOzSANzn77Wu7LpAgOzSAN7n77Wu7LpAguzSAN7n77Ws7LpAgOzSAN7n77Ws7LpAgOzSAN7n77Wu7LpAguzSAN7n77Wu7LpAgOzSAN7n77Wu7LpAgOzSANzn77Wu7LpAguzSANzn77Wu7LpAguzSAN7n77Wu7LpAguzSAN7n77Ws7LpAguzSANzn77Ws7LpAgOzSANzn77Ws7LpAgOzSAN7n77Ws7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_0ywkn")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bim76"]
+resource_name = "Guard | brown leather.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.5271128, 0.4100209, 0.30353206, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ehefd"]
+_surfaces = [{
+"aabb": AABB(-0.0039, -0.00022500001, -0.00045000002, 0.0078, 0.00045000002, 0.00090000004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("JJd/u/vtazn77es5JJd/u/vta7n77es5JJd/u/vta7n77eu5JJd/u/vtazn77eu5JJd/O/vtazn77es5JJd/O/vta7n77eu5JJd/O/vta7n77es5JJd/O/vtazn77eu5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hbfyp"]
+resource_name = "Cube_2006"
+_surfaces = [{
+"aabb": AABB(-0.0039, -0.00022500001, -0.00045000002, 0.0078, 0.00045000002, 0.00090000004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("JJd/u/vtazn77es5JJd/u/vta7n77es5JJd/u/vta7n77eu5JJd/u/vtazn77eu5JJd/O/vtazn77es5JJd/u/vtazn77es5JJd/u/vtazn77eu5JJd/O/vtazn77eu5JJd/O/vta7n77es5JJd/O/vtazn77es5JJd/O/vtazn77eu5JJd/O/vta7n77eu5JJd/u/vta7n77es5JJd/O/vta7n77es5JJd/O/vta7n77eu5JJd/u/vta7n77eu5JJd/O/vta7n77eu5JJd/O/vtazn77eu5JJd/u/vtazn77eu5JJd/u/vta7n77eu5JJd/u/vta7n77es5JJd/u/vtazn77es5JJd/O/vtazn77es5JJd/O/vta7n77es5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ehefd")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x3ax2"]
+_surfaces = [{
+"aabb": AABB(-0.0043, -0.0023, -0.0045, 0.0086, 0.0046, 0.009),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("BOeMu5m7Fju8dJM7BOeMu5m7Fru8dJM7BOeMu5m7Fru8dJO7BOeMu5m7Fju8dJO7BOeMO5m7Fju8dJM7BOeMO5m7Fru8dJO7BOeMO5m7Fru8dJM7BOeMO5m7Fju8dJO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jxtg5"]
+resource_name = "Cube_2002"
+_surfaces = [{
+"aabb": AABB(-0.0043, -0.0023, -0.0045, 0.0086, 0.0046, 0.009),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_qd7vy"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("BOeMu5m7Fju8dJM7BOeMu5m7Fru8dJM7BOeMu5m7Fru8dJO7BOeMu5m7Fju8dJO7BOeMO5m7Fju8dJM7BOeMu5m7Fju8dJM7BOeMu5m7Fju8dJO7BOeMO5m7Fju8dJO7BOeMO5m7Fru8dJM7BOeMO5m7Fju8dJM7BOeMO5m7Fju8dJO7BOeMO5m7Fru8dJO7BOeMu5m7Fru8dJM7BOeMO5m7Fru8dJM7BOeMO5m7Fru8dJO7BOeMu5m7Fru8dJO7BOeMO5m7Fru8dJO7BOeMO5m7Fju8dJO7BOeMu5m7Fju8dJO7BOeMu5m7Fru8dJO7BOeMu5m7Fru8dJM7BOeMu5m7Fju8dJM7BOeMO5m7Fju8dJM7BOeMO5m7Fru8dJM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_x3ax2")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_00mer"]
+_surfaces = [{
+"aabb": AABB(-0.0046, -0.00059999997, -0.0008, 0.0092, 0.0011999999, 0.0016),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("mbuWu1FJHToXt1E6mbuWu1FJHboXt1E6mbuWu1FJHboXt1G6mbuWu1FJHToXt1G6mbuWO1FJHToXt1E6mbuWO1FJHboXt1G6mbuWO1FJHboXt1E6mbuWO1FJHToXt1G6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ibbm0"]
+resource_name = "Cube_2007"
+_surfaces = [{
+"aabb": AABB(-0.0046, -0.00059999997, -0.0008, 0.0092, 0.0011999999, 0.0016),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("mbuWu1FJHToXt1E6mbuWu1FJHboXt1E6mbuWu1FJHboXt1G6mbuWu1FJHToXt1G6mbuWO1FJHToXt1E6mbuWu1FJHToXt1E6mbuWu1FJHToXt1G6mbuWO1FJHToXt1G6mbuWO1FJHboXt1E6mbuWO1FJHToXt1E6mbuWO1FJHToXt1G6mbuWO1FJHboXt1G6mbuWu1FJHboXt1E6mbuWO1FJHboXt1E6mbuWO1FJHboXt1G6mbuWu1FJHboXt1G6mbuWO1FJHboXt1G6mbuWO1FJHToXt1G6mbuWu1FJHToXt1G6mbuWu1FJHboXt1G6mbuWu1FJHboXt1E6mbuWu1FJHToXt1E6mbuWO1FJHToXt1E6mbuWO1FJHboXt1E6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_00mer")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vc0tb"]
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0023999999, -0.0017, 0.0036000002, 0.0047999998, 0.0034),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("++3rulFJHTuJ0t46++3rulFJHbuJ0t46++3rulFJHbuJ0t66++3rulFJHTuJ0t66++3rOlFJHTuJ0t46++3rOlFJHbuJ0t66++3rOlFJHbuJ0t46++3rOlFJHTuJ0t66")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2ewws"]
+resource_name = "Cube_1994"
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0023999999, -0.0017, 0.0036000002, 0.0047999998, 0.0034),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("++3rulFJHTuJ0t46++3rulFJHbuJ0t46++3rulFJHbuJ0t66++3rulFJHTuJ0t66++3rOlFJHTuJ0t46++3rulFJHTuJ0t46++3rulFJHTuJ0t66++3rOlFJHTuJ0t66++3rOlFJHbuJ0t46++3rOlFJHTuJ0t46++3rOlFJHTuJ0t66++3rOlFJHbuJ0t66++3rulFJHbuJ0t46++3rOlFJHbuJ0t46++3rOlFJHbuJ0t66++3rulFJHbuJ0t66++3rOlFJHbuJ0t66++3rOlFJHTuJ0t66++3rulFJHTuJ0t66++3rulFJHbuJ0t66++3rulFJHbuJ0t46++3rulFJHTuJ0t46++3rOlFJHTuJ0t46++3rOlFJHbuJ0t46AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_vc0tb")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jbfdx"]
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00055, -0.0011, 0.0034999999, 0.0011, 0.0022),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("QWDluuAtEDrgLZA6QWDluuAtELrgLZA6QWDluuAtELrgLZC6QWDluuAtEDrgLZC6QWDlOuAtEDrgLZA6QWDlOuAtELrgLZC6QWDlOuAtELrgLZA6QWDlOuAtEDrgLZC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vir4r"]
+resource_name = "Cube_1996"
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00055, -0.0011, 0.0034999999, 0.0011, 0.0022),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("QWDluuAtEDrgLZA6QWDluuAtELrgLZA6QWDluuAtELrgLZC6QWDluuAtEDrgLZC6QWDlOuAtEDrgLZA6QWDluuAtEDrgLZA6QWDluuAtEDrgLZC6QWDlOuAtEDrgLZC6QWDlOuAtELrgLZA6QWDlOuAtEDrgLZA6QWDlOuAtEDrgLZC6QWDlOuAtELrgLZC6QWDluuAtELrgLZA6QWDlOuAtELrgLZA6QWDlOuAtELrgLZC6QWDluuAtELrgLZC6QWDlOuAtELrgLZC6QWDlOuAtEDrgLZC6QWDluuAtEDrgLZC6QWDluuAtELrgLZC6QWDluuAtELrgLZA6QWDluuAtEDrgLZA6QWDlOuAtEDrgLZA6QWDlOuAtELrgLZA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jbfdx")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_lygyt"]
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00195, -0.002, 0.0034999999, 0.0039, 0.004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("QWDluiSX/zpvEgM7QWDluiSX/7pvEgM7QWDluiSX/7pvEgO7QWDluiSX/zpvEgO7QWDlOiSX/zpvEgM7QWDlOiSX/7pvEgO7QWDlOiSX/7pvEgM7QWDlOiSX/zpvEgO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ct213"]
+resource_name = "Cube_1995"
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00195, -0.002, 0.0034999999, 0.0039, 0.004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("QWDluiSX/zpvEgM7QWDluiSX/7pvEgM7QWDluiSX/7pvEgO7QWDluiSX/zpvEgO7QWDlOiSX/zpvEgM7QWDluiSX/zpvEgM7QWDluiSX/zpvEgO7QWDlOiSX/zpvEgO7QWDlOiSX/7pvEgM7QWDlOiSX/zpvEgM7QWDlOiSX/zpvEgO7QWDlOiSX/7pvEgO7QWDluiSX/7pvEgM7QWDlOiSX/7pvEgM7QWDlOiSX/7pvEgO7QWDluiSX/7pvEgO7QWDlOiSX/7pvEgO7QWDlOiSX/zpvEgO7QWDluiSX/zpvEgO7QWDluiSX/7pvEgO7QWDluiSX/7pvEgM7QWDluiSX/zpvEgM7QWDlOiSX/zpvEgM7QWDlOiSX/7pvEgM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_lygyt")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_22v2f"]
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0019, -0.0023999999, 0.0036000002, 0.0038, 0.0047999998),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("++3rumwJ+TpRSR07++3rumwJ+bpRSR07++3rumwJ+bpRSR27++3rumwJ+TpRSR27++3rOmwJ+TpRSR07++3rOmwJ+bpRSR27++3rOmwJ+bpRSR07++3rOmwJ+TpRSR27")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3v0a4"]
+resource_name = "Cube_1997"
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0019, -0.0023999999, 0.0036000002, 0.0038, 0.0047999998),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_qd7vy"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("++3rumwJ+TpRSR07++3rumwJ+bpRSR07++3rumwJ+bpRSR27++3rumwJ+TpRSR27++3rOmwJ+TpRSR07++3rumwJ+TpRSR07++3rumwJ+TpRSR27++3rOmwJ+TpRSR27++3rOmwJ+bpRSR07++3rOmwJ+TpRSR07++3rOmwJ+TpRSR27++3rOmwJ+bpRSR27++3rumwJ+bpRSR07++3rOmwJ+bpRSR07++3rOmwJ+bpRSR27++3rumwJ+bpRSR27++3rOmwJ+bpRSR27++3rOmwJ+TpRSR27++3rumwJ+TpRSR27++3rumwJ+bpRSR27++3rumwJ+bpRSR07++3rumwJ+TpRSR07++3rOmwJ+TpRSR07++3rOmwJ+bpRSR07AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_22v2f")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_iokqk"]
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0023999999, -0.0017, 0.0036000002, 0.0047999998, 0.0034),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("++3rulFJHTuJ0t46++3rulFJHbuJ0t46++3rulFJHbuJ0t66++3rulFJHTuJ0t66++3rOlFJHTuJ0t46++3rOlFJHbuJ0t66++3rOlFJHbuJ0t46++3rOlFJHTuJ0t66")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_36s4n"]
+resource_name = "Cube_1998"
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0023999999, -0.0017, 0.0036000002, 0.0047999998, 0.0034),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("++3rulFJHTuJ0t46++3rulFJHbuJ0t46++3rulFJHbuJ0t66++3rulFJHTuJ0t66++3rOlFJHTuJ0t46++3rulFJHTuJ0t46++3rulFJHTuJ0t66++3rOlFJHTuJ0t66++3rOlFJHbuJ0t46++3rOlFJHTuJ0t46++3rOlFJHTuJ0t66++3rOlFJHbuJ0t66++3rulFJHbuJ0t46++3rOlFJHbuJ0t46++3rOlFJHbuJ0t66++3rulFJHbuJ0t66++3rOlFJHbuJ0t66++3rOlFJHTuJ0t66++3rulFJHTuJ0t66++3rulFJHbuJ0t66++3rulFJHbuJ0t46++3rulFJHTuJ0t46++3rOlFJHTuJ0t46++3rOlFJHbuJ0t46AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_iokqk")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gudcq"]
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00055, -0.0011, 0.0034999999, 0.0011, 0.0022),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("QWDluuAtEDrgLZA6QWDluuAtELrgLZA6QWDluuAtELrgLZC6QWDluuAtEDrgLZC6QWDlOuAtEDrgLZA6QWDlOuAtELrgLZC6QWDlOuAtELrgLZA6QWDlOuAtEDrgLZC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rjx4e"]
+resource_name = "Cube_2000"
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00055, -0.0011, 0.0034999999, 0.0011, 0.0022),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("QWDluuAtEDrgLZA6QWDluuAtELrgLZA6QWDluuAtELrgLZC6QWDluuAtEDrgLZC6QWDlOuAtEDrgLZA6QWDluuAtEDrgLZA6QWDluuAtEDrgLZC6QWDlOuAtEDrgLZC6QWDlOuAtELrgLZA6QWDlOuAtEDrgLZA6QWDlOuAtEDrgLZC6QWDlOuAtELrgLZC6QWDluuAtELrgLZA6QWDlOuAtELrgLZA6QWDlOuAtELrgLZC6QWDluuAtELrgLZC6QWDlOuAtELrgLZC6QWDlOuAtEDrgLZC6QWDluuAtEDrgLZC6QWDluuAtELrgLZC6QWDluuAtELrgLZA6QWDluuAtEDrgLZA6QWDlOuAtEDrgLZA6QWDlOuAtELrgLZA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_gudcq")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_83adw"]
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00195, -0.002, 0.0034999999, 0.0039, 0.004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("QWDluiSX/zpvEgM7QWDluiSX/7pvEgM7QWDluiSX/7pvEgO7QWDluiSX/zpvEgO7QWDlOiSX/zpvEgM7QWDlOiSX/7pvEgO7QWDlOiSX/7pvEgM7QWDlOiSX/zpvEgO7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_djfxx"]
+resource_name = "Cube_1999"
+_surfaces = [{
+"aabb": AABB(-0.0017499999, -0.00195, -0.002, 0.0034999999, 0.0039, 0.004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("QWDluiSX/zpvEgM7QWDluiSX/7pvEgM7QWDluiSX/7pvEgO7QWDluiSX/zpvEgO7QWDlOiSX/zpvEgM7QWDluiSX/zpvEgM7QWDluiSX/zpvEgO7QWDlOiSX/zpvEgO7QWDlOiSX/7pvEgM7QWDlOiSX/zpvEgM7QWDlOiSX/zpvEgO7QWDlOiSX/7pvEgO7QWDluiSX/7pvEgM7QWDlOiSX/7pvEgM7QWDlOiSX/7pvEgO7QWDluiSX/7pvEgO7QWDlOiSX/7pvEgO7QWDlOiSX/zpvEgO7QWDluiSX/zpvEgO7QWDluiSX/7pvEgO7QWDluiSX/7pvEgM7QWDluiSX/zpvEgM7QWDlOiSX/zpvEgM7QWDlOiSX/7pvEgM7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_83adw")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rgx3b"]
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0019, -0.0023999999, 0.0036000002, 0.0038, 0.0047999998),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("++3rumwJ+TpRSR07++3rumwJ+bpRSR07++3rumwJ+bpRSR27++3rumwJ+TpRSR27++3rOmwJ+TpRSR07++3rOmwJ+bpRSR27++3rOmwJ+bpRSR07++3rOmwJ+TpRSR27")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gyaov"]
+resource_name = "Cube_2001"
+_surfaces = [{
+"aabb": AABB(-0.0018000001, -0.0019, -0.0023999999, 0.0036000002, 0.0038, 0.0047999998),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_qd7vy"),
+"name": "Guard | dark underclothes.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("++3rumwJ+TpRSR07++3rumwJ+bpRSR07++3rumwJ+bpRSR27++3rumwJ+TpRSR27++3rOmwJ+TpRSR07++3rumwJ+TpRSR07++3rumwJ+TpRSR27++3rOmwJ+TpRSR27++3rOmwJ+bpRSR07++3rOmwJ+TpRSR07++3rOmwJ+TpRSR27++3rOmwJ+bpRSR27++3rumwJ+bpRSR07++3rOmwJ+bpRSR07++3rOmwJ+bpRSR27++3rumwJ+bpRSR27++3rOmwJ+bpRSR27++3rOmwJ+TpRSR27++3rumwJ+TpRSR27++3rumwJ+bpRSR27++3rumwJ+bpRSR07++3rumwJ+TpRSR07++3rOmwJ+TpRSR07++3rOmwJ+bpRSR07AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_rgx3b")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_68jq2"]
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.00025, -0.000375, 0.0031, 0.0005, 0.00075),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("XynLum8Sgzmmm8Q5XynLum8Sg7mmm8Q5XynLum8Sg7mmm8S5XynLum8Sgzmmm8S5XynLOm8Sgzmmm8Q5XynLOm8Sg7mmm8S5XynLOm8Sg7mmm8Q5XynLOm8Sgzmmm8S5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nt2oi"]
+resource_name = "Cube_2015"
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.00025, -0.000375, 0.0031, 0.0005, 0.00075),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("XynLum8Sgzmmm8Q5XynLum8Sg7mmm8Q5XynLum8Sg7mmm8S5XynLum8Sgzmmm8S5XynLOm8Sgzmmm8Q5XynLum8Sgzmmm8Q5XynLum8Sgzmmm8S5XynLOm8Sgzmmm8S5XynLOm8Sg7mmm8Q5XynLOm8Sgzmmm8Q5XynLOm8Sgzmmm8S5XynLOm8Sg7mmm8S5XynLum8Sg7mmm8Q5XynLOm8Sg7mmm8Q5XynLOm8Sg7mmm8S5XynLum8Sg7mmm8S5XynLOm8Sg7mmm8S5XynLOm8Sgzmmm8S5XynLum8Sgzmmm8S5XynLum8Sg7mmm8S5XynLum8Sg7mmm8Q5XynLum8Sgzmmm8Q5XynLOm8Sgzmmm8Q5XynLOm8Sg7mmm8Q5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_68jq2")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_f31rb"]
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.0022, -0.0021, 0.0034, 0.0044, 0.0042),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeuuAtEDsnoAk7idLeuuAtELsnoAk7idLeuuAtELsnoAm7idLeuuAtEDsnoAm7idLeOuAtEDsnoAk7idLeOuAtELsnoAm7idLeOuAtELsnoAk7idLeOuAtEDsnoAm7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cxoxa"]
+resource_name = "Cube_2014"
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.0022, -0.0021, 0.0034, 0.0044, 0.0042),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeuuAtEDsnoAk7idLeuuAtELsnoAk7idLeuuAtELsnoAm7idLeuuAtEDsnoAm7idLeOuAtEDsnoAk7idLeuuAtEDsnoAk7idLeuuAtEDsnoAm7idLeOuAtEDsnoAm7idLeOuAtELsnoAk7idLeOuAtEDsnoAk7idLeOuAtEDsnoAm7idLeOuAtELsnoAm7idLeuuAtELsnoAk7idLeOuAtELsnoAk7idLeOuAtELsnoAm7idLeuuAtELsnoAm7idLeOuAtELsnoAm7idLeOuAtEDsnoAm7idLeuuAtEDsnoAm7idLeuuAtELsnoAm7idLeuuAtELsnoAk7idLeuuAtEDsnoAk7idLeOuAtEDsnoAk7idLeOuAtELsnoAk7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_f31rb")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_g7g1r"]
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0017, -0.0011999999, 0.0029, 0.0034, 0.0023999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("7Q2+uonS3jpRSZ067Q2+uonS3rpRSZ067Q2+uonS3rpRSZ267Q2+uonS3jpRSZ267Q2+OonS3jpRSZ067Q2+OonS3rpRSZ267Q2+OonS3rpRSZ067Q2+OonS3jpRSZ26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_sjl7x"]
+resource_name = "Cube_2016"
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0017, -0.0011999999, 0.0029, 0.0034, 0.0023999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("7Q2+uonS3jpRSZ067Q2+uonS3rpRSZ067Q2+uonS3rpRSZ267Q2+uonS3jpRSZ267Q2+OonS3jpRSZ067Q2+uonS3jpRSZ067Q2+uonS3jpRSZ267Q2+OonS3jpRSZ267Q2+OonS3rpRSZ067Q2+OonS3jpRSZ067Q2+OonS3jpRSZ267Q2+OonS3rpRSZ267Q2+uonS3rpRSZ067Q2+OonS3rpRSZ067Q2+OonS3rpRSZ267Q2+uonS3rpRSZ267Q2+OonS3rpRSZ267Q2+OonS3jpRSZ267Q2+uonS3jpRSZ267Q2+uonS3rpRSZ267Q2+uonS3rpRSZ067Q2+uonS3jpRSZ067Q2+OonS3jpRSZ067Q2+OonS3rpRSZ06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_g7g1r")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jdwl1"]
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00215, -0.0033000002, 0.0034, 0.0043, 0.0066000004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeugTnDDvRRFg7idLeugTnDLvRRFg7idLeugTnDLvRRFi7idLeugTnDDvRRFi7idLeOgTnDDvRRFg7idLeOgTnDLvRRFi7idLeOgTnDLvRRFg7idLeOgTnDDvRRFi7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dbfqe"]
+resource_name = "Cube_2011"
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00215, -0.0033000002, 0.0034, 0.0043, 0.0066000004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_hy0sb"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeugTnDDvRRFg7idLeugTnDLvRRFg7idLeugTnDLvRRFi7idLeugTnDDvRRFi7idLeOgTnDDvRRFg7idLeugTnDDvRRFg7idLeugTnDDvRRFi7idLeOgTnDDvRRFi7idLeOgTnDLvRRFg7idLeOgTnDDvRRFg7idLeOgTnDDvRRFi7idLeOgTnDLvRRFi7idLeugTnDLvRRFg7idLeOgTnDLvRRFg7idLeOgTnDLvRRFi7idLeugTnDLvRRFi7idLeOgTnDLvRRFi7idLeOgTnDDvRRFi7idLeugTnDDvRRFi7idLeugTnDLvRRFi7idLeugTnDLvRRFg7idLeugTnDDvRRFg7idLeOgTnDDvRRFg7idLeOgTnDLvRRFg7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jdwl1")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7wo66"]
+_surfaces = [{
+"aabb": AABB(-0.00225, -0.0025, -0.00135, 0.0045, 0.005, 0.0027),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("vHQTuwrXIzt88rA6vHQTuwrXI7t88rA6vHQTuwrXI7t88rC6vHQTuwrXIzt88rC6vHQTOwrXIzt88rA6vHQTOwrXI7t88rC6vHQTOwrXI7t88rA6vHQTOwrXIzt88rC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_uekli"]
+resource_name = "Cube_2013"
+_surfaces = [{
+"aabb": AABB(-0.00225, -0.0025, -0.00135, 0.0045, 0.005, 0.0027),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("vHQTuwrXIzt88rA6vHQTuwrXI7t88rA6vHQTuwrXI7t88rC6vHQTuwrXIzt88rC6vHQTOwrXIzt88rA6vHQTuwrXIzt88rA6vHQTuwrXIzt88rC6vHQTOwrXIzt88rC6vHQTOwrXI7t88rA6vHQTOwrXIzt88rA6vHQTOwrXIzt88rC6vHQTOwrXI7t88rC6vHQTuwrXI7t88rA6vHQTOwrXI7t88rA6vHQTOwrXI7t88rC6vHQTuwrXI7t88rC6vHQTOwrXI7t88rC6vHQTOwrXIzt88rC6vHQTuwrXIzt88rC6vHQTuwrXI7t88rC6vHQTuwrXI7t88rA6vHQTuwrXIzt88rA6vHQTOwrXIzt88rA6vHQTOwrXI7t88rA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_7wo66")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cam0u"]
+_surfaces = [{
+"aabb": AABB(-0.002, -0.00235, -0.0017, 0.004, 0.0047, 0.0034),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxIDu3UCGjuJ0t46bxIDu3UCGruJ0t46bxIDu3UCGruJ0t66bxIDu3UCGjuJ0t66bxIDO3UCGjuJ0t46bxIDO3UCGruJ0t66bxIDO3UCGruJ0t46bxIDO3UCGjuJ0t66")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_epucr"]
+resource_name = "Cube_2012"
+_surfaces = [{
+"aabb": AABB(-0.002, -0.00235, -0.0017, 0.004, 0.0047, 0.0034),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxIDu3UCGjuJ0t46bxIDu3UCGruJ0t46bxIDu3UCGruJ0t66bxIDu3UCGjuJ0t66bxIDO3UCGjuJ0t46bxIDu3UCGjuJ0t46bxIDu3UCGjuJ0t66bxIDO3UCGjuJ0t66bxIDO3UCGruJ0t46bxIDO3UCGjuJ0t46bxIDO3UCGjuJ0t66bxIDO3UCGruJ0t66bxIDu3UCGruJ0t46bxIDO3UCGruJ0t46bxIDO3UCGruJ0t66bxIDu3UCGruJ0t66bxIDO3UCGruJ0t66bxIDO3UCGjuJ0t66bxIDu3UCGjuJ0t66bxIDu3UCGruJ0t66bxIDu3UCGruJ0t46bxIDu3UCGjuJ0t46bxIDO3UCGjuJ0t46bxIDO3UCGruJ0t46AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_cam0u")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8tjgo"]
+resource_name = "Guard | leather highlights.001"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.6180314, 0.49560964, 0.36556464, 1)
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ofuq4"]
+_surfaces = [{
+"aabb": AABB(-0.00059999997, -0.00059999997, -0.0022, 0.0011999999, 0.0011999999, 0.0044),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | leather highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("UUkdulFJHTrgLRA7UUkdulFJHbrgLRA7UUkdulFJHbrgLRC7UUkdulFJHTrgLRC7UUkdOlFJHTrgLRA7UUkdOlFJHbrgLRC7UUkdOlFJHbrgLRA7UUkdOlFJHTrgLRC7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_n0nou"]
+resource_name = "Cube_2046"
+_surfaces = [{
+"aabb": AABB(-0.00059999997, -0.00059999997, -0.0022, 0.0011999999, 0.0011999999, 0.0044),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_8tjgo"),
+"name": "Guard | leather highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("UUkdulFJHTrgLRA7UUkdulFJHbrgLRA7UUkdulFJHbrgLRC7UUkdulFJHTrgLRC7UUkdOlFJHTrgLRA7UUkdulFJHTrgLRA7UUkdulFJHTrgLRC7UUkdOlFJHTrgLRC7UUkdOlFJHbrgLRA7UUkdOlFJHTrgLRA7UUkdOlFJHTrgLRC7UUkdOlFJHbrgLRC7UUkdulFJHbrgLRA7UUkdOlFJHbrgLRA7UUkdOlFJHbrgLRC7UUkdulFJHbrgLRC7UUkdOlFJHbrgLRC7UUkdOlFJHTrgLRC7UUkdulFJHTrgLRC7UUkdulFJHbrgLRC7UUkdulFJHbrgLRA7UUkdulFJHTrgLRA7UUkdOlFJHTrgLRA7UUkdOlFJHbrgLRA7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ofuq4")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_sj4wb"]
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0015, -0.0026, 0.003, 0.003, 0.0052),
+"format": 34359742465,
+"index_count": 18,
+"index_data": PackedByteArray("AAABAAIAAwABAAAAAwAAAAIAAgABAAQABAABAAMAAgAEAAMA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 5,
+"vertex_data": PackedByteArray("ppvEOgAAAADDZCq7AAAAAAAAAADDZCo7AAAAAKabxDrDZCq7AAAAAKabxLrDZCq7ppvEugAAAADDZCq7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gw13q"]
+resource_name = "Cone_001"
+_surfaces = [{
+"aabb": AABB(-0.0015, -0.0015, -0.0026, 0.003, 0.003, 0.0052),
+"attribute_data": PackedByteArray("SOH6PgAAQD8AAIA+AABAPwAAgD5cjwI/AACAPqRwfT8AAIA+AABAP0jh+j4AAEA/AABAP6RwfT+kcH0/AABAPwAAQD9cjwI/XI8CPwAAQD8Q1yM8AABAPwAAgD4AAEA/AACAPqRwfT8AAIA+XI8CPwAAgD4AAEA/ENcjPAAAQD8="),
+"format": 34359742487,
+"index_count": 18,
+"index_data": PackedByteArray("AAABAAIAAwAEAAUABgAHAAgACAAJAAYACgALAAwADQAOAA8A"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("ppvEOgAAAADDZCq7AAAAAAAAAADDZCo7AAAAAKabxDrDZCq7AAAAAKabxLrDZCq7AAAAAAAAAADDZCo7ppvEOgAAAADDZCq7AAAAAKabxLrDZCq7ppvEOgAAAADDZCq7AAAAAKabxDrDZCq7ppvEugAAAADDZCq7ppvEugAAAADDZCq7AAAAAAAAAADDZCo7AAAAAKabxLrDZCq7AAAAAKabxDrDZCq7AAAAAAAAAADDZCo7ppvEugAAAADDZCq77rfut///qvHut+63//+q8e637rf//6rx7rcQSP//U47utxBI//9Tju63EEj//1OO/////////z//////////P/////////8//////////z8QSBBIp5z/vxBIEEinnP+/EEgQSKec/78QSO63p5z/vxBI7rennP+/EEjut6ec/78=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_sj4wb")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xl4gr"]
+_surfaces = [{
+"aabb": AABB(-0.0004, -0.0004, -0.01925, 0.0008, 0.0008, 0.0385),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("F7fRuRe30Tktsp08F7fRuRe30bktsp08F7fRuRe30bktsp28F7fRuRe30Tktsp28F7fRORe30Tktsp08F7fRORe30bktsp28F7fRORe30bktsp08F7fRORe30Tktsp28")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gyxbl"]
+resource_name = "Cube_2045"
+_surfaces = [{
+"aabb": AABB(-0.0004, -0.0004, -0.01925, 0.0008, 0.0008, 0.0385),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("F7fRuRe30Tktsp08F7fRuRe30bktsp08F7fRuRe30bktsp28F7fRuRe30Tktsp28F7fRORe30Tktsp08F7fRuRe30Tktsp08F7fRuRe30Tktsp28F7fRORe30Tktsp28F7fRORe30bktsp08F7fRORe30Tktsp08F7fRORe30Tktsp28F7fRORe30bktsp28F7fRuRe30bktsp08F7fRORe30bktsp08F7fRORe30bktsp28F7fRuRe30bktsp28F7fRORe30bktsp28F7fRORe30Tktsp28F7fRuRe30Tktsp28F7fRuRe30bktsp28F7fRuRe30bktsp08F7fRuRe30Tktsp08F7fRORe30Tktsp08F7fRORe30bktsp08AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_xl4gr")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_buby1"]
+_surfaces = [{
+"aabb": AABB(-0.0008, -0.0008, -0.0007, 0.0016, 0.0016, 0.0014),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("F7dRuhe3UTo0gDc6F7dRuhe3Ubo0gDc6F7dRuhe3Ubo0gDe6F7dRuhe3UTo0gDe6F7dROhe3UTo0gDc6F7dROhe3Ubo0gDe6F7dROhe3Ubo0gDc6F7dROhe3UTo0gDe6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_04xiw"]
+resource_name = "Cube_2047"
+_surfaces = [{
+"aabb": AABB(-0.0008, -0.0008, -0.0007, 0.0016, 0.0016, 0.0014),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("F7dRuhe3UTo0gDc6F7dRuhe3Ubo0gDc6F7dRuhe3Ubo0gDe6F7dRuhe3UTo0gDe6F7dROhe3UTo0gDc6F7dRuhe3UTo0gDc6F7dRuhe3UTo0gDe6F7dROhe3UTo0gDe6F7dROhe3Ubo0gDc6F7dROhe3UTo0gDc6F7dROhe3UTo0gDe6F7dROhe3Ubo0gDe6F7dRuhe3Ubo0gDc6F7dROhe3Ubo0gDc6F7dROhe3Ubo0gDe6F7dRuhe3Ubo0gDe6F7dROhe3Ubo0gDe6F7dROhe3UTo0gDe6F7dRuhe3UTo0gDe6F7dRuhe3Ubo0gDe6F7dRuhe3Ubo0gDc6F7dRuhe3UTo0gDc6F7dROhe3UTo0gDc6F7dROhe3Ubo0gDc6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_buby1")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mvrew"]
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.00025, -0.000375, 0.0031, 0.0005, 0.00075),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("XynLum8Sgzmmm8Q5XynLum8Sg7mmm8Q5XynLum8Sg7mmm8S5XynLum8Sgzmmm8S5XynLOm8Sgzmmm8Q5XynLOm8Sg7mmm8S5XynLOm8Sg7mmm8Q5XynLOm8Sgzmmm8S5")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_boxao"]
+resource_name = "Cube_2021"
+_surfaces = [{
+"aabb": AABB(-0.00155, -0.00025, -0.000375, 0.0031, 0.0005, 0.00075),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("XynLum8Sgzmmm8Q5XynLum8Sg7mmm8Q5XynLum8Sg7mmm8S5XynLum8Sgzmmm8S5XynLOm8Sgzmmm8Q5XynLum8Sgzmmm8Q5XynLum8Sgzmmm8S5XynLOm8Sgzmmm8S5XynLOm8Sg7mmm8Q5XynLOm8Sgzmmm8Q5XynLOm8Sgzmmm8S5XynLOm8Sg7mmm8S5XynLum8Sg7mmm8Q5XynLOm8Sg7mmm8Q5XynLOm8Sg7mmm8S5XynLum8Sg7mmm8S5XynLOm8Sg7mmm8S5XynLOm8Sgzmmm8S5XynLum8Sgzmmm8S5XynLum8Sg7mmm8S5XynLum8Sg7mmm8Q5XynLum8Sgzmmm8Q5XynLOm8Sgzmmm8Q5XynLOm8Sg7mmm8Q5AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mvrew")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_eswab"]
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.0022, -0.0021, 0.0034, 0.0044, 0.0042),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeuuAtEDsnoAk7idLeuuAtELsnoAk7idLeuuAtELsnoAm7idLeuuAtEDsnoAm7idLeOuAtEDsnoAk7idLeOuAtELsnoAm7idLeOuAtELsnoAk7idLeOuAtEDsnoAm7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_b76mo"]
+resource_name = "Cube_2020"
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.0022, -0.0021, 0.0034, 0.0044, 0.0042),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeuuAtEDsnoAk7idLeuuAtELsnoAk7idLeuuAtELsnoAm7idLeuuAtEDsnoAm7idLeOuAtEDsnoAk7idLeuuAtEDsnoAk7idLeuuAtEDsnoAm7idLeOuAtEDsnoAm7idLeOuAtELsnoAk7idLeOuAtEDsnoAk7idLeOuAtEDsnoAm7idLeOuAtELsnoAm7idLeuuAtELsnoAk7idLeOuAtELsnoAk7idLeOuAtELsnoAm7idLeuuAtELsnoAm7idLeOuAtELsnoAm7idLeOuAtEDsnoAm7idLeuuAtEDsnoAm7idLeuuAtELsnoAm7idLeuuAtELsnoAk7idLeuuAtEDsnoAk7idLeOuAtEDsnoAk7idLeOuAtELsnoAk7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_eswab")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xqb0j"]
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0017, -0.0011999999, 0.0029, 0.0034, 0.0023999999),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("7Q2+uonS3jpRSZ067Q2+uonS3rpRSZ067Q2+uonS3rpRSZ267Q2+uonS3jpRSZ267Q2+OonS3jpRSZ067Q2+OonS3rpRSZ267Q2+OonS3rpRSZ067Q2+OonS3jpRSZ26")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_t77cc"]
+resource_name = "Cube_2022"
+_surfaces = [{
+"aabb": AABB(-0.00145, -0.0017, -0.0011999999, 0.0029, 0.0034, 0.0023999999),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_bim76"),
+"name": "Guard | brown leather.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("7Q2+uonS3jpRSZ067Q2+uonS3rpRSZ067Q2+uonS3rpRSZ267Q2+uonS3jpRSZ267Q2+OonS3jpRSZ067Q2+uonS3jpRSZ067Q2+uonS3jpRSZ267Q2+OonS3jpRSZ267Q2+OonS3rpRSZ067Q2+OonS3jpRSZ067Q2+OonS3jpRSZ267Q2+OonS3rpRSZ267Q2+uonS3rpRSZ067Q2+OonS3rpRSZ067Q2+OonS3rpRSZ267Q2+uonS3rpRSZ267Q2+OonS3rpRSZ267Q2+OonS3jpRSZ267Q2+uonS3jpRSZ267Q2+uonS3rpRSZ267Q2+uonS3rpRSZ067Q2+uonS3jpRSZ067Q2+OonS3jpRSZ067Q2+OonS3rpRSZ06AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_xqb0j")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_p5mvi"]
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00215, -0.0033000002, 0.0034, 0.0043, 0.0066000004),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("idLeugTnDDvRRFg7idLeugTnDLvRRFg7idLeugTnDLvRRFi7idLeugTnDDvRRFi7idLeOgTnDDvRRFg7idLeOgTnDLvRRFi7idLeOgTnDLvRRFg7idLeOgTnDDvRRFi7")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2ssyy"]
+resource_name = "Cube_2017"
+_surfaces = [{
+"aabb": AABB(-0.0017, -0.00215, -0.0033000002, 0.0034, 0.0043, 0.0066000004),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_hy0sb"),
+"name": "Guard | dark red tunic.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("idLeugTnDDvRRFg7idLeugTnDLvRRFg7idLeugTnDLvRRFi7idLeugTnDDvRRFi7idLeOgTnDDvRRFg7idLeugTnDDvRRFg7idLeugTnDDvRRFi7idLeOgTnDDvRRFi7idLeOgTnDLvRRFg7idLeOgTnDDvRRFg7idLeOgTnDDvRRFi7idLeOgTnDLvRRFi7idLeugTnDLvRRFg7idLeOgTnDLvRRFg7idLeOgTnDLvRRFi7idLeugTnDLvRRFi7idLeOgTnDLvRRFi7idLeOgTnDDvRRFi7idLeugTnDDvRRFi7idLeugTnDLvRRFi7idLeugTnDLvRRFg7idLeugTnDDvRRFg7idLeOgTnDDvRRFg7idLeOgTnDLvRRFg7AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_p5mvi")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_g5ygr"]
+_surfaces = [{
+"aabb": AABB(-0.00225, -0.0025, -0.00135, 0.0045, 0.005, 0.0027),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("vHQTuwrXIzt88rA6vHQTuwrXI7t88rA6vHQTuwrXI7t88rC6vHQTuwrXIzt88rC6vHQTOwrXIzt88rA6vHQTOwrXI7t88rC6vHQTOwrXI7t88rA6vHQTOwrXIzt88rC6")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_kqsmd"]
+resource_name = "Cube_2019"
+_surfaces = [{
+"aabb": AABB(-0.00225, -0.0025, -0.00135, 0.0045, 0.005, 0.0027),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_aswtu"),
+"name": "Guard | steel highlights.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("vHQTuwrXIzt88rA6vHQTuwrXI7t88rA6vHQTuwrXI7t88rC6vHQTuwrXIzt88rC6vHQTOwrXIzt88rA6vHQTuwrXIzt88rA6vHQTuwrXIzt88rC6vHQTOwrXIzt88rC6vHQTOwrXI7t88rA6vHQTOwrXIzt88rA6vHQTOwrXIzt88rC6vHQTOwrXI7t88rC6vHQTuwrXI7t88rA6vHQTOwrXI7t88rA6vHQTOwrXI7t88rC6vHQTuwrXI7t88rC6vHQTOwrXI7t88rC6vHQTOwrXIzt88rC6vHQTuwrXIzt88rC6vHQTuwrXI7t88rC6vHQTuwrXI7t88rA6vHQTuwrXIzt88rA6vHQTOwrXIzt88rA6vHQTOwrXI7t88rA6AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_g5ygr")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ydlcb"]
+_surfaces = [{
+"aabb": AABB(-0.002, -0.00235, -0.0017, 0.004, 0.0047, 0.0034),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAAAQAAAAQABAAAAAMABQACAAEAAwACAAUABAAGAAEAAQAGAAUAAwAHAAQABgAEAAcABQAHAAMABwAFAAYA"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("bxIDu3UCGjuJ0t46bxIDu3UCGruJ0t46bxIDu3UCGruJ0t66bxIDu3UCGjuJ0t66bxIDO3UCGjuJ0t46bxIDO3UCGruJ0t66bxIDO3UCGruJ0t46bxIDO3UCGjuJ0t66")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jmq0w"]
+resource_name = "Cube_2018"
+_surfaces = [{
+"aabb": AABB(-0.002, -0.00235, -0.0017, 0.004, 0.0047, 0.0034),
+"attribute_data": PackedByteArray("AAAgPwAAQD8AACA/AACAPwAAwD4AAIA/AADAPgAAQD8AACA/AAAAPwAAID8AAEA/AADAPgAAQD8AAMA+AAAAPwAAID8AAIA+AAAgPwAAAD8AAMA+AAAAPwAAwD4AAIA+AAAgPwAAAAAAACA/AACAPgAAwD4AAIA+AADAPgAAAAAAAMA+AACAPgAAwD4AAAA/AAAAPgAAAD8AAAA+AACAPgAAYD8AAIA+AABgPwAAAD8AACA/AAAAPwAAID8AAIA+"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQA"),
+"material": SubResource("StandardMaterial3D_ir8te"),
+"name": "Guard | dark steel.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("bxIDu3UCGjuJ0t46bxIDu3UCGruJ0t46bxIDu3UCGruJ0t66bxIDu3UCGjuJ0t66bxIDO3UCGjuJ0t46bxIDu3UCGjuJ0t46bxIDu3UCGjuJ0t66bxIDO3UCGjuJ0t66bxIDO3UCGruJ0t46bxIDO3UCGjuJ0t46bxIDO3UCGjuJ0t66bxIDO3UCGruJ0t66bxIDu3UCGruJ0t46bxIDO3UCGruJ0t46bxIDO3UCGruJ0t66bxIDu3UCGruJ0t66bxIDO3UCGruJ0t66bxIDO3UCGjuJ0t66bxIDu3UCGjuJ0t66bxIDu3UCGruJ0t66bxIDu3UCGruJ0t46bxIDu3UCGjuJ0t46bxIDO3UCGjuJ0t46bxIDO3UCGruJ0t46AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//f////3//v/9/////f/+//3////9//7//f////3//v////3//f/+/////f/9//7////9//3//v////3//f/+//38AAP9//7//fwAA/3//v/9/AAD/f/+//38AAP9//7//////////v/////////+//////////7//////////v/9//38AAP+//3//fwAA/7//f/9/AAD/v/9//38AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ydlcb")
+
+[node name="TomasReed" type="Node3D" unique_id=490292928]
+transform = Transform3D(0.5316092, 0, 0, 0, 0.5316092, 0, 0, 0, 0.5316092, 0, -0.015948268, 0)
+
+[node name="TorsoAndHead" type="Node3D" parent="." unique_id=1711962906]
+
+[node name="Town Guard | belt buckle" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1668359543]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.6, 0.345)
+mesh = SubResource("ArrayMesh_rct3o")
+
+[node name="Town Guard | block nose" type="MeshInstance3D" parent="TorsoAndHead" unique_id=2024807716]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.88, 0.365)
+mesh = SubResource("ArrayMesh_d6e5d")
+
+[node name="Town Guard | cross strap lower" type="MeshInstance3D" parent="TorsoAndHead" unique_id=341572637]
+transform = Transform3D(1.7881393e-05, 80.87363, 58.817135, 0, 58.817142, -80.873634, -100, 1.4901161e-05, 1.1920929e-05, 0.35, 1.7249999, 0.3)
+mesh = SubResource("ArrayMesh_hq11k")
+
+[node name="Town Guard | cross strap upper" type="MeshInstance3D" parent="TorsoAndHead" unique_id=431518632]
+transform = Transform3D(2.9802322e-05, 61.72871, 78.67381, -2.9802322e-06, 78.67381, -61.72871, -100.000015, 1.7881395e-05, 2.384186e-05, -0.015, 2.0349998, 0.3)
+mesh = SubResource("ArrayMesh_cwcx7")
+
+[node name="Town Guard | dark scarf neck guard" type="MeshInstance3D" parent="TorsoAndHead" unique_id=632965144]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.6, 0.045)
+mesh = SubResource("ArrayMesh_gcdpa")
+
+[node name="Town Guard | eye highlight" type="MeshInstance3D" parent="TorsoAndHead" unique_id=863233320]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.15, 2.96, 0.341)
+mesh = SubResource("ArrayMesh_jxnr0")
+
+[node name="Town Guard | eye highlight_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1265608526]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.15, 2.96, 0.341)
+mesh = SubResource("ArrayMesh_pfbwa")
+
+[node name="Town Guard | eyebrow" type="MeshInstance3D" parent="TorsoAndHead" unique_id=668044122]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.15, 3.055, 0.36)
+mesh = SubResource("ArrayMesh_qf0o5")
+
+[node name="Town Guard | eyebrow_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=418495802]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.15, 3.055, 0.36)
+mesh = SubResource("ArrayMesh_htjmx")
+
+[node name="Town Guard | hair back" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1006681821]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.96, -0.22)
+mesh = SubResource("ArrayMesh_ti4tf")
+
+[node name="Town Guard | helmet brow" type="MeshInstance3D" parent="TorsoAndHead" unique_id=754537993]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.17, 0.385)
+mesh = SubResource("ArrayMesh_snqnj")
+
+[node name="Town Guard | helmet center ridge" type="MeshInstance3D" parent="TorsoAndHead" unique_id=39290125]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.28, 0.4)
+mesh = SubResource("ArrayMesh_7s6kp")
+
+[node name="Town Guard | helmet crown" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1185149269]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.27, 0.015)
+mesh = SubResource("ArrayMesh_7p265")
+
+[node name="Town Guard | helmet left cheek guard" type="MeshInstance3D" parent="TorsoAndHead" unique_id=215452007]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.37, 2.99, 0.05)
+mesh = SubResource("ArrayMesh_xymqg")
+
+[node name="Town Guard | helmet right cheek guard" type="MeshInstance3D" parent="TorsoAndHead" unique_id=397327009]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.37, 2.99, 0.05)
+mesh = SubResource("ArrayMesh_aiujq")
+
+[node name="Town Guard | helmet top tier" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1804389727]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 3.4, -0.015)
+mesh = SubResource("ArrayMesh_hnxwj")
+
+[node name="Town Guard | left hair side" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1751745415]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.34, 2.88, 0)
+mesh = SubResource("ArrayMesh_8ls46")
+
+[node name="Town Guard | long red tabard" type="MeshInstance3D" parent="TorsoAndHead" unique_id=227783641]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.25, 0.005)
+mesh = SubResource("ArrayMesh_umvfn")
+
+[node name="Town Guard | neck" type="MeshInstance3D" parent="TorsoAndHead" unique_id=513096242]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.54, 0)
+mesh = SubResource("ArrayMesh_sph06")
+
+[node name="Town Guard | pixel eye" type="MeshInstance3D" parent="TorsoAndHead" unique_id=422416235]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.15, 2.96, 0.36)
+mesh = SubResource("ArrayMesh_6u2hu")
+
+[node name="Town Guard | pixel eye_001" type="MeshInstance3D" parent="TorsoAndHead" unique_id=43254511]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.15, 2.96, 0.36)
+mesh = SubResource("ArrayMesh_1h7kh")
+
+[node name="Town Guard | red tabard torso" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1399738903]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.91, 0.035)
+mesh = SubResource("ArrayMesh_555ij")
+
+[node name="Town Guard | right hair side" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1840561075]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.34, 2.88, 0)
+mesh = SubResource("ArrayMesh_8cvf8")
+
+[node name="Town Guard | square face" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1249414140]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 2.91, 0.02)
+mesh = SubResource("ArrayMesh_8gtaf")
+
+[node name="Town Guard | strap clasp" type="MeshInstance3D" parent="TorsoAndHead" unique_id=571484051]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0.12, 1.94, 0.365)
+mesh = SubResource("ArrayMesh_eq1xp")
+
+[node name="Town Guard | tabard cross horizontal" type="MeshInstance3D" parent="TorsoAndHead" unique_id=211968631]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.29, 0.275)
+mesh = SubResource("ArrayMesh_5761o")
+
+[node name="Town Guard | tabard cross vertical" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1118595580]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.25, 0.273)
+mesh = SubResource("ArrayMesh_rdodo")
+
+[node name="Town Guard | tabard front panel" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1738695624]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.25, 0.245)
+mesh = SubResource("ArrayMesh_vk6u2")
+
+[node name="Town Guard | tabard hem" type="MeshInstance3D" parent="TorsoAndHead" unique_id=1446722914]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 0.88, 0.255)
+mesh = SubResource("ArrayMesh_hbfyp")
+
+[node name="Town Guard | under torso" type="MeshInstance3D" parent="TorsoAndHead" unique_id=19461699]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.87, 0)
+mesh = SubResource("ArrayMesh_jxtg5")
+
+[node name="Town Guard | waist belt" type="MeshInstance3D" parent="TorsoAndHead" unique_id=502321454]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 1.6, 0.275)
+mesh = SubResource("ArrayMesh_ibbm0")
+
+[node name="LegPivotL" type="Node3D" parent="." unique_id=609581309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2, 1.22, 0)
+
+[node name="Town Guard | left boot" type="MeshInstance3D" parent="LegPivotL" unique_id=1725564707]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -1.02, 0.04)
+mesh = SubResource("ArrayMesh_2ewws")
+
+[node name="Town Guard | left knee plate" type="MeshInstance3D" parent="LegPivotL" unique_id=816660044]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.54, 0.225)
+mesh = SubResource("ArrayMesh_vir4r")
+
+[node name="Town Guard | left shin greave" type="MeshInstance3D" parent="LegPivotL" unique_id=1295622989]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.73, 0.015)
+mesh = SubResource("ArrayMesh_ct213")
+
+[node name="Town Guard | left upper leg" type="MeshInstance3D" parent="LegPivotL" unique_id=1396686496]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.24000001, -0.015)
+mesh = SubResource("ArrayMesh_3v0a4")
+
+[node name="LegPivotR" type="Node3D" parent="." unique_id=142836715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2, 1.22, 0)
+
+[node name="Town Guard | right boot" type="MeshInstance3D" parent="LegPivotR" unique_id=1377329493]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -1.02, 0.04)
+mesh = SubResource("ArrayMesh_36s4n")
+
+[node name="Town Guard | right knee plate" type="MeshInstance3D" parent="LegPivotR" unique_id=1203325119]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.54, 0.225)
+mesh = SubResource("ArrayMesh_rjx4e")
+
+[node name="Town Guard | right shin greave" type="MeshInstance3D" parent="LegPivotR" unique_id=170653345]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.73, 0.015)
+mesh = SubResource("ArrayMesh_djfxx")
+
+[node name="Town Guard | right upper leg" type="MeshInstance3D" parent="LegPivotR" unique_id=322427033]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.24000001, -0.015)
+mesh = SubResource("ArrayMesh_gyaov")
+
+[node name="ArmPivotL" type="Node3D" parent="." unique_id=2133996168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.56, 2.35, 0)
+
+[node name="Town Guard | left bracer edge" type="MeshInstance3D" parent="ArmPivotL" unique_id=597076076]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.64999986, 0.265)
+mesh = SubResource("ArrayMesh_nt2oi")
+
+[node name="Town Guard | left forearm bracer" type="MeshInstance3D" parent="ArmPivotL" unique_id=363347521]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.64999986, 0.035)
+mesh = SubResource("ArrayMesh_cxoxa")
+
+[node name="Town Guard | left glove" type="MeshInstance3D" parent="ArmPivotL" unique_id=892217600]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.8799999, 0.03)
+mesh = SubResource("ArrayMesh_sjl7x")
+
+[node name="Town Guard | left red sleeve" type="MeshInstance3D" parent="ArmPivotL" unique_id=1579945048]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.3699999, 0)
+mesh = SubResource("ArrayMesh_dbfqe")
+
+[node name="Town Guard | left shoulder plate" type="MeshInstance3D" parent="ArmPivotL" unique_id=1029022755]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.029999971, 0.035)
+mesh = SubResource("ArrayMesh_uekli")
+
+[node name="Town Guard | left upper arm armor" type="MeshInstance3D" parent="ArmPivotL" unique_id=246318559]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.16999984, 0.015)
+mesh = SubResource("ArrayMesh_epucr")
+
+[node name="Town Guard | spear grip wrap" type="MeshInstance3D" parent="ArmPivotL" unique_id=1607138914]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.27999997, -0.79999995, 0.08)
+mesh = SubResource("ArrayMesh_n0nou")
+
+[node name="Town Guard | spear steel point" type="MeshInstance3D" parent="ArmPivotL" unique_id=740318924]
+transform = Transform3D(70.71068, -70.710686, -1.1920929e-05, 2.9802322e-06, -1.1920929e-05, 100, -70.71068, -70.71067, 0, -0.27999997, 1.8299999, 0.08)
+mesh = SubResource("ArrayMesh_gw13q")
+
+[node name="Town Guard | spear wooden shaft" type="MeshInstance3D" parent="ArmPivotL" unique_id=707107214]
+transform = Transform3D(-100, 1.509958e-05, -1.4210855e-12, 0, 5.9604645e-06, 100, 1.509958e-05, 100, -1.1920929e-05, -0.27999997, -0.30499983, 0.08)
+mesh = SubResource("ArrayMesh_gyxbl")
+
+[node name="Town Guard | spearhead collar" type="MeshInstance3D" parent="ArmPivotL" unique_id=572379796]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, -0.27999997, 1.5700002, 0.08)
+mesh = SubResource("ArrayMesh_04xiw")
+
+[node name="ArmPivotR" type="Node3D" parent="." unique_id=1611921170]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.56, 2.35, 0)
+
+[node name="Town Guard | right bracer edge" type="MeshInstance3D" parent="ArmPivotR" unique_id=456899523]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.64999986, 0.265)
+mesh = SubResource("ArrayMesh_boxao")
+
+[node name="Town Guard | right forearm bracer" type="MeshInstance3D" parent="ArmPivotR" unique_id=356248662]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.64999986, 0.035)
+mesh = SubResource("ArrayMesh_b76mo")
+
+[node name="Town Guard | right glove" type="MeshInstance3D" parent="ArmPivotR" unique_id=692414940]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.8799999, 0.03)
+mesh = SubResource("ArrayMesh_t77cc")
+
+[node name="Town Guard | right red sleeve" type="MeshInstance3D" parent="ArmPivotR" unique_id=636496564]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.3699999, 0)
+mesh = SubResource("ArrayMesh_2ssyy")
+
+[node name="Town Guard | right shoulder plate" type="MeshInstance3D" parent="ArmPivotR" unique_id=1363593795]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.029999971, 0.035)
+mesh = SubResource("ArrayMesh_kqsmd")
+
+[node name="Town Guard | right upper arm armor" type="MeshInstance3D" parent="ArmPivotR" unique_id=1894878841]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, -0.16999984, 0.015)
+mesh = SubResource("ArrayMesh_jmq0w")

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c8q1n4e6jy3rt"]
+
+[ext_resource type="Script" path="res://scripts/interrogation/interrogation_controller.gd" id="1_interrogation_ctrl"]
+
+[node name="InterrogationRoom" type="Node3D"]
+script = ExtResource("1_interrogation_ctrl")

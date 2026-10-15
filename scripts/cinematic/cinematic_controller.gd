@@ -1,0 +1,1071 @@
+class_name CinematicController
+extends Node3D
+
+## CinematicController — Unified Narrative & 3D Cinematic Director
+## Integrates the Illustrated Prologue (Letter, Mountain Journey, Village Ridge, Aftermath)
+## with the real-time 3D Cinematic (Mountain Overlook Ledge Pose, Genuine Hollow Creek Village,
+## and 3D Stone Room Murder Aftermath) for HOLLOWCREEK: THE LAST CROSSING.
+##
+## Sequence Structure:
+## Shot 1 (0.0s – 6.0s):  Illustrated Sealed Letter (Chapter 01 / The Sealed Order)
+## Shot 2 (6.0s – 12.0s): Illustrated Mountain Journey (Chapter 02 / The Long Road)
+## Shot 3 (12.0s – 22.0s): 3D Village Reveal (Exact Overlook Ledge Pose & Hollow Creek Panorama)
+## Shot 4 (22.0s – 32.0s): 4A (22–25.5s) Illustrated Bridge + 4B (25.5–32s) 3D Murder Aftermath
+## Shot 5 (32.0s – 36.5s): Title Card ("HOLLOWCREEK: THE LAST CROSSING") -> Enter Village
+##
+## Controls:
+## - [ESC] / Skip Button: Skips sequence immediately to playable town gameplay.
+## - [SPACE] / [ENTER] / [E] / Continue Button: Advances smoothly to next narrative stage.
+
+signal cinematic_completed
+signal shot_changed(shot_index: int)
+
+@export var auto_play: bool = true
+@export var gameplay_scene_path: String = "res://scenes/town.tscn"
+
+const FONT_CITADEL: Font = preload("res://assets/fonts/citadel_of_blackrose.ttf")
+
+# --- Shot durations ---
+const DURATION_SHOT_1: float = 6.0   # Illustrated Letter
+const DURATION_SHOT_2: float = 6.0   # Illustrated Mountain Journey
+const DURATION_SHOT_3: float = 10.0  # 3D Village Reveal
+const DURATION_SHOT_4: float = 10.0  # Murder Aftermath (Illustrated Bridge + 3D)
+const DURATION_TITLE: float = 4.5    # Title Card
+const DURATION_TOTAL: float = 36.5   # Total sequence length
+
+# --- Legacy aliases for test suite compatibility ---
+var DURATION_SHOT1: float = 12.0
+var DURATION_SHOT2: float = 6.0
+var DURATION_SHOT3: float = 10.0
+var DURATION_SHOT4: float = 10.0
+
+# Narrative Copy definitions matching the Illustrated Slideshow
+const SHOT_COPY := [
+	{
+		"chapter": "01   /   THE SEALED ORDER",
+		"title": "A letter with one name",
+		"caption": "One instruction. One target. Reach the village before dawn—and make sure they never leave it."
+	},
+	{
+		"chapter": "02   /   THE LONG ROAD",
+		"title": "Across the stone valley",
+		"caption": "Grey peaks closed in on either side. With every mile, the village—and the order—came closer."
+	},
+	{
+		"chapter": "03   /   THE VILLAGE BELOW",
+		"title": "A quiet place to disappear",
+		"caption": "From the ridge, the village looked peaceful. Somewhere below was the person named in the letter."
+	},
+	{
+		"chapter": "04   /   AFTER DARK",
+		"title": "The deed is done",
+		"caption": "Under the moon, the last sound faded. The road ahead would be harder to leave than the one behind."
+	}
+]
+
+# 3D Stage nodes
+var stage1_contract: Node3D
+var stage2_journey: Node3D
+var stage3_reveal: Node3D
+var stage4_aftermath: Node3D
+
+# Cameras
+var active_camera: Camera3D
+var cam_shot1: Camera3D
+var cam_shot2_rear: Camera3D
+var cam_shot2_wide: Camera3D
+var cam_shot3: Camera3D
+var cam_shot4_knife: Camera3D
+var cam_shot4_medium: Camera3D
+
+# Props and characters for 3D animation
+var letter_prop: Node3D
+var contractor_arm: Node3D
+var mercenary_hand_s1: Node3D
+var mercenary_s2: Node3D
+var dagger_prop: Node3D
+var candle_light: OmniLight3D
+
+# Lighting references
+var _pass_fill_light: OmniLight3D
+var _stage3_rim_light: OmniLight3D
+var _aftermath_key_light: OmniLight3D
+var _aftermath_fill_light: OmniLight3D
+
+# 2D Illustrated Slideshow UI Nodes
+var hud_layer: CanvasLayer
+var illustration_root: Control
+var shot_letter: TextureRect
+var shot_travel: TextureRect
+var shot_village_view: TextureRect
+var shot_murder: TextureRect
+var shade: ColorRect
+
+# Top bar UI
+var top_bar: ColorRect
+var brand_label: Label
+var counter_label: Label
+var continue_button: Button
+var skip_button: Button
+
+# Bottom card UI
+var bottom_bar: Panel
+var chapter_label: Label
+var card_title_label: Label
+var caption_label: Label
+
+# Cinematic letterbox bars
+var _bar_top: ColorRect
+var _bar_bottom: ColorRect
+
+# Fade & Title elements
+var fade_rect: ColorRect
+var title_container: Control
+var title_bg: ColorRect
+var title_label: Label
+var subtitle_label: Label
+var skip_hint: Label
+
+# Audio director
+var audio_director: CinematicAudio
+
+# Timeline runtime state
+var total_elapsed: float = 0.0
+var current_shot: int = 1
+var shot_elapsed: float = 0.0
+var is_transitioning: bool = false
+var is_skipped: bool = false
+var is_playing: bool = false
+
+# Input debounce & tween tracking
+var _last_advance_msec: int = 0
+var _active_tweens: Array[Tween] = []
+
+func _ready() -> void:
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	_setup_audio()
+	_setup_stages()
+	_setup_cameras()
+	_setup_ui()
+
+	if auto_play:
+		start_cinematic()
+
+# ===========================================================================
+# AUDIO SETUP
+# ===========================================================================
+func _setup_audio() -> void:
+	audio_director = CinematicAudio.new()
+	audio_director.name = "CinematicAudioDirector"
+	add_child(audio_director)
+
+# ===========================================================================
+# UI & ILLUSTRATED SLIDESHOW SETUP
+# ===========================================================================
+func _setup_ui() -> void:
+	hud_layer = CanvasLayer.new()
+	hud_layer.name = "CinematicHUD"
+	hud_layer.layer = 10
+	add_child(hud_layer)
+
+	# -----------------------------------------------------------------------
+	# 1. 2D Illustrated Artwork Layer
+	# -----------------------------------------------------------------------
+	illustration_root = Control.new()
+	illustration_root.name = "IllustrationRoot"
+	illustration_root.set_anchors_preset(Control.PRESET_FULL_RECT)
+	illustration_root.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	hud_layer.add_child(illustration_root)
+
+	var tex_letter: Texture2D = load("res://intro_cutscene/assets/letter.png")
+	var tex_travel: Texture2D = load("res://intro_cutscene/assets/travel.png")
+	var tex_village: Texture2D = load("res://intro_cutscene/assets/village_view.png")
+	var tex_murder: Texture2D = load("res://intro_cutscene/assets/murder.png")
+
+	shot_letter = _create_art_rect("LetterImage", tex_letter)
+	shot_travel = _create_art_rect("TravelImage", tex_travel)
+	shot_village_view = _create_art_rect("VillageImage", tex_village)
+	shot_murder = _create_art_rect("AftermathImage", tex_murder)
+
+	# Vignette / subtle atmosphere shade
+	shade = ColorRect.new()
+	shade.name = "Shade"
+	shade.set_anchors_preset(Control.PRESET_FULL_RECT)
+	shade.color = Color(0.015, 0.02, 0.035, 0.24)
+	shade.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	illustration_root.add_child(shade)
+
+	# -----------------------------------------------------------------------
+	# 2. Cinematic Letterbox Bars
+	# -----------------------------------------------------------------------
+	_bar_top = ColorRect.new()
+	_bar_top.name = "LetterboxTop"
+	_bar_top.anchor_left = 0.0; _bar_top.anchor_right = 1.0
+	_bar_top.anchor_top = 0.0; _bar_top.anchor_bottom = 0.0
+	_bar_top.offset_bottom = 56.0
+	_bar_top.color = Color(0.012, 0.014, 0.02, 0.94)
+	_bar_top.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_bar_top.z_index = 8
+	hud_layer.add_child(_bar_top)
+
+	_bar_bottom = ColorRect.new()
+	_bar_bottom.name = "LetterboxBottom"
+	_bar_bottom.anchor_left = 0.0; _bar_bottom.anchor_right = 1.0
+	_bar_bottom.anchor_top = 1.0; _bar_bottom.anchor_bottom = 1.0
+	_bar_bottom.offset_top = -56.0
+	_bar_bottom.color = Color(0.012, 0.014, 0.02, 0.94)
+	_bar_bottom.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_bar_bottom.z_index = 8
+	hud_layer.add_child(_bar_bottom)
+
+	# -----------------------------------------------------------------------
+	# 3. Top Navigation & Branding Bar
+	# -----------------------------------------------------------------------
+	top_bar = ColorRect.new()
+	top_bar.name = "TopBar"
+	top_bar.anchor_left = 0.0; top_bar.anchor_right = 1.0
+	top_bar.anchor_top = 0.0; top_bar.anchor_bottom = 0.0
+	top_bar.offset_bottom = 60.0
+	top_bar.color = Color(0.015, 0.018, 0.03, 0.0) # Transparent over top letterbox
+	top_bar.z_index = 10
+	hud_layer.add_child(top_bar)
+
+	brand_label = Label.new()
+	brand_label.name = "Brand"
+	brand_label.position = Vector2(48.0, 18.0)
+	brand_label.text = "HOLLOWCREEK: THE LAST CROSSING   ·   PROLOGUE"
+	brand_label.add_theme_font_size_override("font_size", 13)
+	brand_label.add_theme_color_override("font_color", Color(0.88, 0.69, 0.45, 0.95))
+	top_bar.add_child(brand_label)
+
+	counter_label = Label.new()
+	counter_label.name = "Counter"
+	counter_label.set_anchors_preset(Control.PRESET_TOP_RIGHT)
+	counter_label.position = Vector2(-555.0, 18.0)
+	counter_label.size = Vector2(117.0, 26.0)
+	counter_label.text = "01   /   04"
+	counter_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	counter_label.add_theme_font_size_override("font_size", 13)
+	counter_label.add_theme_color_override("font_color", Color(0.78, 0.80, 0.85, 0.90))
+	top_bar.add_child(counter_label)
+
+	# Continue Button
+	continue_button = Button.new()
+	continue_button.name = "ContinueButton"
+	continue_button.set_anchors_preset(Control.PRESET_TOP_RIGHT)
+	continue_button.position = Vector2(-418.0, 12.0)
+	continue_button.size = Vector2(185.0, 36.0)
+	continue_button.text = "CONTINUE   →"
+	continue_button.add_theme_font_size_override("font_size", 12)
+	continue_button.add_theme_color_override("font_color", Color(0.12, 0.13, 0.17))
+	continue_button.add_theme_color_override("font_hover_color", Color(0.05, 0.05, 0.08))
+	continue_button.focus_mode = Control.FOCUS_NONE
+
+	var btn_style := StyleBoxFlat.new()
+	btn_style.bg_color = Color(0.86, 0.65, 0.39, 1.0)
+	btn_style.border_color = Color(0.97, 0.78, 0.51, 1.0)
+	btn_style.set_border_width_all(1)
+	btn_style.set_corner_radius_all(6)
+	btn_style.content_margin_left = 16.0; btn_style.content_margin_right = 16.0
+	btn_style.content_margin_top = 6.0; btn_style.content_margin_bottom = 6.0
+	continue_button.add_theme_stylebox_override("normal", btn_style)
+
+	var btn_hover := StyleBoxFlat.new()
+	btn_hover.bg_color = Color(0.95, 0.75, 0.49, 1.0)
+	btn_hover.border_color = Color(1.0, 0.86, 0.63, 1.0)
+	btn_hover.set_border_width_all(1)
+	btn_hover.set_corner_radius_all(6)
+	btn_hover.content_margin_left = 16.0; btn_hover.content_margin_right = 16.0
+	btn_hover.content_margin_top = 6.0; btn_hover.content_margin_bottom = 6.0
+	continue_button.add_theme_stylebox_override("hover", btn_hover)
+	continue_button.pressed.connect(_on_continue_pressed)
+	top_bar.add_child(continue_button)
+
+	# Skip Button
+	skip_button = Button.new()
+	skip_button.name = "SkipButton"
+	skip_button.set_anchors_preset(Control.PRESET_TOP_RIGHT)
+	skip_button.position = Vector2(-222.0, 12.0)
+	skip_button.size = Vector2(180.0, 36.0)
+	skip_button.flat = true
+	skip_button.text = "ESC   ·   SKIP INTRO"
+	skip_button.add_theme_font_size_override("font_size", 12)
+	skip_button.add_theme_color_override("font_color", Color(0.78, 0.80, 0.85, 0.80))
+	skip_button.add_theme_color_override("font_hover_color", Color(1.0, 1.0, 1.0, 1.0))
+	skip_button.focus_mode = Control.FOCUS_NONE
+	skip_button.pressed.connect(skip_cinematic)
+	top_bar.add_child(skip_button)
+
+	# Legacy skip hint for test compatibility
+	skip_hint = Label.new()
+	skip_hint.name = "SkipHint"
+	skip_hint.set_anchors_preset(Control.PRESET_BOTTOM_RIGHT)
+	skip_hint.position = Vector2(-220, -78)
+	skip_hint.text = "Press [ESC] to Skip"
+	skip_hint.add_theme_font_size_override("font_size", 13)
+	skip_hint.add_theme_color_override("font_color", Color(0.70, 0.68, 0.65, 0.45))
+	skip_hint.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	skip_hint.z_index = 10
+	hud_layer.add_child(skip_hint)
+
+	# -----------------------------------------------------------------------
+	# 4. Bottom Narrative Story Card (Panel matching CaptionCardStyle)
+	# -----------------------------------------------------------------------
+	bottom_bar = Panel.new()
+	bottom_bar.name = "BottomBar"
+	bottom_bar.position = Vector2(42.0, 78.0)
+	bottom_bar.size = Vector2(558.0, 186.0)
+	bottom_bar.z_index = 10
+	bottom_bar.mouse_filter = Control.MOUSE_FILTER_IGNORE
+
+	var card_style := StyleBoxFlat.new()
+	card_style.bg_color = Color(0.015, 0.022, 0.04, 0.88)
+	card_style.border_color = Color(0.54, 0.48, 0.37, 0.75)
+	card_style.set_border_width_all(1)
+	card_style.set_corner_radius_all(12)
+	bottom_bar.add_theme_stylebox_override("panel", card_style)
+	hud_layer.add_child(bottom_bar)
+
+	chapter_label = Label.new()
+	chapter_label.name = "Chapter"
+	chapter_label.position = Vector2(22.0, 15.0)
+	chapter_label.size = Vector2(493.0, 22.0)
+	chapter_label.text = "01   /   THE SEALED ORDER"
+	chapter_label.add_theme_font_size_override("font_size", 12)
+	chapter_label.add_theme_color_override("font_color", Color(0.90, 0.70, 0.45))
+	bottom_bar.add_child(chapter_label)
+
+	card_title_label = Label.new()
+	card_title_label.name = "Title"
+	card_title_label.position = Vector2(22.0, 42.0)
+	card_title_label.size = Vector2(493.0, 38.0)
+	card_title_label.text = "A letter with one name"
+	card_title_label.add_theme_font_override("font", FONT_CITADEL)
+	card_title_label.add_theme_font_size_override("font_size", 30)
+	card_title_label.add_theme_color_override("font_color", Color(0.96, 0.95, 0.91))
+	bottom_bar.add_child(card_title_label)
+
+	caption_label = Label.new()
+	caption_label.name = "Caption"
+	caption_label.position = Vector2(22.0, 88.0)
+	caption_label.size = Vector2(505.0, 82.0)
+	caption_label.text = "One instruction. One target. Reach the village before dawn—and make sure they never leave it."
+	caption_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	caption_label.add_theme_font_size_override("font_size", 15)
+	caption_label.add_theme_color_override("font_color", Color(0.76, 0.78, 0.82))
+	bottom_bar.add_child(caption_label)
+
+	# -----------------------------------------------------------------------
+	# 5. Full-Screen Fade Overlay
+	# -----------------------------------------------------------------------
+	fade_rect = ColorRect.new()
+	fade_rect.name = "FadeOverlay"
+	fade_rect.set_anchors_preset(Control.PRESET_FULL_RECT)
+	fade_rect.color = Color(0, 0, 0, 1.0) # Starts black
+	fade_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	fade_rect.z_index = 15
+	hud_layer.add_child(fade_rect)
+
+	# -----------------------------------------------------------------------
+	# 6. Title Card Container (Solid black with restrained medieval title)
+	# -----------------------------------------------------------------------
+	title_container = Control.new()
+	title_container.name = "TitleCardContainer"
+	title_container.set_anchors_preset(Control.PRESET_FULL_RECT)
+	title_container.modulate = Color(1, 1, 1, 0.0)
+	title_container.z_index = 20
+	hud_layer.add_child(title_container)
+
+	title_bg = ColorRect.new()
+	title_bg.name = "TitleBackground"
+	title_bg.set_anchors_preset(Control.PRESET_FULL_RECT)
+	title_bg.color = Color(0.015, 0.018, 0.024, 1.0)
+	title_bg.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	title_container.add_child(title_bg)
+
+	title_label = Label.new()
+	title_label.name = "TitleLabel"
+	title_label.text = "HOLLOWCREEK: THE LAST CROSSING"
+	title_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	title_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	title_label.anchor_left = 0.5; title_label.anchor_right = 0.5
+	title_label.anchor_top = 0.5; title_label.anchor_bottom = 0.5
+	title_label.offset_left = -620; title_label.offset_right = 620
+	title_label.offset_top = -65; title_label.offset_bottom = 35
+	title_label.add_theme_font_override("font", FONT_CITADEL)
+	title_label.add_theme_font_size_override("font_size", 64)
+	title_label.add_theme_color_override("font_color", Color(0.96, 0.92, 0.82))
+	title_label.add_theme_color_override("font_shadow_color", Color(0.45, 0.05, 0.08, 0.95))
+	title_label.add_theme_constant_override("shadow_offset_x", 3)
+	title_label.add_theme_constant_override("shadow_offset_y", 3)
+	title_label.add_theme_color_override("font_outline_color", Color(0.08, 0.02, 0.02, 0.95))
+	title_label.add_theme_constant_override("outline_size", 4)
+	title_container.add_child(title_label)
+
+	subtitle_label = Label.new()
+	subtitle_label.name = "SubtitleLabel"
+	subtitle_label.text = "— A Medieval Murder Mystery —"
+	subtitle_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	subtitle_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	subtitle_label.anchor_left = 0.5; subtitle_label.anchor_right = 0.5
+	subtitle_label.anchor_top = 0.5; subtitle_label.anchor_bottom = 0.5
+	subtitle_label.offset_left = -500; subtitle_label.offset_right = 500
+	subtitle_label.offset_top = 40; subtitle_label.offset_bottom = 90
+	subtitle_label.add_theme_font_override("font", FONT_CITADEL)
+	subtitle_label.add_theme_font_size_override("font_size", 28)
+	subtitle_label.add_theme_color_override("font_color", Color(0.80, 0.74, 0.62, 0.88))
+	subtitle_label.add_theme_color_override("font_shadow_color", Color(0.25, 0.04, 0.05, 0.75))
+	subtitle_label.add_theme_constant_override("shadow_offset_x", 2)
+	subtitle_label.add_theme_constant_override("shadow_offset_y", 2)
+	title_container.add_child(subtitle_label)
+
+func _create_art_rect(r_name: String, tex: Texture2D) -> TextureRect:
+	var tr := TextureRect.new()
+	tr.name = r_name
+	tr.set_anchors_preset(Control.PRESET_FULL_RECT)
+	tr.texture = tex
+	tr.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	tr.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	tr.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	tr.visible = false
+	tr.modulate = Color(1, 1, 1, 0.0)
+	illustration_root.add_child(tr)
+	return tr
+
+# ===========================================================================
+# 3D STAGES SETUP
+# ===========================================================================
+func _setup_stages() -> void:
+	# Load actual town world in background for Shot 3 village reveal
+	var town_scene: PackedScene = load("res://scenes/town.tscn")
+	if town_scene:
+		var town_bg: Node = town_scene.instantiate()
+		town_bg.name = "BackgroundTown"
+		var p = town_bg.get_node_or_null("Player")
+		if p: p.queue_free()
+		var ui = town_bg.get_node_or_null("DialogueUI")
+		if ui: ui.queue_free()
+		var music = town_bg.get_node_or_null("GameplayMusic")
+		if music: music.queue_free()
+		add_child(town_bg)
+
+	_build_stage1_contract()
+	_build_stage2_journey()
+	_build_stage3_reveal()
+	_build_stage4_aftermath()
+
+func _build_stage1_contract() -> void:
+	stage1_contract = Node3D.new()
+	stage1_contract.name = "Stage1_TheContract"
+	stage1_contract.position = Vector3(0, 60.0, 0)
+	add_child(stage1_contract)
+
+	var mat_stone := CinematicCharacters.create_material(Color(0.26, 0.24, 0.23))
+	var mat_stone_dark := CinematicCharacters.create_material(Color(0.18, 0.16, 0.15))
+	var mat_wood := CinematicCharacters.create_material(Color(0.22, 0.15, 0.10))
+	var mat_wood_dark := CinematicCharacters.create_material(Color(0.15, 0.10, 0.07))
+
+	_create_box(stage1_contract, "Floor", Vector3(8.0, 0.2, 8.0), Vector3(0, -0.1, 0), mat_stone)
+	_create_box(stage1_contract, "Ceiling", Vector3(8.0, 0.15, 8.0), Vector3(0, 4.0, 0), mat_stone_dark)
+	_create_box(stage1_contract, "WallBack", Vector3(8.0, 4.0, 0.3), Vector3(0, 2.0, -4.0), mat_stone)
+	_create_box(stage1_contract, "WallLeft", Vector3(0.3, 4.0, 8.0), Vector3(-4.0, 2.0, 0), mat_stone)
+	_create_box(stage1_contract, "WallRight", Vector3(0.3, 4.0, 8.0), Vector3(4.0, 2.0, 0), mat_stone)
+	_create_box(stage1_contract, "WallFront", Vector3(8.0, 4.0, 0.3), Vector3(0, 2.0, 4.0), mat_stone_dark)
+
+	_create_box(stage1_contract, "TableTop", Vector3(1.8, 0.08, 1.1), Vector3(0, 0.95, 0), mat_wood)
+	_create_box(stage1_contract, "Leg1", Vector3(0.12, 0.95, 0.12), Vector3(-0.75, 0.475, -0.42), mat_wood_dark)
+	_create_box(stage1_contract, "Leg2", Vector3(0.12, 0.95, 0.12), Vector3(0.75, 0.475, -0.42), mat_wood_dark)
+	_create_box(stage1_contract, "Leg3", Vector3(0.12, 0.95, 0.12), Vector3(-0.75, 0.475, 0.42), mat_wood_dark)
+	_create_box(stage1_contract, "Leg4", Vector3(0.12, 0.95, 0.12), Vector3(0.75, 0.475, 0.42), mat_wood_dark)
+
+	_create_cylinder(stage1_contract, "Candle", 0.04, 0.04, 0.22, Vector3(-0.10, 1.10, 0.05), CinematicCharacters.create_material(Color(0.88, 0.82, 0.68)))
+	candle_light = OmniLight3D.new()
+	candle_light.name = "CandleLight"
+	candle_light.position = Vector3(-0.10, 1.30, 0.05)
+	candle_light.light_color = Color(1.0, 0.74, 0.35)
+	candle_light.light_energy = 3.2
+	candle_light.omni_range = 5.5
+	candle_light.shadow_enabled = true
+	stage1_contract.add_child(candle_light)
+
+	var contractor := CinematicCharacters.build_contractor()
+	contractor.position = Vector3(0, 0, 0.75)
+	contractor.rotation_degrees.y = 180.0
+	stage1_contract.add_child(contractor)
+	contractor_arm = contractor.get_node("ArmPivotR")
+
+	var mercenary_s1 := CinematicCharacters.build_mercenary(false)
+	mercenary_s1.position = Vector3(0, 0, -0.75)
+	mercenary_s1.rotation_degrees.y = 0.0
+	stage1_contract.add_child(mercenary_s1)
+	mercenary_hand_s1 = mercenary_s1.get_node("ArmPivotR")
+
+	letter_prop = CinematicCharacters.build_letter_prop()
+	letter_prop.position = Vector3(-0.35, 1.05, 0.35)
+	letter_prop.rotation_degrees = Vector3(16.0, -8.0, 4.0)
+	stage1_contract.add_child(letter_prop)
+
+func _build_stage2_journey() -> void:
+	stage2_journey = Node3D.new()
+	stage2_journey.name = "Stage2_MountainJourney"
+	stage2_journey.position = Vector3(0, 10.0, -50.0)
+	add_child(stage2_journey)
+
+	var mat_rock := CinematicCharacters.create_material(Color(0.42, 0.40, 0.38))
+	var mat_crag := CinematicCharacters.create_material(Color(0.32, 0.30, 0.28))
+	var mat_gravel := CinematicCharacters.create_material(Color(0.46, 0.42, 0.38))
+
+	_create_box(stage2_journey, "PassFloor", Vector3(6.0, 0.8, 36.0), Vector3(0, -0.4, 0), mat_rock)
+	_create_box(stage2_journey, "GravelSurface", Vector3(3.4, 0.06, 36.0), Vector3(0, 0.03, 0), mat_gravel)
+	_create_box(stage2_journey, "CliffLeft", Vector3(4.0, 14.0, 36.0), Vector3(-5.0, 6.0, 0), mat_crag)
+	_create_box(stage2_journey, "CliffRight", Vector3(3.5, 10.0, 36.0), Vector3(5.2, 4.0, 0), mat_crag)
+
+	mercenary_s2 = CinematicCharacters.build_mercenary(false)
+	mercenary_s2.position = Vector3(0, 0, -11.0)
+	mercenary_s2.rotation_degrees.y = 180.0
+	stage2_journey.add_child(mercenary_s2)
+
+	_pass_fill_light = OmniLight3D.new()
+	_pass_fill_light.name = "PassFill"
+	_pass_fill_light.position = Vector3(0, 6.0, 0)
+	_pass_fill_light.light_color = Color(0.70, 0.75, 0.85)
+	_pass_fill_light.light_energy = 1.1
+	_pass_fill_light.omni_range = 30.0
+	stage2_journey.add_child(_pass_fill_light)
+
+func _build_stage3_reveal() -> void:
+	stage3_reveal = Node3D.new()
+	stage3_reveal.name = "Stage3_VillageReveal"
+	stage3_reveal.position = Vector3(-6.0, 16.5, -44.0)
+	add_child(stage3_reveal)
+
+	var ledge := CinematicCharacters.build_cliff_ledge()
+	stage3_reveal.add_child(ledge)
+
+	var mercenary_s3 := CinematicCharacters.build_mercenary(true)
+	mercenary_s3.position = Vector3(0, 0, 0)
+	stage3_reveal.add_child(mercenary_s3)
+
+	_stage3_rim_light = OmniLight3D.new()
+	_stage3_rim_light.name = "OverlookRimLight"
+	_stage3_rim_light.position = Vector3(-0.5, 3.0, -1.0)
+	_stage3_rim_light.light_color = Color(1.0, 0.94, 0.84)
+	_stage3_rim_light.light_energy = 3.2
+	_stage3_rim_light.omni_range = 10.0
+	_stage3_rim_light.shadow_enabled = true
+	stage3_reveal.add_child(_stage3_rim_light)
+
+func _build_stage4_aftermath() -> void:
+	stage4_aftermath = Node3D.new()
+	stage4_aftermath.name = "Stage4_TheAftermath"
+	stage4_aftermath.position = Vector3(50.0, 60.0, 0)
+	add_child(stage4_aftermath)
+
+	var mat_stone := CinematicCharacters.create_material(Color(0.28, 0.26, 0.25))
+	var mat_stone_dark := CinematicCharacters.create_material(Color(0.18, 0.17, 0.16))
+	var mat_wood := CinematicCharacters.create_material(Color(0.22, 0.15, 0.10))
+
+	_create_box(stage4_aftermath, "Floor", Vector3(8.0, 0.2, 8.0), Vector3(0, -0.1, 0), mat_stone)
+	_create_box(stage4_aftermath, "Ceiling", Vector3(8.0, 0.15, 8.0), Vector3(0, 3.8, 0), mat_stone_dark)
+	_create_box(stage4_aftermath, "WallBack", Vector3(8.0, 4.0, 0.3), Vector3(0, 2.0, -4.0), mat_stone)
+	_create_box(stage4_aftermath, "WallLeft", Vector3(0.3, 4.0, 8.0), Vector3(-4.0, 2.0, 0), mat_stone)
+	_create_box(stage4_aftermath, "WallRight", Vector3(0.3, 4.0, 8.0), Vector3(4.0, 2.0, 0), mat_stone)
+	_create_box(stage4_aftermath, "WallFront", Vector3(8.0, 4.0, 0.3), Vector3(0, 2.0, 4.0), mat_stone_dark)
+
+	# High contrast, readable, cinematic lighting
+	var window_light := OmniLight3D.new()
+	window_light.name = "WindowLight"
+	window_light.position = Vector3(2.5, 2.5, -3.2)
+	window_light.light_color = Color(0.55, 0.65, 0.85)
+	window_light.light_energy = 2.4
+	window_light.omni_range = 6.5
+	window_light.shadow_enabled = true
+	stage4_aftermath.add_child(window_light)
+
+	_create_box(stage4_aftermath, "Barrel", Vector3(0.45, 0.65, 0.45), Vector3(-1.8, 0.325, -1.5), mat_wood)
+	_aftermath_key_light = OmniLight3D.new()
+	_aftermath_key_light.name = "KeyLight"
+	_aftermath_key_light.position = Vector3(-1.8, 1.15, -1.5)
+	_aftermath_key_light.light_color = Color(1.0, 0.78, 0.45)
+	_aftermath_key_light.light_energy = 3.2
+	_aftermath_key_light.omni_range = 6.5
+	_aftermath_key_light.shadow_enabled = true
+	_aftermath_key_light.shadow_bias = 0.05
+	stage4_aftermath.add_child(_aftermath_key_light)
+
+	_aftermath_fill_light = OmniLight3D.new()
+	_aftermath_fill_light.name = "FillLight"
+	_aftermath_fill_light.position = Vector3(0.5, 2.5, 1.5)
+	_aftermath_fill_light.light_color = Color(0.50, 0.48, 0.54)
+	_aftermath_fill_light.light_energy = 0.9
+	_aftermath_fill_light.omni_range = 6.0
+	_aftermath_fill_light.shadow_enabled = false
+	stage4_aftermath.add_child(_aftermath_fill_light)
+
+	# Victim (Lord Aldric Vale) lying motionless on stone floor with blood pool
+	var victim := CinematicCharacters.build_victim_aris()
+	victim.position = Vector3(0, 0, 0.4)
+	stage4_aftermath.add_child(victim)
+
+	# Mercenary standing over the body
+	var mercenary_s4 := CinematicCharacters.build_mercenary(false)
+	mercenary_s4.position = Vector3(0, 0, -0.6)
+	mercenary_s4.rotation_degrees.y = 0.0
+	stage4_aftermath.add_child(mercenary_s4)
+
+	var m4_head: Node3D = mercenary_s4.get_node_or_null("Head")
+	var m4_hood: Node3D = mercenary_s4.get_node_or_null("Hood")
+	var m4_arm_r: Node3D = mercenary_s4.get_node_or_null("ArmPivotR")
+	if m4_head: m4_head.rotation_degrees.x = -35.0
+	if m4_hood: m4_hood.rotation_degrees.x = -35.0
+
+	# Stiletto dagger held in right hand pointing downwards
+	dagger_prop = CinematicCharacters.build_dagger_prop()
+	dagger_prop.position = Vector3(0, -0.65, 0.10)
+	if m4_arm_r:
+		m4_arm_r.rotation_degrees = Vector3(-15.0, 5.0, -10.0)
+		m4_arm_r.add_child(dagger_prop)
+
+# ===========================================================================
+# CAMERAS SETUP
+# ===========================================================================
+func _setup_cameras() -> void:
+	active_camera = Camera3D.new()
+	active_camera.name = "CinematicActiveCamera"
+	active_camera.current = true
+	active_camera.fov = 42.0
+	add_child(active_camera)
+
+	cam_shot1 = Camera3D.new(); cam_shot1.name = "CamShot1_LetterCloseup"; stage1_contract.add_child(cam_shot1)
+	cam_shot2_rear = Camera3D.new(); cam_shot2_rear.name = "CamShot2_RearTrack"; stage2_journey.add_child(cam_shot2_rear)
+	cam_shot2_wide = Camera3D.new(); cam_shot2_wide.name = "CamShot2_WideSide"; stage2_journey.add_child(cam_shot2_wide)
+	cam_shot3 = Camera3D.new(); cam_shot3.name = "CamShot3_VillageReveal"; stage3_reveal.add_child(cam_shot3)
+	cam_shot4_knife = Camera3D.new(); cam_shot4_knife.name = "CamShot4_KnifeCloseup"; stage4_aftermath.add_child(cam_shot4_knife)
+	cam_shot4_medium = Camera3D.new(); cam_shot4_medium.name = "CamShot4_MediumStanding"; stage4_aftermath.add_child(cam_shot4_medium)
+
+# ===========================================================================
+# TIMELINE CONTROL & UPDATE
+# ===========================================================================
+func start_cinematic() -> void:
+	total_elapsed = 0.0
+	is_playing = true
+	is_skipped = false
+	is_transitioning = false
+	current_shot = 1
+	shot_elapsed = 0.0
+	active_camera.make_current()
+	_apply_shot_state(1, false)
+	_update_cinematic(0.0, 0.0)
+
+func _set_shot(shot_index: int) -> void:
+	current_shot = shot_index
+	match shot_index:
+		1: total_elapsed = 0.0
+		2: total_elapsed = 6.0
+		3: total_elapsed = 12.0
+		4: total_elapsed = 22.0
+		5: total_elapsed = 32.0
+	shot_elapsed = 0.0
+	shot_changed.emit(shot_index)
+	audio_director.set_shot(shot_index)
+	active_camera.make_current()
+	_apply_shot_state(shot_index, false)
+	_update_cinematic(total_elapsed, 0.0)
+
+func _unhandled_key_input(event: InputEvent) -> void:
+	if not event is InputEventKey or not event.pressed or event.echo:
+		return
+	if event.keycode == KEY_ESCAPE:
+		skip_cinematic()
+	elif event.keycode in [KEY_SPACE, KEY_ENTER, KEY_KP_ENTER, KEY_E]:
+		advance_shot()
+
+func _on_continue_pressed() -> void:
+	advance_shot()
+
+func advance_shot() -> void:
+	if is_transitioning or is_skipped:
+		return
+
+	# Input debounce (0.35s)
+	var now_msec := Time.get_ticks_msec()
+	if now_msec - _last_advance_msec < 350:
+		return
+	_last_advance_msec = now_msec
+
+	if current_shot >= 5:
+		transition_to_game()
+		return
+
+	var next_shot := current_shot + 1
+	_set_shot(next_shot)
+
+func _process(delta: float) -> void:
+	if is_transitioning or not is_playing:
+		return
+
+	total_elapsed += delta
+
+	# Track shot boundaries
+	var prev_shot := current_shot
+	if total_elapsed < 6.0:
+		current_shot = 1
+		shot_elapsed = total_elapsed
+	elif total_elapsed < 12.0:
+		current_shot = 2
+		shot_elapsed = total_elapsed - 6.0
+	elif total_elapsed < 22.0:
+		current_shot = 3
+		shot_elapsed = total_elapsed - 12.0
+	elif total_elapsed < 32.0:
+		current_shot = 4
+		shot_elapsed = total_elapsed - 22.0
+	else:
+		current_shot = 5
+		shot_elapsed = total_elapsed - 32.0
+
+	if current_shot != prev_shot:
+		shot_changed.emit(current_shot)
+		audio_director.set_shot(current_shot)
+		_apply_shot_state(current_shot, true)
+
+	_update_cinematic(total_elapsed, delta)
+
+	if total_elapsed >= DURATION_TOTAL and not is_transitioning:
+		transition_to_game()
+
+# ---------------------------------------------------------------------------
+# UI & VISUAL STATE PER SHOT
+# ---------------------------------------------------------------------------
+func _apply_shot_state(shot_idx: int, animated: bool) -> void:
+	_kill_active_tweens()
+
+	if shot_idx <= 4:
+		var copy: Dictionary = SHOT_COPY[shot_idx - 1]
+		chapter_label.text = str(copy["chapter"])
+		card_title_label.text = str(copy["title"])
+		caption_label.text = str(copy["caption"])
+		counter_label.text = "%02d   /   04" % shot_idx
+		continue_button.text = "CONTINUE   →"
+		continue_button.visible = true
+		skip_button.visible = true
+
+		# Subtle fade in for text card
+		if animated:
+			bottom_bar.visible = true
+			bottom_bar.modulate.a = 0.0
+			var tw := create_tween()
+			tw.tween_property(bottom_bar, "modulate:a", 1.0, 0.6)
+			_active_tweens.append(tw)
+		else:
+			bottom_bar.visible = true
+			bottom_bar.modulate.a = 1.0
+
+	# Configure art layers per shot
+	match shot_idx:
+		1:
+			_show_art_layer(shot_letter, animated)
+			_hide_art_layer(shot_travel, animated)
+			_hide_art_layer(shot_murder, animated)
+			shade.visible = true
+			title_container.modulate.a = 0.0
+		2:
+			_show_art_layer(shot_travel, animated)
+			_hide_art_layer(shot_letter, animated)
+			_hide_art_layer(shot_murder, animated)
+			shade.visible = true
+			title_container.modulate.a = 0.0
+		3:
+			# Village Reveal: Crossfade into 3D world!
+			_hide_art_layer(shot_travel, animated)
+			_hide_art_layer(shot_letter, animated)
+			_hide_art_layer(shot_murder, animated)
+			shade.visible = false
+			title_container.modulate.a = 0.0
+		4:
+			# Murder Aftermath: Brief illustrated bridge then 3D
+			_show_art_layer(shot_murder, animated)
+			_hide_art_layer(shot_travel, animated)
+			_hide_art_layer(shot_letter, animated)
+			shade.visible = true
+			title_container.modulate.a = 0.0
+		5:
+			# Title Card
+			_hide_art_layer(shot_murder, animated)
+			_hide_art_layer(shot_travel, animated)
+			_hide_art_layer(shot_letter, animated)
+			bottom_bar.visible = false
+			continue_button.text = "ENTER THE VILLAGE   →"
+			skip_button.visible = false
+			counter_label.text = "BEGIN   /   THE STORY"
+
+func _show_art_layer(layer: TextureRect, animated: bool) -> void:
+	if not layer: return
+	layer.visible = true
+	layer.pivot_offset = layer.size * 0.5
+	if animated:
+		var tw := create_tween()
+		tw.tween_property(layer, "modulate:a", 1.0, 0.9)
+		_active_tweens.append(tw)
+	else:
+		layer.modulate.a = 1.0
+
+func _hide_art_layer(layer: TextureRect, animated: bool) -> void:
+	if not layer or not layer.visible: return
+	if animated:
+		var tw := create_tween()
+		tw.tween_property(layer, "modulate:a", 0.0, 0.8)
+		tw.tween_callback(func() -> void: layer.visible = false)
+		_active_tweens.append(tw)
+	else:
+		layer.modulate.a = 0.0
+		layer.visible = false
+
+func _kill_active_tweens() -> void:
+	for tw in _active_tweens:
+		if tw and tw.is_valid():
+			tw.kill()
+	_active_tweens.clear()
+
+# ===========================================================================
+# DETERMINISTIC FRAME UPDATE
+# ===========================================================================
+func _update_cinematic(t: float, delta: float) -> void:
+	if not active_camera.current:
+		active_camera.make_current()
+
+	# -----------------------------------------------------------------------
+	# 1. FADE & TITLE EVALUATION
+	# -----------------------------------------------------------------------
+	fade_rect.color.a = _compute_fade_alpha(t)
+
+	if t >= 32.0:
+		var title_t := clampf((t - 32.0) / 1.5, 0.0, 1.0)
+		title_container.modulate.a = _smooth_step(title_t)
+	else:
+		title_container.modulate.a = 0.0
+
+	# -----------------------------------------------------------------------
+	# 2. STAGE SPECIFIC STAGING & CHOREOGRAPHY
+	# -----------------------------------------------------------------------
+	if t < 6.0:
+		_update_shot_1(t)
+	elif t < 12.0:
+		_update_shot_2(t, delta)
+	elif t < 22.0:
+		_update_shot_3(t)
+	elif t < 32.0:
+		_update_shot_4(t)
+	else:
+		_update_shot_5(t)
+
+# ---------------------------------------------------------------------------
+# SHOT 1: 0.0s to 6.0s (Illustrated Letter / The Sealed Order)
+# ---------------------------------------------------------------------------
+func _update_shot_1(t: float) -> void:
+	var norm_t := clampf(t / 6.0, 0.0, 1.0)
+	var smooth_t := _smooth_step(norm_t)
+
+	# Slow restrained pan & drift on illustrated sealed letter
+	shot_letter.scale = Vector2(1.025, 1.025).lerp(Vector2(1.075, 1.075), smooth_t)
+	# Subtle candle flicker vignette
+	shade.color.a = 0.22 + sin(t * 8.0) * 0.025
+
+	# Keep 3D room ready in background
+	if candle_light:
+		candle_light.light_energy = 3.2 + sin(t * 12.0) * 0.25
+	active_camera.global_position = stage1_contract.position + Vector3(0.08, 1.28, 0.35)
+	active_camera.look_at(stage1_contract.position + Vector3(-0.35, 1.05, 0.35), Vector3.UP)
+
+# ---------------------------------------------------------------------------
+# SHOT 2: 6.0s to 12.0s (Illustrated Journey / The Long Road)
+# ---------------------------------------------------------------------------
+func _update_shot_2(t: float, delta: float) -> void:
+	var j_time := t - 6.0
+	var norm_t := clampf(j_time / 6.0, 0.0, 1.0)
+	var smooth_t := _smooth_step(norm_t)
+
+	# Slow pan following the visual direction of the mountain path artwork
+	shot_travel.pivot_offset = Vector2(shot_travel.size.x * 0.45, shot_travel.size.y * 0.55)
+	shot_travel.scale = Vector2(1.04, 1.04).lerp(Vector2(1.09, 1.09), smooth_t)
+
+	# 3D canyon walk state in background
+	if mercenary_s2:
+		mercenary_s2.position.z = -11.0 + j_time * 1.5
+	active_camera.global_position = stage2_journey.position + Vector3(0.18, 1.55, -8.0)
+	active_camera.look_at(stage2_journey.position + Vector3(0.0, 1.40, 2.0), Vector3.UP)
+
+# ---------------------------------------------------------------------------
+# SHOT 3: 12.0s to 22.0s (THE 3D VILLAGE REVEAL ON MOUNTAIN OVERLOOK)
+# ---------------------------------------------------------------------------
+func _update_shot_3(t: float) -> void:
+	var r_time := t - 12.0
+
+	# Ensure 2D illustrations are completely invisible so 3D world is pristine
+	shot_travel.visible = false
+	shot_travel.modulate.a = 0.0
+	shade.visible = false
+
+	# Gradually hide narrative bottom bar at 15.5s so panorama is unobstructed
+	if r_time > 3.5:
+		var bar_fade := clampf((r_time - 3.5) / 1.0, 0.0, 1.0)
+		bottom_bar.modulate.a = 1.0 - bar_fade
+	else:
+		bottom_bar.visible = true
+		bottom_bar.modulate.a = 1.0
+
+	# The initial signature shot: High 3/4 angle orbiting around mercenary in exact ledge pose,
+	# revealing the full panoramic view of Hollow Creek village below
+	var norm_t := clampf(r_time / 10.0, 0.0, 1.0)
+	var smooth_t := _smooth_step(norm_t)
+
+	# Orbit camera smoothly from rear-left to side-front while gliding forward
+	# Starts at (-1.8, 2.2, -1.8) relative to ledge -> moves to (1.4, 2.6, 2.2)
+	var cam_start := stage3_reveal.position + Vector3(-1.8, 2.2, -1.8)
+	var cam_end := stage3_reveal.position + Vector3(1.4, 2.6, 2.2)
+	active_camera.global_position = cam_start.lerp(cam_end, smooth_t)
+
+	# Look down towards the village square at (0, 0.6, 0)
+	var look_target := Vector3(0.0, 1.5, -4.0).lerp(Vector3(0.0, 0.7, 0.0), smooth_t)
+	active_camera.look_at(look_target, Vector3.UP)
+	active_camera.fov = lerpf(56.0, 68.0, smooth_t)
+
+# ---------------------------------------------------------------------------
+# SHOT 4: 22.0s to 32.0s (MURDER AFTERMATH: ILLUSTRATED BRIDGE INTO 3D)
+# ---------------------------------------------------------------------------
+func _update_shot_4(t: float) -> void:
+	var a_time := t - 22.0
+
+	if a_time < 3.5:
+		# 4A: Brief illustrated bridge (22.0s to 25.5s)
+		var norm_t := clampf(a_time / 3.5, 0.0, 1.0)
+		shot_murder.visible = true
+		shot_murder.scale = Vector2(1.02, 1.02).lerp(Vector2(1.06, 1.06), _smooth_step(norm_t))
+		bottom_bar.visible = true
+		bottom_bar.modulate.a = 1.0
+		shade.visible = true
+
+		# Pre-position 3D camera inside stone chamber
+		active_camera.global_position = stage4_aftermath.position + Vector3(0.48, 0.80, -0.15)
+		active_camera.look_at(stage4_aftermath.position + Vector3(0.36, 0.62, -0.38), Vector3.UP)
+		active_camera.fov = 38.0
+
+	else:
+		# 4B: Actual 3D Murder Scene (25.5s to 32.0s)
+		var stage_time := a_time - 3.5
+		shot_murder.visible = false
+		shot_murder.modulate.a = 0.0
+		shade.visible = false
+
+		if stage_time > 1.0:
+			bottom_bar.modulate.a = clampf(1.0 - (stage_time - 1.0) / 0.8, 0.0, 1.0)
+
+		if _aftermath_key_light:
+			_aftermath_key_light.light_energy = 3.2 + sin(t * 9.0) * 0.18
+
+		if stage_time < 2.0:
+			# Close-up on stiletto dagger with blood drop held downwards
+			var norm_t := clampf(stage_time / 2.0, 0.0, 1.0)
+			active_camera.global_position = stage4_aftermath.position + Vector3(0.48, 0.80 - norm_t * 0.03, -0.15)
+			var dagger_target := stage4_aftermath.position + Vector3(0.36, 0.62, -0.38)
+			active_camera.look_at(dagger_target, Vector3.UP)
+			active_camera.fov = 38.0
+
+		elif stage_time < 4.2:
+			# Tilt and dolly reveal to Lord Aldric Vale on stone floor
+			var norm_t := clampf((stage_time - 2.0) / 2.2, 0.0, 1.0)
+			var smooth_t := _smooth_step(norm_t)
+
+			var cam_start := stage4_aftermath.position + Vector3(0.48, 0.77, -0.15)
+			var cam_end := stage4_aftermath.position + Vector3(0.95, 1.45, -1.10)
+			active_camera.global_position = cam_start.lerp(cam_end, smooth_t)
+
+			var target_start := stage4_aftermath.position + Vector3(0.36, 0.62, -0.38)
+			var target_end := stage4_aftermath.position + Vector3(0.05, 0.15, 0.35)
+			active_camera.look_at(target_start.lerp(target_end, smooth_t), Vector3.UP)
+			active_camera.fov = lerpf(38.0, 50.0, smooth_t)
+
+		else:
+			# Wider dramatic framing of mercenary standing over body
+			var norm_t := clampf((stage_time - 4.2) / 2.3, 0.0, 1.0)
+			active_camera.global_position = stage4_aftermath.position + Vector3(-1.30, 1.55 + norm_t * 0.06, -1.90)
+			var body_target := stage4_aftermath.position + Vector3(0.0, 0.75, 0.10)
+			active_camera.look_at(body_target, Vector3.UP)
+			active_camera.fov = 56.0
+
+# ---------------------------------------------------------------------------
+# SHOT 5: 32.0s to 36.5s (Title Card on pure black)
+# ---------------------------------------------------------------------------
+func _update_shot_5(t: float) -> void:
+	pass
+
+# ---------------------------------------------------------------------------
+# FADE ALPHA EVALUATION
+# ---------------------------------------------------------------------------
+func _compute_fade_alpha(t: float) -> float:
+	# Opening fade in from black (0.0s to 0.6s)
+	if t < 0.6:
+		return 1.0 - (t / 0.6)
+	# Transition 4B -> Title Card (31.6s to 32.2s fade out to black)
+	elif t >= 31.6 and t < 32.2:
+		return (t - 31.6) / 0.6
+	elif t >= 32.2:
+		return 1.0
+	return 0.0
+
+# ===========================================================================
+# TRANSITIONS & SKIP
+# ===========================================================================
+func skip_cinematic() -> void:
+	if is_skipped or is_transitioning:
+		return
+	is_skipped = true
+	transition_to_game()
+
+func transition_to_game() -> void:
+	if is_transitioning:
+		return
+	is_transitioning = true
+	is_playing = false
+	_kill_active_tweens()
+	if audio_director and is_instance_valid(audio_director):
+		audio_director.stop_audio(0.45)
+	cinematic_completed.emit()
+
+	var fade_out := create_tween()
+	fade_out.tween_property(fade_rect, "color:a", 1.0, 0.45).set_trans(Tween.TRANS_SINE)
+	fade_out.finished.connect(func():
+		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		var err := get_tree().change_scene_to_file(gameplay_scene_path)
+		if err != OK:
+			print("ERROR: Failed to change scene to ", gameplay_scene_path, " Code: ", err)
+	)
+
+func _smooth_step(t: float) -> float:
+	return t * t * (3.0 - 2.0 * t)
+
+# ===========================================================================
+# GEOMETRY HELPERS
+# ===========================================================================
+func _create_box(parent: Node3D, b_name: String, size: Vector3, pos: Vector3, mat: Material) -> MeshInstance3D:
+	var mi := MeshInstance3D.new()
+	mi.name = b_name
+	var bm := BoxMesh.new(); bm.size = size
+	mi.mesh = bm
+	mi.material_override = mat
+	mi.position = pos
+	parent.add_child(mi)
+	return mi
+
+func _create_cylinder(parent: Node3D, c_name: String, top_r: float, bot_r: float, height: float, pos: Vector3, mat: Material) -> MeshInstance3D:
+	var mi := MeshInstance3D.new()
+	mi.name = c_name
+	var cm := CylinderMesh.new()
+	cm.top_radius = top_r
+	cm.bottom_radius = bot_r
+	cm.height = height
+	mi.mesh = cm
+	mi.material_override = mat
+	mi.position = pos
+	parent.add_child(mi)
+	return mi

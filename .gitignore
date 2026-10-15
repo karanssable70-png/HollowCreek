@@ -1,0 +1,41 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+export_presets.cfg
+
+# Secrets & Environment variables (CRITICAL: Do NOT remove)
+.env
+*.env
+backend/.env
+!.env.example
+!backend/.env.example
+
+# Python backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3-journal
+*.db-journal
+.venv/
+venv/
+ENV/
+env/
+
+# Operating System & Editor caches
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Temporary logs, scratch scripts & debug dumps
+out_*.txt
+*.log
+all_roofs*.txt
+roofs_*.txt
+prism_nodes.txt
+town_roofs_list.txt
+.backup_*/
+scratch/

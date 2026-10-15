@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cutscene_victory_ending"]
+
+[ext_resource type="Script" path="res://scripts/cinematic/ending_cutscene.gd" id="1_script"]
+
+[node name="CinematicCutscene2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+ending_type = 1
