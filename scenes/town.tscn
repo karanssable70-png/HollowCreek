@@ -25387,7 +25387,7 @@ visible = false
 
 [node name="GameplayMusic" type="AudioStreamPlayer" parent="." unique_id=1655686042]
 stream = ExtResource("7_music_track")
-volume_db = -16.0
+volume_db = -6.0
 script = ExtResource("6_music_ctrl")
 
 [node name="MysteryGameState" type="Node" parent="." unique_id=2142160748]

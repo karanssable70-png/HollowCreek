@@ -55,10 +55,10 @@ func _run_music_verification() -> void:
 	var music_ctrl := music_node as GameplayMusicController
 	print("  - Found GameplayMusic node: ", music_ctrl)
 	print("  - Target volume dB: ", music_ctrl.target_volume_db)
-	assert(music_ctrl.target_volume_db <= -14.0, "Volume must be subtle and atmospheric (<= -14.0 dB)!")
+	assert(music_ctrl.target_volume_db >= -7.0 and music_ctrl.target_volume_db <= -4.0, "Volume must match cutscene and interrogation level (-6.0 dB)!")
 	print("  - Assigned stream: ", music_ctrl.stream)
 	assert(music_ctrl.stream != null, "Music stream must not be null!")
-	print("[PASS] Requirement 2 & 4: AudioStreamPlayer configured with subtle atmospheric volume.")
+	print("[PASS] Requirement 2 & 4: AudioStreamPlayer configured with balanced -6.0 dB volume matching cutscene & interrogation.")
 
 	# -------------------------------------------------------------------------
 	# 3. Playback Verification in Gameplay

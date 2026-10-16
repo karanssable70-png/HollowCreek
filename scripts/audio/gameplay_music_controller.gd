@@ -3,8 +3,8 @@ extends AudioStreamPlayer
 
 ## GameplayMusicController
 ## Manages background theme playback for Whispers of Hollow Creek during gameplay.
-## Ensures seamless looping, atmospheric volume mixing (-16 dB), smooth fade transitions,
-## complete isolation from the cinematic sequence, and duplicate instance prevention.
+## Ensures seamless looping, balanced volume mixing (-6 dB matching cutscene/interrogation),
+## smooth fade transitions, complete isolation from the cinematic sequence, and duplicate instance prevention.
 
 signal music_started
 signal music_stopped
@@ -14,7 +14,7 @@ signal music_faded_in
 static var active_instance: GameplayMusicController = null
 
 @export var music_stream: AudioStream = preload("res://assets/audio/hollow_creek_theme.mp3")
-@export var target_volume_db: float = -16.0
+@export var target_volume_db: float = -6.0
 @export var fade_in_duration: float = 1.8
 @export var fade_out_duration: float = 1.0
 @export var loop_enabled: bool = true
